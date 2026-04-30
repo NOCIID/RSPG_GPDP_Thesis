@@ -1,4 +1,4 @@
-<h1 align="center"> ⚡️ MFAX: Mean-Field Games in JAX ⚡️ </h1>
+<h1 align="center"> MFAX: Mean-Field Games in JAX </h1>
 
 ## Environment Implementations
 
