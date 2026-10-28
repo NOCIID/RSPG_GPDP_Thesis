@@ -1,0 +1,1221 @@
+{
+  "eval_envs": 64,
+  "eval_seed": 777,
+  "runs": {
+    "hsm_spg_gp/base_s0": {
+      "exploitability": 0.04472923278808594,
+      "policy_return": -16.600460052490234,
+      "br_return": -16.55573081970215,
+      "final_training_eval_exploitability": 0.04398155212402344,
+      "total_train_time_s": 1389.1031588760088,
+      "step_time_steady_s": 2.7765120529795984,
+      "step_time_median_s": 2.770078966600704,
+      "refit_time_median_s": null,
+      "first_chunk_incl_compile_s": 28.369185332994675,
+      "refit_time_steady_s": null,
+      "warmstart_s": null,
+      "fill_s": 0.24306758301099762,
+      "mean_eval_time_s": 3.3669408029051158,
+      "curve": [
+        {
+          "iteration": 0,
+          "train_time": 0.0,
+          "exploitability": 90.84318542480469,
+          "policy_return": -100.74950408935547,
+          "br_return": -9.906314849853516
+        },
+        {
+          "iteration": 50,
+          "train_time": 139.29279816703638,
+          "exploitability": 0.4099407196044922,
+          "policy_return": -16.89502716064453,
+          "br_return": -16.48508644104004
+        },
+        {
+          "iteration": 100,
+          "train_time": 277.1810758750362,
+          "exploitability": 0.23234176635742188,
+          "policy_return": -16.84430503845215,
+          "br_return": -16.611963272094727
+        },
+        {
+          "iteration": 150,
+          "train_time": 414.8882786670292,
+          "exploitability": 0.2898235321044922,
+          "policy_return": -17.04281234741211,
+          "br_return": -16.752988815307617
+        },
+        {
+          "iteration": 200,
+          "train_time": 553.1336091250414,
+          "exploitability": 0.09952545166015625,
+          "policy_return": -16.71061897277832,
+          "br_return": -16.611093521118164
+        },
+        {
+          "iteration": 250,
+          "train_time": 691.1476637930318,
+          "exploitability": 0.09776115417480469,
+          "policy_return": -16.766529083251953,
+          "br_return": -16.66876792907715
+        },
+        {
+          "iteration": 300,
+          "train_time": 829.824956417986,
+          "exploitability": 0.06960678100585938,
+          "policy_return": -16.680849075317383,
+          "br_return": -16.611242294311523
+        },
+        {
+          "iteration": 350,
+          "train_time": 968.7581871250295,
+          "exploitability": 0.05775642395019531,
+          "policy_return": -16.647655487060547,
+          "br_return": -16.58989906311035
+        },
+        {
+          "iteration": 400,
+          "train_time": 1107.8816925830033,
+          "exploitability": 0.051395416259765625,
+          "policy_return": -16.666898727416992,
+          "br_return": -16.615503311157227
+        },
+        {
+          "iteration": 450,
+          "train_time": 1248.1066764999996,
+          "exploitability": 0.04784393310546875,
+          "policy_return": -16.646806716918945,
+          "br_return": -16.598962783813477
+        },
+        {
+          "iteration": 500,
+          "train_time": 1389.1031588760088,
+          "exploitability": 0.04398155212402344,
+          "policy_return": -16.658002853393555,
+          "br_return": -16.61402130126953
+        }
+      ],
+      "policy_gap_vs_ref": {
+        "pop_weighted_mean_rel": 0.0,
+        "visited_max_rel": 0.0,
+        "visited_p99_rel": 0.0
+      },
+      "aggregate_gap_vs_ref": {
+        "K_max_rel": 0.0,
+        "K_mean_rel": 0.0,
+        "r_max_abs": 0.0,
+        "r_mean_abs": 0.0
+      },
+      "aggregate_path": {
+        "periods": [
+          0,
+          25,
+          50,
+          100,
+          127
+        ],
+        "K_mean": [
+          16.461563110351562,
+          22.95616340637207,
+          25.79330825805664,
+          28.032615661621094,
+          27.733226776123047
+        ],
+        "r_mean": [
+          0.05368003249168396,
+          0.04277721419930458,
+          0.03977486118674278,
+          0.03830637037754059,
+          0.03687699884176254
+        ]
+      },
+      "mean_consumption_share": 0.14594483375549316,
+      "time_to_threshold_s": {
+        "2.00x_ref_final": 829.824956417986,
+        "1.50x_ref_final": 968.7581871250295,
+        "1.20x_ref_final": 1107.8816925830033,
+        "1.10x_ref_final": 1248.1066764999996
+      }
+    },
+    "hsm_spg_gp/base_s1": {
+      "exploitability": 0.05260467529296875,
+      "policy_return": -16.618715286254883,
+      "br_return": -16.566110610961914,
+      "final_training_eval_exploitability": 0.052318572998046875,
+      "total_train_time_s": 1389.5117615020426,
+      "step_time_steady_s": 2.778234643965356,
+      "step_time_median_s": 2.7649696749984285,
+      "refit_time_median_s": null,
+      "first_chunk_incl_compile_s": 27.93580941701657,
+      "refit_time_steady_s": null,
+      "warmstart_s": null,
+      "fill_s": 0.24097654200159013,
+      "mean_eval_time_s": 3.3542198370930483,
+      "curve": [
+        {
+          "iteration": 0,
+          "train_time": 0.0,
+          "exploitability": 87.48033142089844,
+          "policy_return": -97.39321899414062,
+          "br_return": -9.912885665893555
+        },
+        {
+          "iteration": 50,
+          "train_time": 138.29274291699403,
+          "exploitability": 1.616933822631836,
+          "policy_return": -17.847970962524414,
+          "br_return": -16.231037139892578
+        },
+        {
+          "iteration": 100,
+          "train_time": 283.47499624898774,
+          "exploitability": 0.27533531188964844,
+          "policy_return": -16.98011589050293,
+          "br_return": -16.70478057861328
+        },
+        {
+          "iteration": 150,
+          "train_time": 421.6950832910079,
+          "exploitability": 0.16203689575195312,
+          "policy_return": -16.740917205810547,
+          "br_return": -16.578880310058594
+        },
+        {
+          "iteration": 200,
+          "train_time": 559.1777551250416,
+          "exploitability": 0.1841716766357422,
+          "policy_return": -16.898855209350586,
+          "br_return": -16.714683532714844
+        },
+        {
+          "iteration": 250,
+          "train_time": 697.487389167014,
+          "exploitability": 0.17949676513671875,
+          "policy_return": -16.909555435180664,
+          "br_return": -16.730058670043945
+        },
+        {
+          "iteration": 300,
+          "train_time": 835.9538390000234,
+          "exploitability": 0.07920646667480469,
+          "policy_return": -16.686012268066406,
+          "br_return": -16.6068058013916
+        },
+        {
+          "iteration": 350,
+          "train_time": 975.190683834051,
+          "exploitability": 0.0810699462890625,
+          "policy_return": -16.744617462158203,
+          "br_return": -16.66354751586914
+        },
+        {
+          "iteration": 400,
+          "train_time": 1112.9561620430322,
+          "exploitability": 0.07245445251464844,
+          "policy_return": -16.643043518066406,
+          "br_return": -16.570589065551758
+        },
+        {
+          "iteration": 450,
+          "train_time": 1251.5374638350622,
+          "exploitability": 0.05441856384277344,
+          "policy_return": -16.686023712158203,
+          "br_return": -16.63160514831543
+        },
+        {
+          "iteration": 500,
+          "train_time": 1389.5117615020426,
+          "exploitability": 0.052318572998046875,
+          "policy_return": -16.677471160888672,
+          "br_return": -16.625152587890625
+        }
+      ],
+      "policy_gap_vs_ref": {
+        "pop_weighted_mean_rel": 0.012729309499263763,
+        "visited_max_rel": 0.6468292474746704,
+        "visited_p99_rel": 0.20571128129959304
+      },
+      "aggregate_gap_vs_ref": {
+        "K_max_rel": 0.08103173971176147,
+        "K_mean_rel": 0.021135825663805008,
+        "r_max_abs": 0.0021702349185943604,
+        "r_mean_abs": 0.0005413171602413058
+      },
+      "aggregate_path": {
+        "periods": [
+          0,
+          25,
+          50,
+          100,
+          127
+        ],
+        "K_mean": [
+          16.461563110351562,
+          22.66632652282715,
+          25.359373092651367,
+          27.455608367919922,
+          26.70399284362793
+        ],
+        "r_mean": [
+          0.05368003249168396,
+          0.0431295707821846,
+          0.040203750133514404,
+          0.03882124647498131,
+          0.037788618355989456
+        ]
+      },
+      "mean_consumption_share": 0.14582116901874542,
+      "time_to_threshold_s": {
+        "2.00x_ref_final": 835.9538390000234,
+        "1.50x_ref_final": 1251.5374638350622,
+        "1.20x_ref_final": 1389.5117615020426,
+        "1.10x_ref_final": null
+      }
+    },
+    "hsm_spg_gp/base_s2": {
+      "exploitability": 0.046581268310546875,
+      "policy_return": -16.589414596557617,
+      "br_return": -16.54283332824707,
+      "final_training_eval_exploitability": 0.04540824890136719,
+      "total_train_time_s": 1394.4547286669258,
+      "step_time_steady_s": 2.7864905869059635,
+      "step_time_median_s": 2.7914289082982577,
+      "refit_time_median_s": null,
+      "first_chunk_incl_compile_s": 28.834417083009612,
+      "refit_time_steady_s": null,
+      "warmstart_s": null,
+      "fill_s": 0.2399239999940619,
+      "mean_eval_time_s": 3.3630608107302,
+      "curve": [
+        {
+          "iteration": 0,
+          "train_time": 0.0,
+          "exploitability": 80.24742889404297,
+          "policy_return": -91.50106811523438,
+          "br_return": -11.253639221191406
+        },
+        {
+          "iteration": 50,
+          "train_time": 138.37541274999967,
+          "exploitability": 0.36559295654296875,
+          "policy_return": -16.833589553833008,
+          "br_return": -16.46799659729004
+        },
+        {
+          "iteration": 100,
+          "train_time": 275.8207577499561,
+          "exploitability": 0.1948089599609375,
+          "policy_return": -16.723373413085938,
+          "br_return": -16.528564453125
+        },
+        {
+          "iteration": 150,
+          "train_time": 413.8729660829995,
+          "exploitability": 0.28874969482421875,
+          "policy_return": -16.766740798950195,
+          "br_return": -16.477991104125977
+        },
+        {
+          "iteration": 200,
+          "train_time": 551.1003006229585,
+          "exploitability": 0.12143898010253906,
+          "policy_return": -16.806928634643555,
+          "br_return": -16.685489654541016
+        },
+        {
+          "iteration": 250,
+          "train_time": 688.8333068719658,
+          "exploitability": 0.08512687683105469,
+          "policy_return": -16.6704044342041,
+          "br_return": -16.585277557373047
+        },
+        {
+          "iteration": 300,
+          "train_time": 829.0391704539361,
+          "exploitability": 0.06411170959472656,
+          "policy_return": -16.679922103881836,
+          "br_return": -16.61581039428711
+        },
+        {
+          "iteration": 350,
+          "train_time": 970.2145293719077,
+          "exploitability": 0.05531120300292969,
+          "policy_return": -16.696208953857422,
+          "br_return": -16.640897750854492
+        },
+        {
+          "iteration": 400,
+          "train_time": 1112.5471282068756,
+          "exploitability": 0.0484619140625,
+          "policy_return": -16.668094635009766,
+          "br_return": -16.619632720947266
+        },
+        {
+          "iteration": 450,
+          "train_time": 1254.6667933748977,
+          "exploitability": 0.04511451721191406,
+          "policy_return": -16.671361923217773,
+          "br_return": -16.62624740600586
+        },
+        {
+          "iteration": 500,
+          "train_time": 1394.4547286669258,
+          "exploitability": 0.04540824890136719,
+          "policy_return": -16.647022247314453,
+          "br_return": -16.601613998413086
+        }
+      ],
+      "policy_gap_vs_ref": {
+        "pop_weighted_mean_rel": 0.012449280358850956,
+        "visited_max_rel": 0.4189654588699341,
+        "visited_p99_rel": 0.23290749192238108
+      },
+      "aggregate_gap_vs_ref": {
+        "K_max_rel": 0.06571304798126221,
+        "K_mean_rel": 0.01823536679148674,
+        "r_max_abs": 0.0016986243426799774,
+        "r_mean_abs": 0.00045550178037956357
+      },
+      "aggregate_path": {
+        "periods": [
+          0,
+          25,
+          50,
+          100,
+          127
+        ],
+        "K_mean": [
+          16.461563110351562,
+          23.19967269897461,
+          26.283565521240234,
+          28.83260154724121,
+          28.349260330200195
+        ],
+        "r_mean": [
+          0.05368003249168396,
+          0.04249124228954315,
+          0.039295777678489685,
+          0.03762253373861313,
+          0.036365240812301636
+        ]
+      },
+      "mean_consumption_share": 0.14468097686767578,
+      "time_to_threshold_s": {
+        "2.00x_ref_final": 688.8333068719658,
+        "1.50x_ref_final": 829.0391704539361,
+        "1.20x_ref_final": 1112.5471282068756,
+        "1.10x_ref_final": 1254.6667933748977
+      }
+    },
+    "hsm_spg_gp/gp_s0": {
+      "exploitability": 0.05044364929199219,
+      "policy_return": -16.6003360748291,
+      "br_return": -16.54989242553711,
+      "final_training_eval_exploitability": 0.04889488220214844,
+      "total_train_time_s": 203.70249709076597,
+      "step_time_steady_s": 0.3466259784038459,
+      "step_time_median_s": 0.3460714792017825,
+      "refit_time_median_s": 0.30658043798757717,
+      "first_chunk_incl_compile_s": 5.146610458003124,
+      "refit_time_steady_s": 0.3075381719159219,
+      "warmstart_s": 12.292274625011487,
+      "fill_s": 0.8684644159802701,
+      "mean_eval_time_s": 3.3463374694560613,
+      "curve": [
+        {
+          "iteration": 0,
+          "train_time": 0.0,
+          "exploitability": 90.84318542480469,
+          "policy_return": -100.74950408935547,
+          "br_return": -9.906314849853516
+        },
+        {
+          "iteration": 50,
+          "train_time": 33.60451174998889,
+          "exploitability": 0.6525039672851562,
+          "policy_return": -17.405994415283203,
+          "br_return": -16.753490447998047
+        },
+        {
+          "iteration": 100,
+          "train_time": 52.44744679200812,
+          "exploitability": 0.20042037963867188,
+          "policy_return": -16.835834503173828,
+          "br_return": -16.635414123535156
+        },
+        {
+          "iteration": 150,
+          "train_time": 71.42036304395879,
+          "exploitability": 0.11531257629394531,
+          "policy_return": -16.73444938659668,
+          "br_return": -16.619136810302734
+        },
+        {
+          "iteration": 200,
+          "train_time": 90.2431610019703,
+          "exploitability": 0.10676193237304688,
+          "policy_return": -16.658052444458008,
+          "br_return": -16.55129051208496
+        },
+        {
+          "iteration": 250,
+          "train_time": 109.21378512692172,
+          "exploitability": 0.07920265197753906,
+          "policy_return": -16.739744186401367,
+          "br_return": -16.660541534423828
+        },
+        {
+          "iteration": 300,
+          "train_time": 128.18616579388618,
+          "exploitability": 0.06600761413574219,
+          "policy_return": -16.711015701293945,
+          "br_return": -16.645008087158203
+        },
+        {
+          "iteration": 350,
+          "train_time": 147.19710812685662,
+          "exploitability": 0.05901527404785156,
+          "policy_return": -16.701438903808594,
+          "br_return": -16.642423629760742
+        },
+        {
+          "iteration": 400,
+          "train_time": 166.00526487882598,
+          "exploitability": 0.05194282531738281,
+          "policy_return": -16.677051544189453,
+          "br_return": -16.62510871887207
+        },
+        {
+          "iteration": 450,
+          "train_time": 184.94196338180336,
+          "exploitability": 0.04864501953125,
+          "policy_return": -16.676124572753906,
+          "br_return": -16.627479553222656
+        },
+        {
+          "iteration": 500,
+          "train_time": 203.70249709076597,
+          "exploitability": 0.04889488220214844,
+          "policy_return": -16.657684326171875,
+          "br_return": -16.608789443969727
+        }
+      ],
+      "policy_gap_vs_ref": {
+        "pop_weighted_mean_rel": 0.014113040640950203,
+        "visited_max_rel": 0.5904306173324585,
+        "visited_p99_rel": 0.2888039708137514
+      },
+      "aggregate_gap_vs_ref": {
+        "K_max_rel": 0.045334696769714355,
+        "K_mean_rel": 0.01056387834250927,
+        "r_max_abs": 0.0011769644916057587,
+        "r_mean_abs": 0.00026703509502112865
+      },
+      "aggregate_path": {
+        "periods": [
+          0,
+          25,
+          50,
+          100,
+          127
+        ],
+        "K_mean": [
+          16.461563110351562,
+          23.047443389892578,
+          25.85125732421875,
+          28.002792358398438,
+          27.33962631225586
+        ],
+        "r_mean": [
+          0.05368003249168396,
+          0.04267005994915962,
+          0.03971236199140549,
+          0.03833136707544327,
+          0.03722012788057327
+        ]
+      },
+      "mean_consumption_share": 0.14448301494121552,
+      "time_to_threshold_s": {
+        "2.00x_ref_final": 109.21378512692172,
+        "1.50x_ref_final": 147.19710812685662,
+        "1.20x_ref_final": 166.00526487882598,
+        "1.10x_ref_final": null
+      }
+    },
+    "hsm_spg_gp/gp_s1": {
+      "exploitability": 0.04619407653808594,
+      "policy_return": -16.608871459960938,
+      "br_return": -16.56267738342285,
+      "final_training_eval_exploitability": 0.04595184326171875,
+      "total_train_time_s": 204.31818674696842,
+      "step_time_steady_s": 0.34851871938973294,
+      "step_time_median_s": 0.34867185830080416,
+      "refit_time_median_s": 0.31113175000064075,
+      "first_chunk_incl_compile_s": 4.911852042016108,
+      "refit_time_steady_s": 0.3109152873251017,
+      "warmstart_s": 12.072766000026604,
+      "fill_s": 0.8551314170181286,
+      "mean_eval_time_s": 3.35204535236434,
+      "curve": [
+        {
+          "iteration": 0,
+          "train_time": 0.0,
+          "exploitability": 87.48033142089844,
+          "policy_return": -97.39321899414062,
+          "br_return": -9.912885665893555
+        },
+        {
+          "iteration": 50,
+          "train_time": 33.395889042061754,
+          "exploitability": 1.3987846374511719,
+          "policy_return": -18.301050186157227,
+          "br_return": -16.902265548706055
+        },
+        {
+          "iteration": 100,
+          "train_time": 52.29084066709038,
+          "exploitability": 0.34275245666503906,
+          "policy_return": -17.112945556640625,
+          "br_return": -16.770193099975586
+        },
+        {
+          "iteration": 150,
+          "train_time": 71.22870854206849,
+          "exploitability": 0.18588829040527344,
+          "policy_return": -16.71994400024414,
+          "br_return": -16.534055709838867
+        },
+        {
+          "iteration": 200,
+          "train_time": 90.37176925010863,
+          "exploitability": 0.11392021179199219,
+          "policy_return": -16.671167373657227,
+          "br_return": -16.557247161865234
+        },
+        {
+          "iteration": 250,
+          "train_time": 109.42149341409095,
+          "exploitability": 0.1090240478515625,
+          "policy_return": -16.64570426940918,
+          "br_return": -16.536680221557617
+        },
+        {
+          "iteration": 300,
+          "train_time": 128.42802399711218,
+          "exploitability": 0.07333183288574219,
+          "policy_return": -16.71146583557129,
+          "br_return": -16.638134002685547
+        },
+        {
+          "iteration": 350,
+          "train_time": 147.4050788730674,
+          "exploitability": 0.06889533996582031,
+          "policy_return": -16.74386215209961,
+          "br_return": -16.67496681213379
+        },
+        {
+          "iteration": 400,
+          "train_time": 166.41248033102602,
+          "exploitability": 0.050281524658203125,
+          "policy_return": -16.660364151000977,
+          "br_return": -16.610082626342773
+        },
+        {
+          "iteration": 450,
+          "train_time": 185.41099987202324,
+          "exploitability": 0.050136566162109375,
+          "policy_return": -16.685874938964844,
+          "br_return": -16.635738372802734
+        },
+        {
+          "iteration": 500,
+          "train_time": 204.31818674696842,
+          "exploitability": 0.04595184326171875,
+          "policy_return": -16.66765022277832,
+          "br_return": -16.6216983795166
+        }
+      ],
+      "policy_gap_vs_ref": {
+        "pop_weighted_mean_rel": 0.010626702569425106,
+        "visited_max_rel": 0.5517809391021729,
+        "visited_p99_rel": 0.18530655801296272
+      },
+      "aggregate_gap_vs_ref": {
+        "K_max_rel": 0.05881392955780029,
+        "K_mean_rel": 0.011698326095938683,
+        "r_max_abs": 0.0015098266303539276,
+        "r_mean_abs": 0.0002957855467684567
+      },
+      "aggregate_path": {
+        "periods": [
+          0,
+          25,
+          50,
+          100,
+          127
+        ],
+        "K_mean": [
+          16.461563110351562,
+          22.809534072875977,
+          25.76599884033203,
+          28.288368225097656,
+          27.756399154663086
+        ],
+        "r_mean": [
+          0.05368003249168396,
+          0.042957380414009094,
+          0.03979900851845741,
+          0.03808589279651642,
+          0.03686334192752838
+        ]
+      },
+      "mean_consumption_share": 0.1456720530986786,
+      "time_to_threshold_s": {
+        "2.00x_ref_final": 128.42802399711218,
+        "1.50x_ref_final": 166.41248033102602,
+        "1.20x_ref_final": 166.41248033102602,
+        "1.10x_ref_final": 204.31818674696842
+      }
+    },
+    "hsm_spg_gp/gp_s2": {
+      "exploitability": 0.06755256652832031,
+      "policy_return": -16.61857795715332,
+      "br_return": -16.551025390625,
+      "final_training_eval_exploitability": 0.06636619567871094,
+      "total_train_time_s": 205.22914199807565,
+      "step_time_steady_s": 0.3503110638632539,
+      "step_time_median_s": 0.3502466625010129,
+      "refit_time_median_s": 0.311521374998847,
+      "first_chunk_incl_compile_s": 4.876510625006631,
+      "refit_time_steady_s": 0.3113828672877779,
+      "warmstart_s": 12.09941191598773,
+      "fill_s": 0.874882375006564,
+      "mean_eval_time_s": 3.347187223550546,
+      "curve": [
+        {
+          "iteration": 0,
+          "train_time": 0.0,
+          "exploitability": 80.24742889404297,
+          "policy_return": -91.50106811523438,
+          "br_return": -11.253639221191406
+        },
+        {
+          "iteration": 50,
+          "train_time": 33.52165383394458,
+          "exploitability": 0.6973953247070312,
+          "policy_return": -17.055614471435547,
+          "br_return": -16.358219146728516
+        },
+        {
+          "iteration": 100,
+          "train_time": 52.2649240429746,
+          "exploitability": 0.31732940673828125,
+          "policy_return": -16.73225975036621,
+          "br_return": -16.41493034362793
+        },
+        {
+          "iteration": 150,
+          "train_time": 71.27981295899372,
+          "exploitability": 0.112152099609375,
+          "policy_return": -16.77664566040039,
+          "br_return": -16.664493560791016
+        },
+        {
+          "iteration": 200,
+          "train_time": 90.67821987596108,
+          "exploitability": 0.09904289245605469,
+          "policy_return": -16.74966049194336,
+          "br_return": -16.650617599487305
+        },
+        {
+          "iteration": 250,
+          "train_time": 109.74774991697632,
+          "exploitability": 0.09062957763671875,
+          "policy_return": -16.725261688232422,
+          "br_return": -16.634632110595703
+        },
+        {
+          "iteration": 300,
+          "train_time": 128.8179128729971,
+          "exploitability": 0.08087348937988281,
+          "policy_return": -16.71469497680664,
+          "br_return": -16.633821487426758
+        },
+        {
+          "iteration": 350,
+          "train_time": 147.91817587302648,
+          "exploitability": 0.09051895141601562,
+          "policy_return": -16.72545623779297,
+          "br_return": -16.634937286376953
+        },
+        {
+          "iteration": 400,
+          "train_time": 167.06264120602282,
+          "exploitability": 0.07290840148925781,
+          "policy_return": -16.696170806884766,
+          "br_return": -16.623262405395508
+        },
+        {
+          "iteration": 450,
+          "train_time": 186.13723620702513,
+          "exploitability": 0.06841278076171875,
+          "policy_return": -16.69163703918457,
+          "br_return": -16.62322425842285
+        },
+        {
+          "iteration": 500,
+          "train_time": 205.22914199807565,
+          "exploitability": 0.06636619567871094,
+          "policy_return": -16.67641830444336,
+          "br_return": -16.61005210876465
+        }
+      ],
+      "policy_gap_vs_ref": {
+        "pop_weighted_mean_rel": 0.015642136335372925,
+        "visited_max_rel": 0.64750075340271,
+        "visited_p99_rel": 0.22458364963531507
+      },
+      "aggregate_gap_vs_ref": {
+        "K_max_rel": 0.08192229270935059,
+        "K_mean_rel": 0.024325326085090637,
+        "r_max_abs": 0.0021978020668029785,
+        "r_mean_abs": 0.0006243790267035365
+      },
+      "aggregate_path": {
+        "periods": [
+          0,
+          25,
+          50,
+          100,
+          127
+        ],
+        "K_mean": [
+          16.461563110351562,
+          22.89706802368164,
+          25.278228759765625,
+          27.10288429260254,
+          26.401966094970703
+        ],
+        "r_mean": [
+          0.05368003249168396,
+          0.042848266661167145,
+          0.04028524458408356,
+          0.039141491055488586,
+          0.038061123341321945
+        ]
+      },
+      "mean_consumption_share": 0.14477090537548065,
+      "time_to_threshold_s": {
+        "2.00x_ref_final": 128.8179128729971,
+        "1.50x_ref_final": null,
+        "1.20x_ref_final": null,
+        "1.10x_ref_final": null
+      }
+    },
+    "hsm_spg_gp/gpfix_s0": {
+      "exploitability": 0.04834938049316406,
+      "policy_return": -16.60216522216797,
+      "br_return": -16.553815841674805,
+      "final_training_eval_exploitability": 0.04694557189941406,
+      "total_train_time_s": 279.09741229281644,
+      "step_time_steady_s": 0.5045119459224076,
+      "step_time_median_s": 0.522304312500637,
+      "refit_time_median_s": 0.3193628750013886,
+      "first_chunk_incl_compile_s": 5.594103624986019,
+      "refit_time_steady_s": 0.3187531921608678,
+      "warmstart_s": 9.236885041987989,
+      "fill_s": 0.9664974579936825,
+      "mean_eval_time_s": 3.397956920451675,
+      "curve": [
+        {
+          "iteration": 0,
+          "train_time": 0.0,
+          "exploitability": 90.84318542480469,
+          "policy_return": -100.74950408935547,
+          "br_return": -9.906314849853516
+        },
+        {
+          "iteration": 50,
+          "train_time": 37.26959433298907,
+          "exploitability": 0.6977100372314453,
+          "policy_return": -17.494022369384766,
+          "br_return": -16.79631233215332
+        },
+        {
+          "iteration": 100,
+          "train_time": 64.70255920896307,
+          "exploitability": 0.20985984802246094,
+          "policy_return": -16.89376449584961,
+          "br_return": -16.68390464782715
+        },
+        {
+          "iteration": 150,
+          "train_time": 91.6868590429658,
+          "exploitability": 0.10791397094726562,
+          "policy_return": -16.730955123901367,
+          "br_return": -16.6230411529541
+        },
+        {
+          "iteration": 200,
+          "train_time": 118.39318262698362,
+          "exploitability": 0.2193622589111328,
+          "policy_return": -16.68038558959961,
+          "br_return": -16.461023330688477
+        },
+        {
+          "iteration": 250,
+          "train_time": 145.41792620896013,
+          "exploitability": 0.06695175170898438,
+          "policy_return": -16.696617126464844,
+          "br_return": -16.62966537475586
+        },
+        {
+          "iteration": 300,
+          "train_time": 171.75004504196113,
+          "exploitability": 0.06196784973144531,
+          "policy_return": -16.715970993041992,
+          "br_return": -16.654003143310547
+        },
+        {
+          "iteration": 350,
+          "train_time": 198.98828383386717,
+          "exploitability": 0.05374336242675781,
+          "policy_return": -16.691617965698242,
+          "br_return": -16.637874603271484
+        },
+        {
+          "iteration": 400,
+          "train_time": 225.67702312587062,
+          "exploitability": 0.05034446716308594,
+          "policy_return": -16.678878784179688,
+          "br_return": -16.6285343170166
+        },
+        {
+          "iteration": 450,
+          "train_time": 252.06250649981666,
+          "exploitability": 0.04736328125,
+          "policy_return": -16.672887802124023,
+          "br_return": -16.625524520874023
+        },
+        {
+          "iteration": 500,
+          "train_time": 279.09741229281644,
+          "exploitability": 0.04694557189941406,
+          "policy_return": -16.659631729125977,
+          "br_return": -16.612686157226562
+        }
+      ],
+      "policy_gap_vs_ref": {
+        "pop_weighted_mean_rel": 0.014586584642529488,
+        "visited_max_rel": 0.5877580642700195,
+        "visited_p99_rel": 0.2655156821012502
+      },
+      "aggregate_gap_vs_ref": {
+        "K_max_rel": 0.04835212230682373,
+        "K_mean_rel": 0.010625864379107952,
+        "r_max_abs": 0.0012585557997226715,
+        "r_mean_abs": 0.00026721582980826497
+      },
+      "aggregate_path": {
+        "periods": [
+          0,
+          25,
+          50,
+          100,
+          127
+        ],
+        "K_mean": [
+          16.461563110351562,
+          22.97130584716797,
+          25.783878326416016,
+          27.917068481445312,
+          27.25194549560547
+        ],
+        "r_mean": [
+          0.05368003249168396,
+          0.042760808020830154,
+          0.03977872431278229,
+          0.03840659558773041,
+          0.037296880036592484
+        ]
+      },
+      "mean_consumption_share": 0.14468882977962494,
+      "time_to_threshold_s": {
+        "2.00x_ref_final": 145.41792620896013,
+        "1.50x_ref_final": 171.75004504196113,
+        "1.20x_ref_final": 225.67702312587062,
+        "1.10x_ref_final": 252.06250649981666
+      }
+    },
+    "hsm_spg_gp/gpfix_s1": {
+      "exploitability": 0.05172157287597656,
+      "policy_return": -16.62087631225586,
+      "br_return": -16.569154739379883,
+      "final_training_eval_exploitability": 0.0513916015625,
+      "total_train_time_s": 277.77028711908497,
+      "step_time_steady_s": 0.5018936225204795,
+      "step_time_median_s": 0.5223522790998686,
+      "refit_time_median_s": 0.3196494165022159,
+      "first_chunk_incl_compile_s": 5.550252042012289,
+      "refit_time_steady_s": 0.31849157655248134,
+      "warmstart_s": 9.26412204199005,
+      "fill_s": 0.9561237079906277,
+      "mean_eval_time_s": 3.4042377992750104,
+      "curve": [
+        {
+          "iteration": 0,
+          "train_time": 0.0,
+          "exploitability": 87.48033142089844,
+          "policy_return": -97.39321899414062,
+          "br_return": -9.912885665893555
+        },
+        {
+          "iteration": 50,
+          "train_time": 37.23579462597263,
+          "exploitability": 1.245950698852539,
+          "policy_return": -17.81264305114746,
+          "br_return": -16.566692352294922
+        },
+        {
+          "iteration": 100,
+          "train_time": 63.45602137496462,
+          "exploitability": 0.9809627532958984,
+          "policy_return": -17.0084228515625,
+          "br_return": -16.0274600982666
+        },
+        {
+          "iteration": 150,
+          "train_time": 90.12911274799262,
+          "exploitability": 0.3685111999511719,
+          "policy_return": -16.729507446289062,
+          "br_return": -16.36099624633789
+        },
+        {
+          "iteration": 200,
+          "train_time": 116.24607441399712,
+          "exploitability": 0.14459991455078125,
+          "policy_return": -16.707515716552734,
+          "br_return": -16.562915802001953
+        },
+        {
+          "iteration": 250,
+          "train_time": 143.38230962399393,
+          "exploitability": 0.08172798156738281,
+          "policy_return": -16.722087860107422,
+          "br_return": -16.64035987854004
+        },
+        {
+          "iteration": 300,
+          "train_time": 169.99251141501009,
+          "exploitability": 0.09062385559082031,
+          "policy_return": -16.65679931640625,
+          "br_return": -16.56617546081543
+        },
+        {
+          "iteration": 350,
+          "train_time": 196.595941289037,
+          "exploitability": 0.07596778869628906,
+          "policy_return": -16.74614906311035,
+          "br_return": -16.670181274414062
+        },
+        {
+          "iteration": 400,
+          "train_time": 223.54543299699435,
+          "exploitability": 0.0602264404296875,
+          "policy_return": -16.700393676757812,
+          "br_return": -16.640167236328125
+        },
+        {
+          "iteration": 450,
+          "train_time": 250.85980191201088,
+          "exploitability": 0.05343818664550781,
+          "policy_return": -16.67213249206543,
+          "br_return": -16.618694305419922
+        },
+        {
+          "iteration": 500,
+          "train_time": 277.77028711908497,
+          "exploitability": 0.0513916015625,
+          "policy_return": -16.679752349853516,
+          "br_return": -16.628360748291016
+        }
+      ],
+      "policy_gap_vs_ref": {
+        "pop_weighted_mean_rel": 0.01517769880592823,
+        "visited_max_rel": 0.6539052724838257,
+        "visited_p99_rel": 0.2508329212665578
+      },
+      "aggregate_gap_vs_ref": {
+        "K_max_rel": 0.08750563859939575,
+        "K_mean_rel": 0.024007346481084824,
+        "r_max_abs": 0.002357177436351776,
+        "r_mean_abs": 0.0006180598284117877
+      },
+      "aggregate_path": {
+        "periods": [
+          0,
+          25,
+          50,
+          100,
+          127
+        ],
+        "K_mean": [
+          16.461563110351562,
+          22.600570678710938,
+          25.271034240722656,
+          27.3863525390625,
+          26.59482192993164
+        ],
+        "r_mean": [
+          0.05368003249168396,
+          0.043211229145526886,
+          0.040294189006090164,
+          0.038884639739990234,
+          0.0378895029425621
+        ]
+      },
+      "mean_consumption_share": 0.14564403891563416,
+      "time_to_threshold_s": {
+        "2.00x_ref_final": 143.38230962399393,
+        "1.50x_ref_final": 223.54543299699435,
+        "1.20x_ref_final": 277.77028711908497,
+        "1.10x_ref_final": null
+      }
+    },
+    "hsm_spg_gp/gpfix_s2": {
+      "exploitability": 0.047088623046875,
+      "policy_return": -16.610763549804688,
+      "br_return": -16.563674926757812,
+      "final_training_eval_exploitability": 0.04569435119628906,
+      "total_train_time_s": 282.78318399604177,
+      "step_time_steady_s": 0.511501720140757,
+      "step_time_median_s": 0.5237665291002486,
+      "refit_time_median_s": 0.3195545415073866,
+      "first_chunk_incl_compile_s": 5.806684084003791,
+      "refit_time_steady_s": 0.3192343903083012,
+      "warmstart_s": 9.268520624988014,
+      "fill_s": 0.951197083981242,
+      "mean_eval_time_s": 3.397518693265738,
+      "curve": [
+        {
+          "iteration": 0,
+          "train_time": 0.0,
+          "exploitability": 80.24742889404297,
+          "policy_return": -91.50106811523438,
+          "br_return": -11.253639221191406
+        },
+        {
+          "iteration": 50,
+          "train_time": 38.17027383597451,
+          "exploitability": 0.917449951171875,
+          "policy_return": -17.262300491333008,
+          "br_return": -16.344850540161133
+        },
+        {
+          "iteration": 100,
+          "train_time": 64.10002983393497,
+          "exploitability": 0.24593734741210938,
+          "policy_return": -16.968475341796875,
+          "br_return": -16.722537994384766
+        },
+        {
+          "iteration": 150,
+          "train_time": 91.50004658289254,
+          "exploitability": 0.1830883026123047,
+          "policy_return": -16.88116455078125,
+          "br_return": -16.698076248168945
+        },
+        {
+          "iteration": 200,
+          "train_time": 118.95295124893892,
+          "exploitability": 0.18158531188964844,
+          "policy_return": -16.94027328491211,
+          "br_return": -16.75868797302246
+        },
+        {
+          "iteration": 250,
+          "train_time": 145.50244953899528,
+          "exploitability": 0.0973052978515625,
+          "policy_return": -16.664743423461914,
+          "br_return": -16.56743812561035
+        },
+        {
+          "iteration": 300,
+          "train_time": 173.05022170502343,
+          "exploitability": 0.0728302001953125,
+          "policy_return": -16.723447799682617,
+          "br_return": -16.650617599487305
+        },
+        {
+          "iteration": 350,
+          "train_time": 200.63410612000735,
+          "exploitability": 0.06092262268066406,
+          "policy_return": -16.654560089111328,
+          "br_return": -16.593637466430664
+        },
+        {
+          "iteration": 400,
+          "train_time": 228.2497551200795,
+          "exploitability": 0.05689048767089844,
+          "policy_return": -16.723796844482422,
+          "br_return": -16.666906356811523
+        },
+        {
+          "iteration": 450,
+          "train_time": 255.43176620505983,
+          "exploitability": 0.0527191162109375,
+          "policy_return": -16.71258544921875,
+          "br_return": -16.659866333007812
+        },
+        {
+          "iteration": 500,
+          "train_time": 282.78318399604177,
+          "exploitability": 0.04569435119628906,
+          "policy_return": -16.667818069458008,
+          "br_return": -16.62212371826172
+        }
+      ],
+      "policy_gap_vs_ref": {
+        "pop_weighted_mean_rel": 0.011885401792824268,
+        "visited_max_rel": 0.521710991859436,
+        "visited_p99_rel": 0.23450551629066646
+      },
+      "aggregate_gap_vs_ref": {
+        "K_max_rel": 0.052034854888916016,
+        "K_mean_rel": 0.024161282926797867,
+        "r_max_abs": 0.0013161301612854004,
+        "r_mean_abs": 0.0006186884129419923
+      },
+      "aggregate_path": {
+        "periods": [
+          0,
+          25,
+          50,
+          100,
+          127
+        ],
+        "K_mean": [
+          16.461563110351562,
+          22.77874755859375,
+          25.275226593017578,
+          26.997028350830078,
+          26.507556915283203
+        ],
+        "r_mean": [
+          0.05368003249168396,
+          0.04298952966928482,
+          0.04029036685824394,
+          0.039238378405570984,
+          0.037959035485982895
+        ]
+      },
+      "mean_consumption_share": 0.14542856812477112,
+      "time_to_threshold_s": {
+        "2.00x_ref_final": 173.05022170502343,
+        "1.50x_ref_final": 200.63410612000735,
+        "1.20x_ref_final": 255.43176620505983,
+        "1.10x_ref_final": 282.78318399604177
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+gpdp/singlevgp_const15_a05_s0      value rel. err (honest cont / grid, t=0 mu0): 0.018% / 1.273%   policy rel. err: 0.35% / 10.20%   check None
+gpdp/singlevgp_const15_a05_s1      value rel. err (honest cont / grid, t=0 mu0): 0.007% / 1.285%   policy rel. err: 0.31% / 10.20%   check None
+gpdp/singlevgp_const15_a05_s2      value rel. err (honest cont / grid, t=0 mu0): 0.013% / 1.278%   policy rel. err: 0.34% / 10.20%   check None
+gpdp/singlevgp_const15_a05_s3      value rel. err (honest cont / grid, t=0 mu0): 0.006% / 1.285%   policy rel. err: 0.32% / 10.20%   check None
+gpdp/const15_a05_s0                value rel. err (honest cont / grid, t=0 mu0): 0.004% / 1.288%   policy rel. err: 0.28% / 10.18%   check None
+gpdp/const15_a05_s1                value rel. err (honest cont / grid, t=0 mu0): 0.002% / 1.289%   policy rel. err: 0.24% / 10.18%   check None
+gpdp/const15_a05_s2                value rel. err (honest cont / grid, t=0 mu0): 0.002% / 1.289%   policy rel. err: 0.23% / 10.18%   check None
+gpdp/const15_a05_s3                value rel. err (honest cont / grid, t=0 mu0): 0.002% / 1.288%   policy rel. err: 0.22% / 10.18%   check None
+gpdp/const15_a05_s4                value rel. err (honest cont / grid, t=0 mu0): 0.003% / 1.289%   policy rel. err: 0.25% / 10.18%   check None
+Saved /Users/guillen/Desktop/thesis/code/mfax/experiments/gpdp/results/relative_errors_singlevgp.json

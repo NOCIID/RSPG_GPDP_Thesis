@@ -1,0 +1,418 @@
+{
+  "per_time": 8,
+  "mc": 32,
+  "seed": 2024,
+  "runs": {
+    "hsm_spg_gp/gpfix_s0": {
+      "phase_counts": [
+        4,
+        2,
+        1,
+        1
+      ],
+      "critic_used_at": [
+        32,
+        64,
+        96
+      ],
+      "pooled_all_test_periods": {
+        "ce_err_pop_weighted_mean": 0.008983972482383251,
+        "ce_err_signed_pop_weighted_mean": 0.0018477992853149772,
+        "ce_err_unweighted_mean": 0.009887642227113247,
+        "ce_err_visited_max": 0.03524219989776611,
+        "ce_err_all_states_max": 0.03831076622009277,
+        "rel_value_err_pop_weighted_mean": 0.008944622240960598,
+        "mc_noise_ce_pop_weighted_mean": 0.005132896360009909,
+        "r2": 0.9806714113801718,
+        "r2_ceiling_given_mc_noise": 0.9957142788916826
+      },
+      "pooled_used_periods": {
+        "ce_err_pop_weighted_mean": 0.008983972482383251,
+        "ce_err_signed_pop_weighted_mean": 0.0018477992853149772,
+        "ce_err_unweighted_mean": 0.009887642227113247,
+        "ce_err_visited_max": 0.03524219989776611,
+        "ce_err_all_states_max": 0.03831076622009277,
+        "rel_value_err_pop_weighted_mean": 0.008944622240960598,
+        "mc_noise_ce_pop_weighted_mean": 0.005132896360009909,
+        "r2": 0.9806714113801718,
+        "r2_ceiling_given_mc_noise": 0.9957142788916826
+      },
+      "by_period": {
+        "32": {
+          "ce_err_pop_weighted_mean": 0.006273660808801651,
+          "ce_err_signed_pop_weighted_mean": -0.0061301495879888535,
+          "ce_err_unweighted_mean": 0.007231063209474087,
+          "ce_err_visited_max": 0.019428014755249023,
+          "ce_err_all_states_max": 0.020482659339904785,
+          "rel_value_err_pop_weighted_mean": 0.006331494078040123,
+          "mc_noise_ce_pop_weighted_mean": 0.005207642912864685,
+          "r2": 0.8921314403414726,
+          "r2_ceiling_given_mc_noise": 0.9576514400541782
+        },
+        "64": {
+          "ce_err_pop_weighted_mean": 0.014351342804729939,
+          "ce_err_signed_pop_weighted_mean": 0.009281020611524582,
+          "ce_err_unweighted_mean": 0.01570609025657177,
+          "ce_err_visited_max": 0.03524219989776611,
+          "ce_err_all_states_max": 0.03831076622009277,
+          "rel_value_err_pop_weighted_mean": 0.014176012948155403,
+          "mc_noise_ce_pop_weighted_mean": 0.004716496914625168,
+          "r2": 0.7939160764217377,
+          "r2_ceiling_given_mc_noise": 0.9785898625850677
+        },
+        "96": {
+          "ce_err_pop_weighted_mean": 0.00632691103965044,
+          "ce_err_signed_pop_weighted_mean": 0.0023925271816551685,
+          "ce_err_unweighted_mean": 0.006725770886987448,
+          "ce_err_visited_max": 0.025368452072143555,
+          "ce_err_all_states_max": 0.025368452072143555,
+          "rel_value_err_pop_weighted_mean": 0.0063263606280088425,
+          "mc_noise_ce_pop_weighted_mean": 0.005474547855556011,
+          "r2": 0.9704413898289204,
+          "r2_ceiling_given_mc_noise": 0.9808864574879408
+        }
+      }
+    },
+    "hsm_spg_gp/gpfix_s1": {
+      "phase_counts": [
+        4,
+        2,
+        1,
+        1
+      ],
+      "critic_used_at": [
+        32,
+        64,
+        96
+      ],
+      "pooled_all_test_periods": {
+        "ce_err_pop_weighted_mean": 0.00884595699608326,
+        "ce_err_signed_pop_weighted_mean": 0.0035866321995854378,
+        "ce_err_unweighted_mean": 0.009993153624236584,
+        "ce_err_visited_max": 0.03871595859527588,
+        "ce_err_all_states_max": 0.041469454765319824,
+        "rel_value_err_pop_weighted_mean": 0.008763935416936874,
+        "mc_noise_ce_pop_weighted_mean": 0.00512737175449729,
+        "r2": 0.9743702635169029,
+        "r2_ceiling_given_mc_noise": 0.9955917024053633
+      },
+      "pooled_used_periods": {
+        "ce_err_pop_weighted_mean": 0.00884595699608326,
+        "ce_err_signed_pop_weighted_mean": 0.0035866321995854378,
+        "ce_err_unweighted_mean": 0.009993153624236584,
+        "ce_err_visited_max": 0.03871595859527588,
+        "ce_err_all_states_max": 0.041469454765319824,
+        "rel_value_err_pop_weighted_mean": 0.008763935416936874,
+        "mc_noise_ce_pop_weighted_mean": 0.00512737175449729,
+        "r2": 0.9743702635169029,
+        "r2_ceiling_given_mc_noise": 0.9955917024053633
+      },
+      "by_period": {
+        "32": {
+          "ce_err_pop_weighted_mean": 0.006441994570195675,
+          "ce_err_signed_pop_weighted_mean": 0.0024188621900975704,
+          "ce_err_unweighted_mean": 0.006700087804347277,
+          "ce_err_visited_max": 0.016161322593688965,
+          "ce_err_all_states_max": 0.016628384590148926,
+          "rel_value_err_pop_weighted_mean": 0.006418576464056969,
+          "mc_noise_ce_pop_weighted_mean": 0.005238160490989685,
+          "r2": 0.9383513852953911,
+          "r2_ceiling_given_mc_noise": 0.9583405666053295
+        },
+        "64": {
+          "ce_err_pop_weighted_mean": 0.01617569848895073,
+          "ce_err_signed_pop_weighted_mean": 0.011723239906132221,
+          "ce_err_unweighted_mean": 0.01864827238023281,
+          "ce_err_visited_max": 0.03871595859527588,
+          "ce_err_all_states_max": 0.041469454765319824,
+          "rel_value_err_pop_weighted_mean": 0.015920523554086685,
+          "mc_noise_ce_pop_weighted_mean": 0.004737180657684803,
+          "r2": 0.6764265894889832,
+          "r2_ceiling_given_mc_noise": 0.9789285399019718
+        },
+        "96": {
+          "ce_err_pop_weighted_mean": 0.0039201779291033745,
+          "ce_err_signed_pop_weighted_mean": -0.0033822061959654093,
+          "ce_err_unweighted_mean": 0.004631101153790951,
+          "ce_err_visited_max": 0.022993266582489014,
+          "ce_err_all_states_max": 0.022993266582489014,
+          "rel_value_err_pop_weighted_mean": 0.003952702507376671,
+          "mc_noise_ce_pop_weighted_mean": 0.005406773649156094,
+          "r2": 0.9791527353227139,
+          "r2_ceiling_given_mc_noise": 0.9811353143304586
+        }
+      }
+    },
+    "hsm_spg_gp/gpfix_s2": {
+      "phase_counts": [
+        4,
+        2,
+        1,
+        1
+      ],
+      "critic_used_at": [
+        32,
+        64,
+        96
+      ],
+      "pooled_all_test_periods": {
+        "ce_err_pop_weighted_mean": 0.0061079636216163635,
+        "ce_err_signed_pop_weighted_mean": -0.002272404730319977,
+        "ce_err_unweighted_mean": 0.006528021302074194,
+        "ce_err_visited_max": 0.047653913497924805,
+        "ce_err_all_states_max": 0.047653913497924805,
+        "rel_value_err_pop_weighted_mean": 0.006130429450422525,
+        "mc_noise_ce_pop_weighted_mean": 0.005191648378968239,
+        "r2": 0.9903303226456046,
+        "r2_ceiling_given_mc_noise": 0.9957611942663789
+      },
+      "pooled_used_periods": {
+        "ce_err_pop_weighted_mean": 0.0061079636216163635,
+        "ce_err_signed_pop_weighted_mean": -0.002272404730319977,
+        "ce_err_unweighted_mean": 0.006528021302074194,
+        "ce_err_visited_max": 0.047653913497924805,
+        "ce_err_all_states_max": 0.047653913497924805,
+        "rel_value_err_pop_weighted_mean": 0.006130429450422525,
+        "mc_noise_ce_pop_weighted_mean": 0.005191648378968239,
+        "r2": 0.9903303226456046,
+        "r2_ceiling_given_mc_noise": 0.9957611942663789
+      },
+      "by_period": {
+        "32": {
+          "ce_err_pop_weighted_mean": 0.006331637967377901,
+          "ce_err_signed_pop_weighted_mean": -0.00419987365603447,
+          "ce_err_unweighted_mean": 0.006859599146991968,
+          "ce_err_visited_max": 0.021663546562194824,
+          "ce_err_all_states_max": 0.021663546562194824,
+          "rel_value_err_pop_weighted_mean": 0.006392672657966614,
+          "mc_noise_ce_pop_weighted_mean": 0.005201257765293121,
+          "r2": 0.8943620026111603,
+          "r2_ceiling_given_mc_noise": 0.9554608874022961
+        },
+        "64": {
+          "ce_err_pop_weighted_mean": 0.004565727431327105,
+          "ce_err_signed_pop_weighted_mean": -0.003159887623041868,
+          "ce_err_unweighted_mean": 0.005061141215264797,
+          "ce_err_visited_max": 0.018878459930419922,
+          "ce_err_all_states_max": 0.019628584384918213,
+          "rel_value_err_pop_weighted_mean": 0.004600750282406807,
+          "mc_noise_ce_pop_weighted_mean": 0.004726936109364033,
+          "r2": 0.9561788700520992,
+          "r2_ceiling_given_mc_noise": 0.9776564687490463
+        },
+        "96": {
+          "ce_err_pop_weighted_mean": 0.0074265263974666595,
+          "ce_err_signed_pop_weighted_mean": 0.000542547320947051,
+          "ce_err_unweighted_mean": 0.007663324475288391,
+          "ce_err_visited_max": 0.047653913497924805,
+          "ce_err_all_states_max": 0.047653913497924805,
+          "rel_value_err_pop_weighted_mean": 0.00739786634221673,
+          "mc_noise_ce_pop_weighted_mean": 0.005646751262247562,
+          "r2": 0.9499314688146114,
+          "r2_ceiling_given_mc_noise": 0.9800364952534437
+        }
+      }
+    },
+    "hsm_spg_gp/gp62_s0": {
+      "phase_counts": [
+        6,
+        2
+      ],
+      "critic_used_at": [
+        32,
+        64
+      ],
+      "pooled_all_test_periods": {
+        "ce_err_pop_weighted_mean": 0.6143768429756165,
+        "ce_err_signed_pop_weighted_mean": -0.5853527188301086,
+        "ce_err_unweighted_mean": 0.557441771030426,
+        "ce_err_visited_max": 106.81539154052734,
+        "ce_err_all_states_max": 106.81539154052734,
+        "rel_value_err_pop_weighted_mean": 2.149492025375366,
+        "mc_noise_ce_pop_weighted_mean": 0.0049697705544531345,
+        "r2": -291.660888671875,
+        "r2_ceiling_given_mc_noise": 0.995979284401983
+      },
+      "pooled_used_periods": {
+        "ce_err_pop_weighted_mean": 0.635770320892334,
+        "ce_err_signed_pop_weighted_mean": -0.5922342538833618,
+        "ce_err_unweighted_mean": 0.5768939256668091,
+        "ce_err_visited_max": 106.81539154052734,
+        "ce_err_all_states_max": 106.81539154052734,
+        "rel_value_err_pop_weighted_mean": 2.4885339736938477,
+        "mc_noise_ce_pop_weighted_mean": 0.004909506533294916,
+        "r2": -2237.753662109375,
+        "r2_ceiling_given_mc_noise": 0.9763870108872652
+      },
+      "by_period": {
+        "32": {
+          "ce_err_pop_weighted_mean": 0.42377495765686035,
+          "ce_err_signed_pop_weighted_mean": -0.42377495765686035,
+          "ce_err_unweighted_mean": 0.38091760873794556,
+          "ce_err_visited_max": 0.667759895324707,
+          "ce_err_all_states_max": 0.667759895324707,
+          "rel_value_err_pop_weighted_mean": 0.8209719657897949,
+          "mc_noise_ce_pop_weighted_mean": 0.005182631313800812,
+          "r2": -134.56988525390625,
+          "r2_ceiling_given_mc_noise": 0.9623358137905598
+        },
+        "64": {
+          "ce_err_pop_weighted_mean": 0.8477656841278076,
+          "ce_err_signed_pop_weighted_mean": -0.7606934905052185,
+          "ce_err_unweighted_mean": 0.7728702425956726,
+          "ce_err_visited_max": 106.81539154052734,
+          "ce_err_all_states_max": 106.81539154052734,
+          "rel_value_err_pop_weighted_mean": 4.1560959815979,
+          "mc_noise_ce_pop_weighted_mean": 0.0046363817527890205,
+          "r2": -4334.07763671875,
+          "r2_ceiling_given_mc_noise": 0.9795373044908047
+        },
+        "96": {
+          "ce_err_pop_weighted_mean": 0.5715898275375366,
+          "ce_err_signed_pop_weighted_mean": -0.5715898275375366,
+          "ce_err_unweighted_mean": 0.5185374617576599,
+          "ce_err_visited_max": 0.7580507397651672,
+          "ce_err_all_states_max": 0.7636631727218628,
+          "rel_value_err_pop_weighted_mean": 1.4714078903198242,
+          "mc_noise_ce_pop_weighted_mean": 0.005090298596769571,
+          "r2": -203.02110290527344,
+          "r2_ceiling_given_mc_noise": 0.9838477149605751
+        }
+      }
+    },
+    "hsm_spg_gp/gp62_s1": {
+      "phase_counts": [
+        6,
+        2
+      ],
+      "critic_used_at": [
+        32,
+        64
+      ],
+      "pooled_all_test_periods": {
+        "ce_err_pop_weighted_mean": 17.00931739807129,
+        "ce_err_signed_pop_weighted_mean": 16.749055862426758,
+        "ce_err_unweighted_mean": 48.714332580566406,
+        "ce_err_visited_max": 1164694.75,
+        "ce_err_all_states_max": 1164694.75,
+        "rel_value_err_pop_weighted_mean": 0.1657370924949646,
+        "mc_noise_ce_pop_weighted_mean": 0.00506075331941247,
+        "r2": -12.977802276611328,
+        "r2_ceiling_given_mc_noise": 0.9955642879940569
+      },
+      "pooled_used_periods": {
+        "ce_err_pop_weighted_mean": 25.394777297973633,
+        "ce_err_signed_pop_weighted_mean": 25.242778778076172,
+        "ce_err_unweighted_mean": 72.95333862304688,
+        "ce_err_visited_max": 1164694.75,
+        "ce_err_all_states_max": 1164694.75,
+        "rel_value_err_pop_weighted_mean": 0.08999994397163391,
+        "mc_noise_ce_pop_weighted_mean": 0.004961319267749786,
+        "r2": -93.06330871582031,
+        "r2_ceiling_given_mc_noise": 0.9750927928835154
+      },
+      "by_period": {
+        "32": {
+          "ce_err_pop_weighted_mean": 0.020905224606394768,
+          "ce_err_signed_pop_weighted_mean": -0.020685452967882156,
+          "ce_err_unweighted_mean": 0.022358570247888565,
+          "ce_err_visited_max": 0.05383032560348511,
+          "ce_err_all_states_max": 0.05590444803237915,
+          "rel_value_err_pop_weighted_mean": 0.021468859165906906,
+          "mc_noise_ce_pop_weighted_mean": 0.005217158235609531,
+          "r2": 0.41217219829559326,
+          "r2_ceiling_given_mc_noise": 0.9601679816842079
+        },
+        "64": {
+          "ce_err_pop_weighted_mean": 50.76865005493164,
+          "ce_err_signed_pop_weighted_mean": 50.506248474121094,
+          "ce_err_unweighted_mean": 145.88433837890625,
+          "ce_err_visited_max": 1164694.75,
+          "ce_err_all_states_max": 1164694.75,
+          "rel_value_err_pop_weighted_mean": 0.15853101015090942,
+          "mc_noise_ce_pop_weighted_mean": 0.004705480299890041,
+          "r2": -169.5670928955078,
+          "r2_ceiling_given_mc_noise": 0.9797430504113436
+        },
+        "96": {
+          "ce_err_pop_weighted_mean": 0.2383957803249359,
+          "ce_err_signed_pop_weighted_mean": -0.2383957803249359,
+          "ce_err_unweighted_mean": 0.23632961511611938,
+          "ce_err_visited_max": 0.36976158618927,
+          "ce_err_all_states_max": 0.37860894203186035,
+          "rel_value_err_pop_weighted_mean": 0.317211389541626,
+          "mc_noise_ce_pop_weighted_mean": 0.0052596209570765495,
+          "r2": -26.08207130432129,
+          "r2_ceiling_given_mc_noise": 0.9821919612586498
+        }
+      }
+    },
+    "hsm_spg_gp/gp62_s2": {
+      "phase_counts": [
+        6,
+        2
+      ],
+      "critic_used_at": [
+        32,
+        64
+      ],
+      "pooled_all_test_periods": {
+        "ce_err_pop_weighted_mean": 0.45384469628334045,
+        "ce_err_signed_pop_weighted_mean": -0.4016447961330414,
+        "ce_err_unweighted_mean": 0.39642107486724854,
+        "ce_err_visited_max": 142.13702392578125,
+        "ce_err_all_states_max": 142.13702392578125,
+        "rel_value_err_pop_weighted_mean": 1.5149492025375366,
+        "mc_noise_ce_pop_weighted_mean": 0.00497598247602582,
+        "r2": -918.2726440429688,
+        "r2_ceiling_given_mc_noise": 0.9961733054369688
+      },
+      "pooled_used_periods": {
+        "ce_err_pop_weighted_mean": 0.47211605310440063,
+        "ce_err_signed_pop_weighted_mean": -0.3938162326812744,
+        "ce_err_unweighted_mean": 0.402171790599823,
+        "ce_err_visited_max": 142.13702392578125,
+        "ce_err_all_states_max": 142.13702392578125,
+        "rel_value_err_pop_weighted_mean": 1.8916945457458496,
+        "mc_noise_ce_pop_weighted_mean": 0.004868397489190102,
+        "r2": -7591.38427734375,
+        "r2_ceiling_given_mc_noise": 0.9769586008042097
+      },
+      "by_period": {
+        "32": {
+          "ce_err_pop_weighted_mean": 0.21062041819095612,
+          "ce_err_signed_pop_weighted_mean": -0.21062041819095612,
+          "ce_err_unweighted_mean": 0.18046316504478455,
+          "ce_err_visited_max": 0.41723233461380005,
+          "ce_err_all_states_max": 0.43490445613861084,
+          "rel_value_err_pop_weighted_mean": 0.28305864334106445,
+          "mc_noise_ce_pop_weighted_mean": 0.005140454508364201,
+          "r2": -16.078981399536133,
+          "r2_ceiling_given_mc_noise": 0.9617700092494488
+        },
+        "64": {
+          "ce_err_pop_weighted_mean": 0.7336117029190063,
+          "ce_err_signed_pop_weighted_mean": -0.5770120620727539,
+          "ce_err_unweighted_mean": 0.6238803863525391,
+          "ce_err_visited_max": 142.13702392578125,
+          "ce_err_all_states_max": 142.13702392578125,
+          "rel_value_err_pop_weighted_mean": 3.5003304481506348,
+          "mc_noise_ce_pop_weighted_mean": 0.004596340004354715,
+          "r2": -16350.9853515625,
+          "r2_ceiling_given_mc_noise": 0.9783581662923098
+        },
+        "96": {
+          "ce_err_pop_weighted_mean": 0.4173019528388977,
+          "ce_err_signed_pop_weighted_mean": -0.4173019528388977,
+          "ce_err_unweighted_mean": 0.38491955399513245,
+          "ce_err_visited_max": 0.6169848442077637,
+          "ce_err_all_states_max": 0.6169848442077637,
+          "rel_value_err_pop_weighted_mean": 0.7614580392837524,
+          "mc_noise_ce_pop_weighted_mean": 0.005191154312342405,
+          "r2": -87.8263931274414,
+          "r2_ceiling_given_mc_noise": 0.9827678892761469
+        }
+      }
+    }
+  }
+}

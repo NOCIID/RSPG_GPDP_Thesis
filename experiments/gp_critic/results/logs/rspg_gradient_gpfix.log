@@ -1,0 +1,65 @@
+initial_policy full done
+initial_policy gp done
+initial_policy gp_time done
+initial_policy {
+  "full": {
+    "n_batches": 16,
+    "rel_err_vs_full": 0.0,
+    "cos_with_full": 1.0,
+    "norm_ratio_to_full": 1.0,
+    "split_half_rel_diff": 0.016531743201676802,
+    "split_half_cos": 0.9999256068404192,
+    "noise_floor_rel_err": 0.011689707722740273
+  },
+  "gp": {
+    "n_batches": 64,
+    "rel_err_vs_full": 0.007517767939867882,
+    "cos_with_full": 0.9999884525812645,
+    "norm_ratio_to_full": 0.9942072649291886,
+    "split_half_rel_diff": 0.008293254316443543,
+    "split_half_cos": 0.9999785845396467,
+    "noise_floor_rel_err": 0.009247656465875512
+  },
+  "gp_time": {
+    "n_batches": 64,
+    "rel_err_vs_full": 0.004478573412680244,
+    "cos_with_full": 0.9999938828159237,
+    "norm_ratio_to_full": 0.9971968685007593,
+    "split_half_rel_diff": 0.0021614579941736344,
+    "split_half_cos": 0.9999979054765905,
+    "noise_floor_rel_err": 0.008336222674970424
+  }
+}
+trained_policy full done
+trained_policy gp done
+trained_policy gp_time done
+trained_policy {
+  "full": {
+    "n_batches": 16,
+    "rel_err_vs_full": 0.0,
+    "cos_with_full": 1.0,
+    "norm_ratio_to_full": 1.0,
+    "split_half_rel_diff": 0.07863474504803465,
+    "split_half_cos": 0.9996924390029085,
+    "noise_floor_rel_err": 0.05560316146034059
+  },
+  "gp": {
+    "n_batches": 64,
+    "rel_err_vs_full": 0.03634987484564029,
+    "cos_with_full": 0.9998639814771058,
+    "norm_ratio_to_full": 1.0322568025419887,
+    "split_half_rel_diff": 0.03149394147548357,
+    "split_half_cos": 0.9999372569502409,
+    "noise_floor_rel_err": 0.04235354612789404
+  },
+  "gp_time": {
+    "n_batches": 64,
+    "rel_err_vs_full": 0.12045005240770536,
+    "cos_with_full": 0.9999867931874884,
+    "norm_ratio_to_full": 1.1203271508170303,
+    "split_half_rel_diff": 0.07948338152940693,
+    "split_half_cos": 0.9998636967521131,
+    "noise_floor_rel_err": 0.055904004928356156
+  }
+}
+Saved /Users/guillen/Desktop/thesis/code/mfax/experiments/gp_critic/results/gradient_rspg_gpfix.json

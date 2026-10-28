@@ -1,0 +1,7 @@
+hsm_spg_gp/gpfix_s0 pooled(all) 0.9 pooled(used) 0.9 {32: (0.63, -0.61), 64: (1.44, 0.93), 96: (0.63, 0.24)}
+hsm_spg_gp/gpfix_s1 pooled(all) 0.88 pooled(used) 0.88 {32: (0.64, 0.24), 64: (1.62, 1.17), 96: (0.39, -0.34)}
+hsm_spg_gp/gpfix_s2 pooled(all) 0.61 pooled(used) 0.61 {32: (0.63, -0.42), 64: (0.46, -0.32), 96: (0.74, 0.05)}
+hsm_spg_gp/gp62_s0 pooled(all) 61.44 pooled(used) 63.58 {32: (42.38, -42.38), 64: (84.78, -76.07), 96: (57.16, -57.16)}
+hsm_spg_gp/gp62_s1 pooled(all) 1700.93 pooled(used) 2539.48 {32: (2.09, -2.07), 64: (5076.87, 5050.62), 96: (23.84, -23.84)}
+hsm_spg_gp/gp62_s2 pooled(all) 45.38 pooled(used) 47.21 {32: (21.06, -21.06), 64: (73.36, -57.7), 96: (41.73, -41.73)}
+Saved /Users/guillen/Desktop/thesis/code/mfax/experiments/gp_critic/results/critic_by_period_spg_gp62.json

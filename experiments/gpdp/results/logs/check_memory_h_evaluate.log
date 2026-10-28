@@ -1,0 +1,16 @@
+Using recurrent policy: True
+Using recurrent policy: True
+gpdp         gpdp/memory_h8_only_s0           MFAX expl 0.3732 (2.237%)  nearest-grid 0.1708 (1.025%)  continuous clairvoyant 1.237%  honest 1.149%  grid honest 0.276%  K100 18.7
+Using recurrent policy: True
+Using recurrent policy: True
+gpdp         gpdp/memory_h8_only_s1           MFAX expl 0.2942 (1.772%)  nearest-grid 0.0711 (0.428%)  continuous clairvoyant 0.384%  honest 0.305%  grid honest -0.525%  K100 23.1
+Using recurrent policy: True
+Using recurrent policy: True
+gpdp         gpdp/memory_h8_only_s2           MFAX expl 0.3136 (1.902%)  nearest-grid 0.0431 (0.260%)  continuous clairvoyant nan%  honest nan%  grid honest nan%  K100 27.2
+Using recurrent policy: True
+Using recurrent policy: True
+gpdp         gpdp/memory_h8_only_s3           MFAX expl nan (nan%)  nearest-grid 46.9963 (319.942%)  continuous clairvoyant nan%  honest nan%  grid honest nan%  K100 nan
+Using recurrent policy: True
+Using recurrent policy: True
+gpdp         gpdp/memory_h8_only_s4           MFAX expl nan (nan%)  nearest-grid 46.9963 (319.942%)  continuous clairvoyant nan%  honest nan%  grid honest nan%  K100 nan
+Saved /Users/guillen/Desktop/thesis/code/mfax/experiments/gpdp/results/check_memory_h_evaluate.json

@@ -1,0 +1,75 @@
+training critic: {
+  "ce_err_pop_weighted_mean": 0.005830283742398024,
+  "ce_err_signed_pop_weighted_mean": -0.0015801755944266915,
+  "ce_err_unweighted_mean": 0.006454358343034983,
+  "ce_err_visited_max": 0.01779836416244507,
+  "ce_err_all_states_max": 0.01779836416244507,
+  "rel_value_err_pop_weighted_mean": 0.0058429972268640995,
+  "mc_noise_ce_pop_weighted_mean": 0.00495479442179203,
+  "r2": 0.9452161528170109,
+  "r2_ceiling_given_mc_noise": 0.9688801784068346,
+  "n_inputs": 2,
+  "by_test_period": {
+    "25": -0.002199514303356409,
+    "50": 0.0039948052726686,
+    "75": -0.006535817869007587
+  }
+}
+lags=0: {
+  "ce_err_pop_weighted_mean": 0.005493050441145897,
+  "ce_err_signed_pop_weighted_mean": -0.0036564201582223177,
+  "ce_err_unweighted_mean": 0.005927140358835459,
+  "ce_err_visited_max": 0.01682513952255249,
+  "ce_err_all_states_max": 0.01764547824859619,
+  "rel_value_err_pop_weighted_mean": 0.005529335234314203,
+  "mc_noise_ce_pop_weighted_mean": 0.00495479442179203,
+  "r2": 0.9523027613759041,
+  "r2_ceiling_given_mc_noise": 0.9688801784068346,
+  "nlml": 0.2566536068916321,
+  "initial_length_scale": 3.0,
+  "length_scales": [
+    2.634999990463257,
+    5.756999969482422
+  ]
+}
+lags=1: {
+  "ce_err_pop_weighted_mean": 0.013151202350854874,
+  "ce_err_signed_pop_weighted_mean": -0.001930953934788704,
+  "ce_err_unweighted_mean": 0.0150757459923625,
+  "ce_err_visited_max": 0.08402621746063232,
+  "ce_err_all_states_max": 0.08402621746063232,
+  "rel_value_err_pop_weighted_mean": 0.013150070793926716,
+  "mc_noise_ce_pop_weighted_mean": 0.00495479442179203,
+  "r2": 0.5753721296787262,
+  "r2_ceiling_given_mc_noise": 0.9688801784068346,
+  "nlml": 0.454192191362381,
+  "initial_length_scale": 3.0,
+  "length_scales": [
+    0.1420000046491623,
+    0.2070000022649765,
+    0.25200000405311584,
+    0.4950000047683716
+  ]
+}
+lags=2: {
+  "ce_err_pop_weighted_mean": 0.014212560839951038,
+  "ce_err_signed_pop_weighted_mean": -0.0018218545010313392,
+  "ce_err_unweighted_mean": 0.01684899814426899,
+  "ce_err_visited_max": 0.08245635032653809,
+  "ce_err_all_states_max": 0.08245635032653809,
+  "rel_value_err_pop_weighted_mean": 0.014212462119758129,
+  "mc_noise_ce_pop_weighted_mean": 0.00495479442179203,
+  "r2": 0.594817578792572,
+  "r2_ceiling_given_mc_noise": 0.9688801784068346,
+  "nlml": 0.45957690477371216,
+  "initial_length_scale": 3.0,
+  "length_scales": [
+    0.11800000071525574,
+    0.2939999997615814,
+    0.46700000762939453,
+    0.7860000133514404,
+    0.42100000381469727,
+    0.2849999964237213
+  ]
+}
+Saved /Users/guillen/Desktop/thesis/code/mfax/experiments/gp_critic/results/critic_hsm_spg_gp_gp_s0.json

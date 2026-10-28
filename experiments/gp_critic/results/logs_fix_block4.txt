@@ -1,0 +1,5 @@
+=== rspg_gp_s4_fast: /private/tmp/claude-501/-Users-guillen-Desktop-thesis-code-mfax/ed8b2a9a-d50c-43ed-b348-3a4163bd27df/scratchpad/mfax-env/bin/python -m mfax.algos.hsm.algos.rspg_gp --seed 4 --run-name gp_s4_fast --use-gp --horizon 25 --phase-counts 4 2 1 1 --no-time-input --fast-refit-steps 150 --fast-refit-window 5
+    done in 306s
+=== rspg_gpfast_s0: /private/tmp/claude-501/-Users-guillen-Desktop-thesis-code-mfax/ed8b2a9a-d50c-43ed-b348-3a4163bd27df/scratchpad/mfax-env/bin/python -m mfax.algos.hsm.algos.rspg_gp --seed 0 --run-name gpfast_s0 --use-gp --horizon 32 --phase-counts 4 2 1 1 --time-input --fast-refit-steps 150 --fast-refit-window 5 --checkpoint-every 50
+    done in 392s
+=== rspg_gpfast_s1: /private/tmp/claude-501/-Users-guillen-Desktop-thesis-code-mfax/ed8b2a9a-d50c-43ed-b348-3a4163bd27df/scratchpad/mfax-env/bin/python -m mfax.algos.hsm.algos.rspg_gp --seed 1 --run-name gpfast_s1 --use-gp --horizon 32 --phase-counts 4 2 1 1 --time-input --fast-refit-steps 150 --fast-refit-window 5

@@ -1,0 +1,59 @@
+Using recurrent policy: True
+Using recurrent policy: True
+gpdp         gpdp/const15_a05_s0              MFAX expl 0.3034 (1.842%)  nearest-grid 0.0206 (0.124%)  continuous clairvoyant 0.062%  honest 0.002%  K100 27.9
+Using recurrent policy: True
+Using recurrent policy: True
+gpdp         gpdp/const15_a05_s1              MFAX expl 0.3030 (1.839%)  nearest-grid 0.0206 (0.124%)  continuous clairvoyant 0.061%  honest 0.001%  K100 27.9
+Using recurrent policy: True
+Using recurrent policy: True
+gpdp         gpdp/const15_a05_s2              MFAX expl 0.3031 (1.840%)  nearest-grid 0.0205 (0.124%)  continuous clairvoyant 0.061%  honest 0.001%  K100 27.9
+Using recurrent policy: True
+Using recurrent policy: True
+gpdp         gpdp/const15_a05_s3              MFAX expl 0.3032 (1.840%)  nearest-grid 0.0205 (0.124%)  continuous clairvoyant 0.061%  honest 0.002%  K100 27.9
+Using recurrent policy: True
+Using recurrent policy: True
+gpdp         gpdp/const15_a05_s4              MFAX expl 0.3028 (1.838%)  nearest-grid 0.0208 (0.126%)  continuous clairvoyant 0.062%  honest 0.002%  K100 27.9
+Using recurrent policy: True
+Using recurrent policy: True
+gpdp         gpdp/const15_a1_s0               MFAX expl 0.3031 (1.840%)  nearest-grid 0.0205 (0.124%)  continuous clairvoyant 0.062%  honest 0.002%  K100 27.9
+Using recurrent policy: True
+Using recurrent policy: True
+Using recurrent policy: True
+hsm_rspg_gp  hsm_rspg_gp/base_s0              MFAX expl 0.0331 (0.200%)  continuous clairvoyant 1.030%  honest 0.959%  K100 25.1
+Using recurrent policy: True
+Using recurrent policy: True
+Using recurrent policy: True
+hsm_rspg_gp  hsm_rspg_gp/base_s1              MFAX expl 0.0396 (0.239%)  continuous clairvoyant 1.065%  honest 0.987%  K100 28.9
+Using recurrent policy: True
+Using recurrent policy: True
+Using recurrent policy: True
+hsm_rspg_gp  hsm_rspg_gp/base_s2              MFAX expl 0.0341 (0.206%)  continuous clairvoyant 1.027%  honest 0.955%  K100 28.6
+Using recurrent policy: True
+Using recurrent policy: True
+Using recurrent policy: True
+hsm_rspg_gp  hsm_rspg_gp/base_s3              MFAX expl 0.0511 (0.308%)  continuous clairvoyant 1.142%  honest 1.069%  K100 26.2
+Using recurrent policy: True
+Using recurrent policy: True
+Using recurrent policy: True
+hsm_rspg_gp  hsm_rspg_gp/base_s4              MFAX expl 0.0373 (0.226%)  continuous clairvoyant 1.044%  honest 0.971%  K100 28.7
+Using recurrent policy: True
+Using recurrent policy: True
+Using recurrent policy: True
+hsm_rspg_gp  hsm_rspg_gp/gpfix_s0             MFAX expl 0.0463 (0.280%)  continuous clairvoyant 1.099%  honest 1.027%  K100 28.7
+Using recurrent policy: True
+Using recurrent policy: True
+Using recurrent policy: True
+hsm_rspg_gp  hsm_rspg_gp/gpfix_s1             MFAX expl 0.0411 (0.248%)  continuous clairvoyant 1.074%  honest 1.002%  K100 28.4
+Using recurrent policy: True
+Using recurrent policy: True
+Using recurrent policy: True
+hsm_rspg_gp  hsm_rspg_gp/gpfix_s2             MFAX expl 0.0388 (0.234%)  continuous clairvoyant 1.065%  honest 0.993%  K100 27.6
+Using recurrent policy: True
+Using recurrent policy: True
+Using recurrent policy: True
+hsm_rspg_gp  hsm_rspg_gp/gpfix_s3             MFAX expl 0.0314 (0.190%)  continuous clairvoyant 1.009%  honest 0.936%  K100 29.5
+Using recurrent policy: True
+Using recurrent policy: True
+Using recurrent policy: True
+hsm_rspg_gp  hsm_rspg_gp/gpfix_s4             MFAX expl 0.0396 (0.239%)  continuous clairvoyant 1.066%  honest 0.992%  K100 27.1
+Saved /Users/guillen/Desktop/thesis/code/mfax/experiments/gpdp/results/step4_evaluate.json

@@ -1,0 +1,15 @@
+action_grid shape: (20, 1)
+Using recurrent policy: False
+Iteration: 0, Train Time: 0.0, Exploitability: 80.2474, Policy return: -91.5011
+Iteration: 50, Train Time: 138.4, Exploitability: 0.3656, Policy return: -16.8336
+Iteration: 100, Train Time: 275.8, Exploitability: 0.1948, Policy return: -16.7234
+Iteration: 150, Train Time: 413.9, Exploitability: 0.2887, Policy return: -16.7667
+Iteration: 200, Train Time: 551.1, Exploitability: 0.1214, Policy return: -16.8069
+Iteration: 250, Train Time: 688.8, Exploitability: 0.0851, Policy return: -16.6704
+Iteration: 300, Train Time: 829.0, Exploitability: 0.0641, Policy return: -16.6799
+Iteration: 350, Train Time: 970.2, Exploitability: 0.0553, Policy return: -16.6962
+Iteration: 400, Train Time: 1112.5, Exploitability: 0.0485, Policy return: -16.6681
+Iteration: 450, Train Time: 1254.7, Exploitability: 0.0451, Policy return: -16.6714
+Iteration: 500, Train Time: 1394.5, Exploitability: 0.0454, Policy return: -16.6470
+Train time 1394.5s, steady step time 2.786s
+Saved to runs/endogenous/hsm_spg_gp/base_s2

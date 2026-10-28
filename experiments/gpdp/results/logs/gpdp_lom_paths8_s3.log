@@ -1,0 +1,22 @@
+it   0  train   23.6s  gain honest 21.504%  clairvoyant 21.566%  MFAX expl nan  K100 12.77  change 0.0416  LoM R2 1.000000 max err 0.001%
+Using recurrent policy: True
+it   1  train   31.6s  gain honest 1.143%  clairvoyant 1.198%  MFAX expl 0.5081  K100 26.61  change 0.0100  LoM R2 0.997861 max err 1.564%
+it   2  train   39.4s  gain honest -0.009%  clairvoyant 0.060%  MFAX expl 0.3037  K100 27.54  change 0.0028  LoM R2 0.999998 max err 0.194%
+it   3  train   47.1s  gain honest 0.002%  clairvoyant 0.084%  MFAX expl 0.3065  K100 27.50  change 0.0025  LoM R2 0.999996 max err 0.230%
+it   4  train   54.9s  gain honest 0.038%  clairvoyant 0.110%  MFAX expl 0.3130  K100 27.52  change 0.0031  LoM R2 0.999996 max err 0.055%
+it   5  train   62.7s  gain honest 0.036%  clairvoyant 0.091%  MFAX expl 0.3083  K100 27.42  change 0.0026  LoM R2 0.999998 max err 0.073%
+it   6  train   70.5s  gain honest -0.001%  clairvoyant 0.058%  MFAX expl 0.3014  K100 27.49  change 0.0029  LoM R2 0.999993 max err 0.094%
+it   7  train   78.3s  gain honest -0.008%  clairvoyant 0.064%  MFAX expl 0.3021  K100 27.46  change 0.0029  LoM R2 0.999997 max err 0.115%
+it   8  train   86.2s  gain honest 0.039%  clairvoyant 0.096%  MFAX expl 0.3108  K100 27.44  change 0.0032  LoM R2 0.999998 max err 0.095%
+it   9  train   94.0s  gain honest 0.006%  clairvoyant 0.065%  MFAX expl 0.3044  K100 27.51  change 0.0027  LoM R2 0.999997 max err 0.091%
+it  10  train  101.8s  gain honest 0.010%  clairvoyant 0.066%  MFAX expl 0.3037  K100 27.54  change 0.0026  LoM R2 0.999991 max err 0.183%
+it  11  train  109.6s  gain honest 0.003%  clairvoyant 0.059%  MFAX expl 0.3038  K100 27.50  change 0.0024  LoM R2 0.999996 max err 0.045%
+it  12  train  117.4s  gain honest -0.004%  clairvoyant 0.060%  MFAX expl 0.3022  K100 27.47  change 0.0030  LoM R2 0.999931 max err 0.243%
+it  13  train  125.3s  gain honest 0.022%  clairvoyant 0.082%  MFAX expl 0.3053  K100 27.42  change 0.0026  LoM R2 0.999998 max err 0.046%
+it  14  train  133.3s  gain honest 0.016%  clairvoyant 0.070%  MFAX expl 0.3044  K100 27.56  change 0.0025  LoM R2 0.999995 max err 0.392%
+it  15  train  141.2s  gain honest -0.001%  clairvoyant 0.056%  MFAX expl 0.3023  K100 27.41  change 0.0026  LoM R2 0.999986 max err 0.204%
+it  16  train  149.2s  gain honest -0.003%  clairvoyant 0.064%  MFAX expl 0.3022  K100 27.52  change 0.0025  LoM R2 0.999993 max err 0.137%
+it  17  train  157.2s  gain honest 0.026%  clairvoyant 0.081%  MFAX expl 0.3075  K100 27.54  change 0.0027  LoM R2 0.999997 max err 0.219%
+it  18  train  165.2s  gain honest -0.003%  clairvoyant 0.057%  MFAX expl 0.3038  K100 27.51  change 0.0024  LoM R2 0.999998 max err 0.059%
+it  19  train  173.2s  gain honest 0.010%  clairvoyant 0.076%  MFAX expl 0.3069  K100 27.49  change 0.0031  LoM R2 0.999999 max err 0.070%
+Saved to runs/endogenous/gpdp/lom_paths8_s3

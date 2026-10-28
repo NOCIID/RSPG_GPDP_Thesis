@@ -1,0 +1,106 @@
+Using recurrent policy: False
+Using recurrent policy: False
+Using recurrent policy: False
+hsm_spg_gp/base_s0 {
+  "exploitability": 0.04472923278808594,
+  "policy_return": -16.600460052490234,
+  "br_return": -16.55573081970215,
+  "final_training_eval_exploitability": 0.04398155212402344,
+  "total_train_time_s": 1389.1031588760088,
+  "step_time_steady_s": 2.7765120529795984,
+  "step_time_median_s": 2.770078966600704,
+  "refit_time_median_s": null,
+  "first_chunk_incl_compile_s": 28.369185332994675,
+  "refit_time_steady_s": null,
+  "warmstart_s": null,
+  "fill_s": 0.24306758301099762,
+  "mean_eval_time_s": 3.3669408029051158,
+  "policy_gap_vs_ref": {
+    "pop_weighted_mean_rel": 0.0,
+    "visited_max_rel": 0.0,
+    "visited_p99_rel": 0.0
+  },
+  "aggregate_gap_vs_ref": {
+    "K_max_rel": 0.0,
+    "K_mean_rel": 0.0,
+    "r_max_abs": 0.0,
+    "r_mean_abs": 0.0
+  },
+  "aggregate_path": {
+    "periods": [
+      0,
+      25,
+      50,
+      100,
+      127
+    ],
+    "K_mean": [
+      16.461563110351562,
+      22.95616340637207,
+      25.79330825805664,
+      28.032615661621094,
+      27.733226776123047
+    ],
+    "r_mean": [
+      0.05368003249168396,
+      0.04277721419930458,
+      0.03977486118674278,
+      0.03830637037754059,
+      0.03687699884176254
+    ]
+  },
+  "mean_consumption_share": 0.14594483375549316
+}
+Using recurrent policy: False
+Using recurrent policy: False
+hsm_spg_gp/gp_s0 {
+  "exploitability": 0.05044364929199219,
+  "policy_return": -16.6003360748291,
+  "br_return": -16.54989242553711,
+  "final_training_eval_exploitability": 0.04889488220214844,
+  "total_train_time_s": 203.70249709076597,
+  "step_time_steady_s": 0.3466259784038459,
+  "step_time_median_s": 0.3460714792017825,
+  "refit_time_median_s": 0.30658043798757717,
+  "first_chunk_incl_compile_s": 5.146610458003124,
+  "refit_time_steady_s": 0.3075381719159219,
+  "warmstart_s": 12.292274625011487,
+  "fill_s": 0.8684644159802701,
+  "mean_eval_time_s": 3.3463374694560613,
+  "policy_gap_vs_ref": {
+    "pop_weighted_mean_rel": 0.014113040640950203,
+    "visited_max_rel": 0.5904306173324585,
+    "visited_p99_rel": 0.2888039708137514
+  },
+  "aggregate_gap_vs_ref": {
+    "K_max_rel": 0.045334696769714355,
+    "K_mean_rel": 0.01056387834250927,
+    "r_max_abs": 0.0011769644916057587,
+    "r_mean_abs": 0.00026703509502112865
+  },
+  "aggregate_path": {
+    "periods": [
+      0,
+      25,
+      50,
+      100,
+      127
+    ],
+    "K_mean": [
+      16.461563110351562,
+      23.047443389892578,
+      25.85125732421875,
+      28.002792358398438,
+      27.33962631225586
+    ],
+    "r_mean": [
+      0.05368003249168396,
+      0.04267005994915962,
+      0.03971236199140549,
+      0.03833136707544327,
+      0.03722012788057327
+    ]
+  },
+  "mean_consumption_share": 0.14448301494121552
+}
+Saved /Users/guillen/Desktop/thesis/code/mfax/experiments/gp_critic/results/compare_spg.json

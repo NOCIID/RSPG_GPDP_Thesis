@@ -1,0 +1,106 @@
+{
+  "run_dir": "runs/endogenous/hsm_spg_gp/gpfix_s0",
+  "times": [
+    32,
+    64,
+    96
+  ],
+  "mc": 32,
+  "reference": "finite",
+  "time_input": true,
+  "mc_length": "until period 128",
+  "mc_time_s": 51.555274999991525,
+  "training_critic": {
+    "ce_err_pop_weighted_mean": 0.008983972482383251,
+    "ce_err_signed_pop_weighted_mean": 0.0018477992853149772,
+    "ce_err_unweighted_mean": 0.009887642227113247,
+    "ce_err_visited_max": 0.03524219989776611,
+    "ce_err_all_states_max": 0.03831076622009277,
+    "rel_value_err_pop_weighted_mean": 0.008944622240960598,
+    "mc_noise_ce_pop_weighted_mean": 0.005132896360009909,
+    "r2": 0.9806714113801718,
+    "r2_ceiling_given_mc_noise": 0.9957142788916826,
+    "n_inputs": 3,
+    "by_test_period": {
+      "32": -0.0061301495879888535,
+      "64": 0.009281020611524582,
+      "96": 0.0023925271816551685
+    }
+  },
+  "test_K_range": [
+    23.166685104370117,
+    29.654977798461914
+  ],
+  "test_z_range": [
+    -0.12474008649587631,
+    0.2431124895811081
+  ],
+  "value_range": [
+    -57.234153747558594,
+    -2.105224609375
+  ],
+  "independent_targets": 800,
+  "lags": {
+    "0": {
+      "ce_err_pop_weighted_mean": 0.006852433085441589,
+      "ce_err_signed_pop_weighted_mean": -0.004035432357341051,
+      "ce_err_unweighted_mean": 0.0076176440343260765,
+      "ce_err_visited_max": 0.03911560773849487,
+      "ce_err_all_states_max": 0.03911560773849487,
+      "rel_value_err_pop_weighted_mean": 0.006896096747368574,
+      "mc_noise_ce_pop_weighted_mean": 0.005132896360009909,
+      "r2": 0.9899466205388308,
+      "r2_ceiling_given_mc_noise": 0.9957142788916826,
+      "nlml": -1.3146694898605347,
+      "initial_length_scale": 1.0,
+      "length_scales": [
+        9.885000228881836,
+        10.510000228881836,
+        1.1019999980926514
+      ]
+    },
+    "1": {
+      "ce_err_pop_weighted_mean": 0.006898305844515562,
+      "ce_err_signed_pop_weighted_mean": -0.00390470284037292,
+      "ce_err_unweighted_mean": 0.007658784743398428,
+      "ce_err_visited_max": 0.03708314895629883,
+      "ce_err_all_states_max": 0.03708314895629883,
+      "rel_value_err_pop_weighted_mean": 0.006938902195543051,
+      "mc_noise_ce_pop_weighted_mean": 0.005132896360009909,
+      "r2": 0.9902223786339164,
+      "r2_ceiling_given_mc_noise": 0.9957142788916826,
+      "nlml": -1.3149549961090088,
+      "initial_length_scale": 1.0,
+      "length_scales": [
+        10.177000045776367,
+        10.866999626159668,
+        1.1069999933242798,
+        83.15599822998047,
+        146.48599243164062
+      ]
+    },
+    "2": {
+      "ce_err_pop_weighted_mean": 0.007400328293442726,
+      "ce_err_signed_pop_weighted_mean": -0.004340282175689936,
+      "ce_err_unweighted_mean": 0.008213785476982594,
+      "ce_err_visited_max": 0.037188053131103516,
+      "ce_err_all_states_max": 0.037188053131103516,
+      "rel_value_err_pop_weighted_mean": 0.007449324708431959,
+      "mc_noise_ce_pop_weighted_mean": 0.005132896360009909,
+      "r2": 0.9888058425858617,
+      "r2_ceiling_given_mc_noise": 0.9957142788916826,
+      "nlml": -1.3158587217330933,
+      "initial_length_scale": 1.0,
+      "length_scales": [
+        9.892999649047852,
+        10.656000137329102,
+        1.0820000171661377,
+        278.70001220703125,
+        151.6199951171875,
+        67.53600311279297,
+        126.92400360107422
+      ]
+    }
+  },
+  "lags_time_s": 84.94637316599255
+}

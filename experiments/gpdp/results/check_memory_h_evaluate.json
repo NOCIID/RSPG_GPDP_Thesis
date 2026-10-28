@@ -1,0 +1,156 @@
+{
+  "eval_envs": 64,
+  "eval_seed": 777,
+  "runs": {
+    "gpdp/memory_h8_only_s0": {
+      "method": "gpdp",
+      "mfax": {
+        "exploitability": 0.3732185363769531,
+        "gain_pct": 2.2369220983539773
+      },
+      "mfax_nearest_grid": {
+        "exploitability": 0.17082595825195312,
+        "gain_pct": 1.0245372097404726
+      },
+      "gain_continuous_clairvoyant_pct": 1.2366163562441246,
+      "gain_continuous_honest_pct": 1.1490720646478714,
+      "gain_grid_honest_pct": 0.27605218765052175,
+      "policy_value": -16.605417251586914,
+      "train_time_s": 120.44915662403218,
+      "K_mean_at": {
+        "0": 16.461563110351562,
+        "25": 20.00143814086914,
+        "50": 19.234111785888672,
+        "100": 18.656925201416016,
+        "127": 17.759021759033203
+      },
+      "mean_share_at": {
+        "0": 0.2592596113681793,
+        "64": 0.1592223197221756,
+        "100": 0.15949314832687378,
+        "120": 0.16048775613307953,
+        "126": 0.15948034822940826
+      }
+    },
+    "gpdp/memory_h8_only_s1": {
+      "method": "gpdp",
+      "mfax": {
+        "exploitability": 0.2942485809326172,
+        "gain_pct": 1.7723072667113815
+      },
+      "mfax_nearest_grid": {
+        "exploitability": 0.07111930847167969,
+        "gain_pct": 0.4279691442591327
+      },
+      "gain_continuous_clairvoyant_pct": 0.38445268253990417,
+      "gain_continuous_honest_pct": 0.3051484676567684,
+      "gain_grid_honest_pct": -0.5251374627601835,
+      "policy_value": -16.375654220581055,
+      "train_time_s": 120.69763491803315,
+      "K_mean_at": {
+        "0": 16.461563110351562,
+        "25": 22.189090728759766,
+        "50": 25.737838745117188,
+        "100": 23.057321548461914,
+        "127": 19.4351806640625
+      },
+      "mean_share_at": {
+        "0": 0.26150402426719666,
+        "64": 0.13679729402065277,
+        "100": 0.14621952176094055,
+        "120": 0.1575319766998291,
+        "126": 0.16072411835193634
+      }
+    },
+    "gpdp/memory_h8_only_s2": {
+      "method": "gpdp",
+      "mfax": {
+        "exploitability": 0.3136119842529297,
+        "gain_pct": 1.9019593803394796
+      },
+      "mfax_nearest_grid": {
+        "exploitability": 0.04312896728515625,
+        "gain_pct": 0.2604531114713371
+      },
+      "gain_continuous_clairvoyant_pct": NaN,
+      "gain_continuous_honest_pct": NaN,
+      "gain_grid_honest_pct": NaN,
+      "policy_value": NaN,
+      "train_time_s": 120.91312650113832,
+      "K_mean_at": {
+        "0": 16.461563110351562,
+        "25": 24.82754898071289,
+        "50": 29.14281463623047,
+        "100": 27.243213653564453,
+        "127": 9.726312637329102
+      },
+      "mean_share_at": {
+        "0": 0.26317742466926575,
+        "64": 0.13257451355457306,
+        "100": 0.1307610273361206,
+        "120": 0.21269166469573975,
+        "126": 0.20936647057533264
+      }
+    },
+    "gpdp/memory_h8_only_s3": {
+      "method": "gpdp",
+      "mfax": {
+        "exploitability": NaN,
+        "gain_pct": NaN
+      },
+      "mfax_nearest_grid": {
+        "exploitability": 46.996299743652344,
+        "gain_pct": 319.9419563304522
+      },
+      "gain_continuous_clairvoyant_pct": NaN,
+      "gain_continuous_honest_pct": NaN,
+      "gain_grid_honest_pct": NaN,
+      "policy_value": NaN,
+      "train_time_s": 78.173129416944,
+      "K_mean_at": {
+        "0": 16.461563110351562,
+        "25": NaN,
+        "50": NaN,
+        "100": NaN,
+        "127": NaN
+      },
+      "mean_share_at": {
+        "0": NaN,
+        "64": NaN,
+        "100": NaN,
+        "120": NaN,
+        "126": NaN
+      }
+    },
+    "gpdp/memory_h8_only_s4": {
+      "method": "gpdp",
+      "mfax": {
+        "exploitability": NaN,
+        "gain_pct": NaN
+      },
+      "mfax_nearest_grid": {
+        "exploitability": 46.996299743652344,
+        "gain_pct": 319.9419563304522
+      },
+      "gain_continuous_clairvoyant_pct": NaN,
+      "gain_continuous_honest_pct": NaN,
+      "gain_grid_honest_pct": NaN,
+      "policy_value": NaN,
+      "train_time_s": 89.94585941283731,
+      "K_mean_at": {
+        "0": 16.461563110351562,
+        "25": NaN,
+        "50": NaN,
+        "100": NaN,
+        "127": NaN
+      },
+      "mean_share_at": {
+        "0": NaN,
+        "64": NaN,
+        "100": NaN,
+        "120": NaN,
+        "126": NaN
+      }
+    }
+  }
+}

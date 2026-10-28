@@ -1,0 +1,13 @@
+=== rspg_base_s1: /private/tmp/claude-501/-Users-guillen-Desktop-thesis-code-mfax/ed8b2a9a-d50c-43ed-b348-3a4163bd27df/scratchpad/mfax-env/bin/python -m mfax.algos.hsm.algos.rspg_gp --seed 1 --run-name base_s1 --no-use-gp --horizon 128 --phase-counts 8
+    done in 1477s
+=== rspg_zero_tail_s0: /private/tmp/claude-501/-Users-guillen-Desktop-thesis-code-mfax/ed8b2a9a-d50c-43ed-b348-3a4163bd27df/scratchpad/mfax-env/bin/python -m mfax.algos.hsm.algos.rspg_gp --seed 0 --run-name zero_tail_s0 --no-use-gp
+    done in 533s
+=== rspg_gp_reset_s0: /private/tmp/claude-501/-Users-guillen-Desktop-thesis-code-mfax/ed8b2a9a-d50c-43ed-b348-3a4163bd27df/scratchpad/mfax-env/bin/python -m mfax.algos.hsm.algos.rspg_gp --seed 0 --run-name gp_reset_s0 --phase-counts 8
+    done in 261s
+=== rspg_critic: /private/tmp/claude-501/-Users-guillen-Desktop-thesis-code-mfax/ed8b2a9a-d50c-43ed-b348-3a4163bd27df/scratchpad/mfax-env/bin/python experiments/gp_critic/check_critic.py --run-dir runs/endogenous/hsm_rspg_gp/gp_s0
+    done in 230s
+=== rspg_gradient: /private/tmp/claude-501/-Users-guillen-Desktop-thesis-code-mfax/ed8b2a9a-d50c-43ed-b348-3a4163bd27df/scratchpad/mfax-env/bin/python experiments/gp_critic/check_gradient.py --run-dir runs/endogenous/hsm_rspg_gp/gp_s0
+    done in 252s
+=== rspg_compare: /private/tmp/claude-501/-Users-guillen-Desktop-thesis-code-mfax/ed8b2a9a-d50c-43ed-b348-3a4163bd27df/scratchpad/mfax-env/bin/python experiments/gp_critic/compare_runs.py --ref runs/endogenous/hsm_rspg_gp/base_s0 --runs runs/endogenous/hsm_rspg_gp/base_s1 runs/endogenous/hsm_rspg_gp/gp_s0 runs/endogenous/hsm_rspg_gp/gp_s1 runs/endogenous/hsm_rspg_gp/zero_tail_s0 runs/endogenous/hsm_rspg_gp/gp_reset_s0 --out compare_rspg.json
+    done in 55s
+all done

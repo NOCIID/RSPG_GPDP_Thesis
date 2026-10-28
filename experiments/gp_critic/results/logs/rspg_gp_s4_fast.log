@@ -1,0 +1,15 @@
+Using recurrent policy: True
+Iteration: 0, Train Time: 0.0, Exploitability: 90.8044, Policy return: -100.9286
+First GP fit: 12.6s, NLML 0.4457, length scales [0.44999998807907104, 0.1379999965429306]
+Iteration: 50, Train Time: 50.6, Exploitability: 10.0191, Policy return: -26.0057
+Iteration: 100, Train Time: 85.1, Exploitability: 10.0191, Policy return: -26.0057
+Iteration: 150, Train Time: 119.9, Exploitability: 10.0191, Policy return: -26.0057
+Iteration: 200, Train Time: 142.1, Exploitability: 10.0191, Policy return: -26.0057
+Iteration: 250, Train Time: 162.7, Exploitability: 10.0191, Policy return: -26.0057
+Iteration: 300, Train Time: 183.2, Exploitability: 10.0191, Policy return: -26.0057
+Iteration: 350, Train Time: 203.5, Exploitability: 10.0191, Policy return: -26.0057
+Iteration: 400, Train Time: 224.0, Exploitability: 10.0191, Policy return: -26.0057
+Iteration: 450, Train Time: 244.7, Exploitability: 10.0191, Policy return: -26.0057
+Iteration: 500, Train Time: 265.1, Exploitability: 10.0191, Policy return: -26.0057
+Train time 265.1s, steady step time 0.388s
+Saved to runs/endogenous/hsm_rspg_gp/gp_s4_fast

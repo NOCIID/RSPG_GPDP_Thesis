@@ -1,0 +1,36 @@
+{
+  "run_dir": "runs/endogenous/hsm_rspg_gp/gpfix_s0",
+  "run_phase_counts": [
+    4,
+    2,
+    1,
+    1
+  ],
+  "trained_policy": {
+    "critic": "the run's own critic",
+    "full": {
+      "n_batches": 16,
+      "rel_err_vs_full": 0.0,
+      "cos_with_full": 0.9999999999999999,
+      "norm_ratio_to_full": 1.0,
+      "split_half_rel_diff": 0.22386352223948874,
+      "noise_floor_rel_err": 0.15829541463584798
+    },
+    "layout_4211": {
+      "n_batches": 64,
+      "rel_err_vs_full": 0.02177709417740226,
+      "cos_with_full": 0.9998907119492013,
+      "norm_ratio_to_full": 1.0158806360606354,
+      "split_half_rel_diff": 0.015364478040913156,
+      "noise_floor_rel_err": 0.11219507985529019
+    },
+    "layout_62": {
+      "n_batches": 64,
+      "rel_err_vs_full": 0.03065979079553913,
+      "cos_with_full": 0.9995310445308855,
+      "norm_ratio_to_full": 1.001058052268184,
+      "split_half_rel_diff": 0.07031316538007101,
+      "noise_floor_rel_err": 0.11732307724317848
+    }
+  }
+}

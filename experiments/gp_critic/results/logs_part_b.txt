@@ -1,0 +1,7 @@
+=== orig_spg_timing: /private/tmp/claude-501/-Users-guillen-Desktop-thesis-code-mfax/ed8b2a9a-d50c-43ed-b348-3a4163bd27df/scratchpad/mfax-env/bin/python -m mfax.algos.hsm.algos.spg --task endogenous --state-type states --discount-factor 0.95 --num-envs 8 --lr 0.01 --num-iterations 60 --eval-frequency 20 --no-save
+    done in 171s
+=== spg_gp_s0: /private/tmp/claude-501/-Users-guillen-Desktop-thesis-code-mfax/ed8b2a9a-d50c-43ed-b348-3a4163bd27df/scratchpad/mfax-env/bin/python -m mfax.algos.hsm.algos.spg_gp --seed 0 --run-name gp_s0
+    done in 244s
+=== spg_base_s0: /private/tmp/claude-501/-Users-guillen-Desktop-thesis-code-mfax/ed8b2a9a-d50c-43ed-b348-3a4163bd27df/scratchpad/mfax-env/bin/python -m mfax.algos.hsm.algos.spg_gp --seed 0 --run-name base_s0 --no-use-gp --horizon 128 --phase-counts 8
+    done in 1429s
+=== spg_critic: /private/tmp/claude-501/-Users-guillen-Desktop-thesis-code-mfax/ed8b2a9a-d50c-43ed-b348-3a4163bd27df/scratchpad/mfax-env/bin/python experiments/gp_critic/check_critic.py --run-dir runs/endogenous/hsm_spg_gp/gp_s0

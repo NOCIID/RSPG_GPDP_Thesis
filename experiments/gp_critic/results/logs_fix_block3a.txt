@@ -1,0 +1,19 @@
+=== spg_critic: /private/tmp/claude-501/-Users-guillen-Desktop-thesis-code-mfax/ed8b2a9a-d50c-43ed-b348-3a4163bd27df/scratchpad/mfax-env/bin/python experiments/gp_critic/check_critic.py --run-dir runs/endogenous/hsm_spg_gp/gp_s0
+    done in 231s
+=== spg_base_s1: /private/tmp/claude-501/-Users-guillen-Desktop-thesis-code-mfax/ed8b2a9a-d50c-43ed-b348-3a4163bd27df/scratchpad/mfax-env/bin/python -m mfax.algos.hsm.algos.spg_gp --seed 1 --run-name base_s1 --no-use-gp --horizon 128 --phase-counts 8
+    done in 1430s
+=== spg_base_s2: /private/tmp/claude-501/-Users-guillen-Desktop-thesis-code-mfax/ed8b2a9a-d50c-43ed-b348-3a4163bd27df/scratchpad/mfax-env/bin/python -m mfax.algos.hsm.algos.spg_gp --seed 2 --run-name base_s2 --no-use-gp --horizon 128 --phase-counts 8
+    done in 1434s
+=== spg_gp_s1: /private/tmp/claude-501/-Users-guillen-Desktop-thesis-code-mfax/ed8b2a9a-d50c-43ed-b348-3a4163bd27df/scratchpad/mfax-env/bin/python -m mfax.algos.hsm.algos.spg_gp --seed 1 --run-name gp_s1 --use-gp --horizon 25 --phase-counts 4 2 1 1 --no-time-input
+    done in 245s
+=== spg_gp_s2: /private/tmp/claude-501/-Users-guillen-Desktop-thesis-code-mfax/ed8b2a9a-d50c-43ed-b348-3a4163bd27df/scratchpad/mfax-env/bin/python -m mfax.algos.hsm.algos.spg_gp --seed 2 --run-name gp_s2 --use-gp --horizon 25 --phase-counts 4 2 1 1 --no-time-input
+    done in 246s
+=== spg_gpfix_s0: /private/tmp/claude-501/-Users-guillen-Desktop-thesis-code-mfax/ed8b2a9a-d50c-43ed-b348-3a4163bd27df/scratchpad/mfax-env/bin/python -m mfax.algos.hsm.algos.spg_gp --seed 0 --run-name gpfix_s0 --use-gp --horizon 32 --phase-counts 4 2 1 1 --time-input
+    done in 320s
+=== spg_gpfix_s1: /private/tmp/claude-501/-Users-guillen-Desktop-thesis-code-mfax/ed8b2a9a-d50c-43ed-b348-3a4163bd27df/scratchpad/mfax-env/bin/python -m mfax.algos.hsm.algos.spg_gp --seed 1 --run-name gpfix_s1 --use-gp --horizon 32 --phase-counts 4 2 1 1 --time-input
+    done in 318s
+=== spg_gpfix_s2: /private/tmp/claude-501/-Users-guillen-Desktop-thesis-code-mfax/ed8b2a9a-d50c-43ed-b348-3a4163bd27df/scratchpad/mfax-env/bin/python -m mfax.algos.hsm.algos.spg_gp --seed 2 --run-name gpfix_s2 --use-gp --horizon 32 --phase-counts 4 2 1 1 --time-input
+    done in 324s
+=== spg_critic_gpfix: /private/tmp/claude-501/-Users-guillen-Desktop-thesis-code-mfax/ed8b2a9a-d50c-43ed-b348-3a4163bd27df/scratchpad/mfax-env/bin/python experiments/gp_critic/check_critic.py --run-dir runs/endogenous/hsm_spg_gp/gpfix_s0
+    done in 138s
+all done

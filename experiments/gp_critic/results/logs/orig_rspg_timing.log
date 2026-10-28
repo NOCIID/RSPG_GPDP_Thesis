@@ -1,0 +1,5 @@
+Using recurrent policy: True
+Iteration: 0, Train Time: 0.0, Exploitability: 88.16557312011719
+Iteration: 20, Train Time: 58.20330810546875, Exploitability: 5.213655471801758
+Iteration: 40, Train Time: 115.61418151855469, Exploitability: 5.504062652587891
+Iteration: 60, Train Time: 172.8567352294922, Exploitability: 5.226676940917969

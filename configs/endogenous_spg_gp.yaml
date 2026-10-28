@@ -1,0 +1,80 @@
+command:
+  - python3.10
+  - ${program}
+  - ${args_no_boolean_flags}
+
+entity:
+method: grid
+name: HSM_SPG_GP_endogenous
+program: mfax/algos/hsm/algos/spg_gp.py
+
+parameters:
+  # --- logging ---
+  debug:
+    value: false
+  log:
+    value: true
+  save:
+    value: false
+  wandb_project:
+    value: mfax
+  wandb_team:
+    value:
+  wandb_group:
+    value: mfax
+
+  # --- environment and offline dataset ---
+  task:
+    value: endogenous
+  state_type:
+    value: states
+  discount_factor:
+    value: 0.95
+  normalize_obs:
+    value: true
+  normalize_states:
+    value: true
+  common_noise:
+    value: true
+
+  # --- hyperparameters ---
+  algo:
+    value: hsm_spg_gp
+  seed:
+    value: 0
+  num_envs:
+    value: 8  # must equal sum(phase_counts); phase_counts keeps its default (4, 2, 1, 1)
+  num_iterations:
+    value: 200
+  lr:
+    values: [0.001, 0.01]
+  anneal_lr:
+    value: true
+  max_grad_norm:
+    value: 1.0
+  activation:
+    value: relu
+
+  # --- truncation and GP critic (time-aware critic, 32-period windows x 4 phases = the episode) ---
+  use_gp:
+    value: true
+  time_input:
+    value: true
+  horizon:
+    value: 32  # horizon * len(phase_counts) must be <= 128
+  n_lags:
+    value: 0  # lagged prices did not improve the critic (SUMMARY.md, checks 2b)
+  n_gp:
+    value: 1000
+  refit_every:
+    value: 10
+  gp_steps_first:
+    value: 400
+  gp_steps_refit:
+    value: 20
+
+  # --- logging frequencies (eval_frequency must be a multiple of refit_every) ---
+  eval_frequency:
+    value: 20
+  eval_envs:
+    value: 32

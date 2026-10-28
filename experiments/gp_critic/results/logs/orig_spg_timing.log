@@ -1,0 +1,6 @@
+action_grid shape: (20, 1)
+Using recurrent policy: False
+Iteration: 0, Train Time: 0.0, Exploitability: 91.05831146240234
+Iteration: 20, Train Time: 54.04453659057617, Exploitability: 2.087778091430664
+Iteration: 40, Train Time: 108.18572998046875, Exploitability: 1.1868553161621094
+Iteration: 60, Train Time: 162.7660369873047, Exploitability: 0.6860542297363281

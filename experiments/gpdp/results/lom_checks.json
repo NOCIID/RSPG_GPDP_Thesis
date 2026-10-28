@@ -1,0 +1,48 @@
+{
+  "run": "runs/endogenous/gpdp/report_singlevgp_a1_s0",
+  "average_income_max_abs_change": 2.0265579223632812e-06,
+  "law_of_motion": {
+    "fit_time_s": 4.632345459016506,
+    "nll": -5.782187587919452,
+    "n_train": 1016,
+    "length_scales_std_units_z_K_logtau": [
+      25.30284408698696,
+      5.3605778996061035,
+      0.2969911767562391
+    ],
+    "noise_std_units": 0.0009510149666701683,
+    "gp": {
+      "rmse": 0.0010484309775880675,
+      "max_rel_err_pct": 0.08232484750144885,
+      "r2_of_delta_K": 0.999996168826352
+    },
+    "krusell_smith_loglinear": {
+      "rmse": 0.6149907707292188,
+      "max_rel_err_pct": 36.37683227211037,
+      "r2_of_delta_K": -0.31822439566510363
+    },
+    "no_change_K_next_eq_K": {
+      "rmse": 0.5461186766624451,
+      "max_rel_err_pct": 84.04073715209961,
+      "r2_of_delta_K": -0.039504289627075195
+    },
+    "mean_K": 25.550161361694336,
+    "mean_std_K_next": 0.0007076173332442592,
+    "zscore_std": 1.2589472648273854,
+    "coverage_95_pct": 89.0378937007874
+  },
+  "closed_form_vs_gauss_hermite40_K_exact_max_rel_pct": 0.015312433242797852,
+  "gauss_hermite5_vs_gauss_hermite40_K_exact_max_rel_pct": 0.016450881958007812,
+  "closed_form_without_lognormal_correction_vs_gauss_hermite40_max_rel_pct": 0.04941225051879883,
+  "lognormal_correction_max_rel_pct": 0.04957914352416992,
+  "closed_form_vs_monte_carlo_K_uncertain_max_rel_pct": 0.025796890258789062,
+  "monte_carlo_draws": 20000,
+  "backward_pass": {
+    "share_abs_diff_pop_weighted": 9.131170372711495e-05,
+    "share_abs_diff_max": 0.01648998260498047,
+    "value_ce_diff_pop_weighted_pct": 0.0018319654360721138,
+    "value_ce_diff_max_pct": 0.14377397274460968,
+    "time_exact_s": 1.729065166960936,
+    "time_law_of_motion_s": 1.770828208012972
+  }
+}

@@ -1,0 +1,11 @@
+gpdp/lom_s0                        value rel. err (honest cont / grid, t=0 mu0): 0.076% / 1.215%   policy rel. err: 0.50% / 10.22%   check None
+gpdp/lom_s1                        value rel. err (honest cont / grid, t=0 mu0): 0.025% / 1.266%   policy rel. err: 0.38% / 10.20%   check None
+gpdp/lom_s2                        value rel. err (honest cont / grid, t=0 mu0): 0.005% / 1.287%   policy rel. err: 0.39% / 10.21%   check None
+gpdp/lom_s3                        value rel. err (honest cont / grid, t=0 mu0): 0.008% / 1.283%   policy rel. err: 0.33% / 10.20%   check None
+gpdp/lom_s4                        value rel. err (honest cont / grid, t=0 mu0): 0.023% / 1.267%   policy rel. err: 0.36% / 10.20%   check None
+gpdp/lom_paths8_s0                 value rel. err (honest cont / grid, t=0 mu0): 0.012% / 1.279%   policy rel. err: 0.41% / 10.21%   check None
+gpdp/lom_paths8_s1                 value rel. err (honest cont / grid, t=0 mu0): 0.051% / 1.239%   policy rel. err: 0.44% / 10.22%   check None
+gpdp/lom_paths8_s2                 value rel. err (honest cont / grid, t=0 mu0): 0.023% / 1.268%   policy rel. err: 0.38% / 10.20%   check None
+gpdp/lom_paths8_s3                 value rel. err (honest cont / grid, t=0 mu0): 0.032% / 1.259%   policy rel. err: 0.39% / 10.20%   check None
+gpdp/lom_paths8_s4                 value rel. err (honest cont / grid, t=0 mu0): 0.020% / 1.270%   policy rel. err: 0.42% / 10.20%   check None
+Saved /Users/guillen/Desktop/thesis/code/mfax/experiments/gpdp/results/relative_errors_lom.json

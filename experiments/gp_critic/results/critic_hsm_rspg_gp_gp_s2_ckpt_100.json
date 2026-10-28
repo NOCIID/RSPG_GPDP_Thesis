@@ -1,0 +1,56 @@
+{
+  "run_dir": "runs/endogenous/hsm_rspg_gp/gp_s2/ckpt_100",
+  "times": [
+    25,
+    50,
+    75
+  ],
+  "mc": 32,
+  "reference": "infinite",
+  "time_input": false,
+  "mc_length": 170,
+  "mc_time_s": 95.51786695799092,
+  "training_critic": {
+    "ce_err_pop_weighted_mean": 0.15356354415416718,
+    "ce_err_signed_pop_weighted_mean": -0.15356354415416718,
+    "ce_err_unweighted_mean": 0.15047144889831543,
+    "ce_err_visited_max": 0.40241312980651855,
+    "ce_err_all_states_max": 0.4529706835746765,
+    "rel_value_err_pop_weighted_mean": 0.18938881158828735,
+    "mc_noise_ce_pop_weighted_mean": 0.005203270819038153,
+    "r2": -8.6312255859375,
+    "r2_ceiling_given_mc_noise": 0.9801304452121258,
+    "n_inputs": 2,
+    "by_test_period": {
+      "25": -0.14998987317085266,
+      "50": -0.14590081572532654,
+      "75": -0.16479995846748352
+    }
+  },
+  "test_K_range": [
+    18.125267028808594,
+    25.602386474609375
+  ],
+  "test_z_range": [
+    -0.15512332320213318,
+    0.11003171652555466
+  ],
+  "value_range": [
+    -79.4036636352539,
+    -2.9010138511657715
+  ],
+  "memory": {
+    "zero_memory": {
+      "pop_weighted_mean_rel": 0.35580435395240784,
+      "visited_max_rel": 0.6737643480300903
+    },
+    "other_economy_memory": {
+      "pop_weighted_mean_rel": 0.0037706189323216677,
+      "visited_max_rel": 0.09229135513305664
+    },
+    "variation_across_test_states": {
+      "pop_weighted_mean_rel": 0.012001619674265385
+    },
+    "mean_consumption_share": 0.12914815545082092
+  }
+}

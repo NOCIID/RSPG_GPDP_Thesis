@@ -1,0 +1,32 @@
+training critic: {
+  "ce_err_pop_weighted_mean": 0.00879750121384859,
+  "ce_err_signed_pop_weighted_mean": -0.003960840869694948,
+  "ce_err_unweighted_mean": 0.009994303807616234,
+  "ce_err_visited_max": 0.039981842041015625,
+  "ce_err_all_states_max": 0.04373729228973389,
+  "rel_value_err_pop_weighted_mean": 0.008849124424159527,
+  "mc_noise_ce_pop_weighted_mean": 0.005084232892841101,
+  "r2": 0.8303589969873428,
+  "r2_ceiling_given_mc_noise": 0.9737174063920975,
+  "n_inputs": 2,
+  "by_test_period": {
+    "25": -0.0073748319409787655,
+    "50": -0.0006782201817259192,
+    "75": -0.003829470369964838
+  }
+}
+memory: {
+  "zero_memory": {
+    "pop_weighted_mean_rel": 0.01748284511268139,
+    "visited_max_rel": 0.5656280517578125
+  },
+  "other_economy_memory": {
+    "pop_weighted_mean_rel": 0.0003922943433281034,
+    "visited_max_rel": 0.03783613443374634
+  },
+  "variation_across_test_states": {
+    "pop_weighted_mean_rel": 0.01056343037635088
+  },
+  "mean_consumption_share": 0.14019687473773956
+}
+Saved /Users/guillen/Desktop/thesis/code/mfax/experiments/gp_critic/results/critic_hsm_rspg_gp_gp_s2_ckpt_250.json

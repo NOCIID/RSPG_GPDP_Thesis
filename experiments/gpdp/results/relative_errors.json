@@ -1,0 +1,820 @@
+{
+  "eval_envs": 64,
+  "eval_seed": 777,
+  "runs": {
+    "gpdp/grid_const15_a05_s0": {
+      "mixed_policy_vs_mfax_evaluate_max_rel_diff": 2.384185791015625e-07,
+      "by_best_response": {
+        "clairvoyant_continuous": {
+          "gain_from_deviating_pct": 1.1013133962366695,
+          "value_relerr_t0_mu0_weighted_pct": 1.5970204025506973,
+          "value_relerr_all_periods_pop_weighted_pct": 2.2494833916425705,
+          "value_relerr_visited_max_pct": 81.30515813827515,
+          "policy_relerr_pop_weighted_pct": 9.108169376850128,
+          "policy_relerr_visited_max_pct": 357.5864791870117
+        },
+        "clairvoyant_grid": {
+          "gain_from_deviating_pct": 0.2784293935561122,
+          "value_relerr_t0_mu0_weighted_pct": 0.3116114065051079,
+          "value_relerr_all_periods_pop_weighted_pct": 1.0123726911842823,
+          "value_relerr_visited_max_pct": 81.29754662513733,
+          "policy_relerr_pop_weighted_pct": 3.024104982614517,
+          "policy_relerr_visited_max_pct": 278.800368309021
+        },
+        "honest_continuous": {
+          "gain_from_deviating_pct": 1.0239494791616233,
+          "value_relerr_t0_mu0_weighted_pct": 1.5312282368540764,
+          "value_relerr_all_periods_pop_weighted_pct": 2.2007057443261147,
+          "value_relerr_visited_max_pct": 81.30515813827515,
+          "policy_relerr_pop_weighted_pct": 8.84866937994957,
+          "policy_relerr_visited_max_pct": 357.5864791870117
+        },
+        "honest_grid": {
+          "gain_from_deviating_pct": 0.20017081051380003,
+          "value_relerr_t0_mu0_weighted_pct": 0.2448000479489565,
+          "value_relerr_all_periods_pop_weighted_pct": 0.9609729051589966,
+          "value_relerr_visited_max_pct": 81.29754662513733,
+          "policy_relerr_pop_weighted_pct": 2.0617788657546043,
+          "policy_relerr_visited_max_pct": 243.24593544006348
+        }
+      }
+    },
+    "gpdp/grid_const15_a05_s1": {
+      "mixed_policy_vs_mfax_evaluate_max_rel_diff": 3.5762786865234375e-07,
+      "by_best_response": {
+        "clairvoyant_continuous": {
+          "gain_from_deviating_pct": 1.050004261307591,
+          "value_relerr_t0_mu0_weighted_pct": 1.5329313464462757,
+          "value_relerr_all_periods_pop_weighted_pct": 1.9969627261161804,
+          "value_relerr_visited_max_pct": 20.370423793792725,
+          "policy_relerr_pop_weighted_pct": 8.846770972013474,
+          "policy_relerr_visited_max_pct": 314.2495632171631
+        },
+        "clairvoyant_grid": {
+          "gain_from_deviating_pct": 0.22870034615107837,
+          "value_relerr_t0_mu0_weighted_pct": 0.24749580770730972,
+          "value_relerr_all_periods_pop_weighted_pct": 0.7568645291030407,
+          "value_relerr_visited_max_pct": 19.85999345779419,
+          "policy_relerr_pop_weighted_pct": 2.6421276852488518,
+          "policy_relerr_visited_max_pct": 383.3437442779541
+        },
+        "honest_continuous": {
+          "gain_from_deviating_pct": 0.9748032680820362,
+          "value_relerr_t0_mu0_weighted_pct": 1.468898355960846,
+          "value_relerr_all_periods_pop_weighted_pct": 1.9528824836015701,
+          "value_relerr_visited_max_pct": 20.33446431159973,
+          "policy_relerr_pop_weighted_pct": 8.636157214641571,
+          "policy_relerr_visited_max_pct": 319.3134307861328
+        },
+        "honest_grid": {
+          "gain_from_deviating_pct": 0.15291673631174785,
+          "value_relerr_t0_mu0_weighted_pct": 0.18292053136974573,
+          "value_relerr_all_periods_pop_weighted_pct": 0.7115434389561415,
+          "value_relerr_visited_max_pct": 19.838738441467285,
+          "policy_relerr_pop_weighted_pct": 1.7475102096796036,
+          "policy_relerr_visited_max_pct": 221.2078094482422
+        }
+      }
+    },
+    "gpdp/grid_const15_a05_s2": {
+      "mixed_policy_vs_mfax_evaluate_max_rel_diff": 2.384185791015625e-07,
+      "by_best_response": {
+        "clairvoyant_continuous": {
+          "gain_from_deviating_pct": 1.144801898124137,
+          "value_relerr_t0_mu0_weighted_pct": 1.652774028480053,
+          "value_relerr_all_periods_pop_weighted_pct": 2.6855818927288055,
+          "value_relerr_visited_max_pct": 84.40731167793274,
+          "policy_relerr_pop_weighted_pct": 9.530448913574219,
+          "policy_relerr_visited_max_pct": 379.2418956756592
+        },
+        "clairvoyant_grid": {
+          "gain_from_deviating_pct": 0.3203728758060853,
+          "value_relerr_t0_mu0_weighted_pct": 0.3674162086099386,
+          "value_relerr_all_periods_pop_weighted_pct": 1.4559073373675346,
+          "value_relerr_visited_max_pct": 84.40715074539185,
+          "policy_relerr_pop_weighted_pct": 3.993659093976021,
+          "policy_relerr_visited_max_pct": 281.8809747695923
+        },
+        "honest_continuous": {
+          "gain_from_deviating_pct": 1.065137048814302,
+          "value_relerr_t0_mu0_weighted_pct": 1.5851747244596481,
+          "value_relerr_all_periods_pop_weighted_pct": 2.6368577033281326,
+          "value_relerr_visited_max_pct": 84.40714478492737,
+          "policy_relerr_pop_weighted_pct": 9.239665418863297,
+          "policy_relerr_visited_max_pct": 379.2428493499756
+        },
+        "honest_grid": {
+          "gain_from_deviating_pct": 0.239437547906185,
+          "value_relerr_t0_mu0_weighted_pct": 0.298253633081913,
+          "value_relerr_all_periods_pop_weighted_pct": 1.4030056074261665,
+          "value_relerr_visited_max_pct": 84.40715074539185,
+          "policy_relerr_pop_weighted_pct": 3.0151527374982834,
+          "policy_relerr_visited_max_pct": 281.8809747695923
+        }
+      }
+    },
+    "gpdp/grid_const15_a05_s3": {
+      "mixed_policy_vs_mfax_evaluate_max_rel_diff": 3.5762786865234375e-07,
+      "by_best_response": {
+        "clairvoyant_continuous": {
+          "gain_from_deviating_pct": 1.1880531963541552,
+          "value_relerr_t0_mu0_weighted_pct": 1.6982238739728928,
+          "value_relerr_all_periods_pop_weighted_pct": 2.680150605738163,
+          "value_relerr_visited_max_pct": 85.93284487724304,
+          "policy_relerr_pop_weighted_pct": 9.478525817394257,
+          "policy_relerr_visited_max_pct": 356.0664176940918
+        },
+        "clairvoyant_grid": {
+          "gain_from_deviating_pct": 0.36330606364352036,
+          "value_relerr_t0_mu0_weighted_pct": 0.41369060054421425,
+          "value_relerr_all_periods_pop_weighted_pct": 1.4515357092022896,
+          "value_relerr_visited_max_pct": 85.92725396156311,
+          "policy_relerr_pop_weighted_pct": 3.615095466375351,
+          "policy_relerr_visited_max_pct": 367.22426414489746
+        },
+        "honest_continuous": {
+          "gain_from_deviating_pct": 1.1074549832943203,
+          "value_relerr_t0_mu0_weighted_pct": 1.6302406787872314,
+          "value_relerr_all_periods_pop_weighted_pct": 2.631843462586403,
+          "value_relerr_visited_max_pct": 85.93268394470215,
+          "policy_relerr_pop_weighted_pct": 9.217976033687592,
+          "policy_relerr_visited_max_pct": 365.61102867126465
+        },
+        "honest_grid": {
+          "gain_from_deviating_pct": 0.28144431633227995,
+          "value_relerr_t0_mu0_weighted_pct": 0.34417842980474234,
+          "value_relerr_all_periods_pop_weighted_pct": 1.4004291966557503,
+          "value_relerr_visited_max_pct": 85.92725396156311,
+          "policy_relerr_pop_weighted_pct": 2.666943334043026,
+          "policy_relerr_visited_max_pct": 346.0480213165283
+        }
+      }
+    },
+    "gpdp/grid_const15_a05_s4": {
+      "mixed_policy_vs_mfax_evaluate_max_rel_diff": 3.5762786865234375e-07,
+      "by_best_response": {
+        "clairvoyant_continuous": {
+          "gain_from_deviating_pct": 1.0880518196579203,
+          "value_relerr_t0_mu0_weighted_pct": 1.5832014381885529,
+          "value_relerr_all_periods_pop_weighted_pct": 2.5767233222723007,
+          "value_relerr_visited_max_pct": 84.3534767627716,
+          "policy_relerr_pop_weighted_pct": 9.36947613954544,
+          "policy_relerr_visited_max_pct": 326.02319717407227
+        },
+        "clairvoyant_grid": {
+          "gain_from_deviating_pct": 0.26523299847276416,
+          "value_relerr_t0_mu0_weighted_pct": 0.2976830583065748,
+          "value_relerr_all_periods_pop_weighted_pct": 1.344086043536663,
+          "value_relerr_visited_max_pct": 84.35336351394653,
+          "policy_relerr_pop_weighted_pct": 3.2812200486660004,
+          "policy_relerr_visited_max_pct": 443.408727645874
+        },
+        "honest_continuous": {
+          "gain_from_deviating_pct": 1.01028248197077,
+          "value_relerr_t0_mu0_weighted_pct": 1.5172731131315231,
+          "value_relerr_all_periods_pop_weighted_pct": 2.5265516713261604,
+          "value_relerr_visited_max_pct": 84.35347080230713,
+          "policy_relerr_pop_weighted_pct": 9.126120060682297,
+          "policy_relerr_visited_max_pct": 323.6450672149658
+        },
+        "honest_grid": {
+          "gain_from_deviating_pct": 0.18658817614027878,
+          "value_relerr_t0_mu0_weighted_pct": 0.23075472563505173,
+          "value_relerr_all_periods_pop_weighted_pct": 1.2912875041365623,
+          "value_relerr_visited_max_pct": 84.35336351394653,
+          "policy_relerr_pop_weighted_pct": 2.33764685690403,
+          "policy_relerr_visited_max_pct": 248.94163608551025
+        }
+      }
+    },
+    "gpdp/grid_const15_a1_s0": {
+      "mixed_policy_vs_mfax_evaluate_max_rel_diff": 3.5762786865234375e-07,
+      "by_best_response": {
+        "clairvoyant_continuous": {
+          "gain_from_deviating_pct": 1.1305047737842244,
+          "value_relerr_t0_mu0_weighted_pct": 1.625053957104683,
+          "value_relerr_all_periods_pop_weighted_pct": 1.926952786743641,
+          "value_relerr_visited_max_pct": 23.1350839138031,
+          "policy_relerr_pop_weighted_pct": 8.93116295337677,
+          "policy_relerr_visited_max_pct": 478.92327308654785
+        },
+        "clairvoyant_grid": {
+          "gain_from_deviating_pct": 0.3081909608518396,
+          "value_relerr_t0_mu0_weighted_pct": 0.3406801261007786,
+          "value_relerr_all_periods_pop_weighted_pct": 0.6859160959720612,
+          "value_relerr_visited_max_pct": 21.293455362319946,
+          "policy_relerr_pop_weighted_pct": 2.5756506249308586,
+          "policy_relerr_visited_max_pct": 354.38060760498047
+        },
+        "honest_continuous": {
+          "gain_from_deviating_pct": 1.0544596233994508,
+          "value_relerr_t0_mu0_weighted_pct": 1.560382079333067,
+          "value_relerr_all_periods_pop_weighted_pct": 1.8824249505996704,
+          "value_relerr_visited_max_pct": 23.121321201324463,
+          "policy_relerr_pop_weighted_pct": 8.714569360017776,
+          "policy_relerr_visited_max_pct": 473.0308532714844
+        },
+        "honest_grid": {
+          "gain_from_deviating_pct": 0.23141886240567455,
+          "value_relerr_t0_mu0_weighted_pct": 0.2752295695245266,
+          "value_relerr_all_periods_pop_weighted_pct": 0.6399994716048241,
+          "value_relerr_visited_max_pct": 21.275609731674194,
+          "policy_relerr_pop_weighted_pct": 1.7011621966958046,
+          "policy_relerr_visited_max_pct": 354.38060760498047
+        }
+      }
+    },
+    "gpdp/const15_a05_s0": {
+      "mixed_policy_vs_mfax_evaluate_max_rel_diff": null,
+      "by_best_response": {
+        "clairvoyant_continuous": {
+          "gain_from_deviating_pct": 0.06187808424973351,
+          "value_relerr_t0_mu0_weighted_pct": 0.05327250109985471,
+          "value_relerr_all_periods_pop_weighted_pct": 0.04120267985854298,
+          "value_relerr_visited_max_pct": 1.397240161895752,
+          "policy_relerr_pop_weighted_pct": 1.5820721164345741,
+          "policy_relerr_visited_max_pct": 14.764869213104248
+        },
+        "clairvoyant_grid": {
+          "gain_from_deviating_pct": -0.7327587737100516,
+          "value_relerr_t0_mu0_weighted_pct": 1.2361884117126465,
+          "value_relerr_all_periods_pop_weighted_pct": 1.2867925688624382,
+          "value_relerr_visited_max_pct": 8.719193935394287,
+          "policy_relerr_pop_weighted_pct": 10.309292376041412,
+          "policy_relerr_visited_max_pct": 46.305203437805176
+        },
+        "honest_continuous": {
+          "gain_from_deviating_pct": 0.001955070570902606,
+          "value_relerr_t0_mu0_weighted_pct": 0.003531779657350853,
+          "value_relerr_all_periods_pop_weighted_pct": 0.005042183329351246,
+          "value_relerr_visited_max_pct": 1.3838887214660645,
+          "policy_relerr_pop_weighted_pct": 0.2783896401524544,
+          "policy_relerr_visited_max_pct": 7.329690456390381
+        },
+        "honest_grid": {
+          "gain_from_deviating_pct": -0.7932534840769168,
+          "value_relerr_t0_mu0_weighted_pct": 1.2879063375294209,
+          "value_relerr_all_periods_pop_weighted_pct": 1.325609628111124,
+          "value_relerr_visited_max_pct": 8.723676204681396,
+          "policy_relerr_pop_weighted_pct": 10.178706794977188,
+          "policy_relerr_visited_max_pct": 37.99630403518677
+        }
+      }
+    },
+    "gpdp/const15_a05_s1": {
+      "mixed_policy_vs_mfax_evaluate_max_rel_diff": null,
+      "by_best_response": {
+        "clairvoyant_continuous": {
+          "gain_from_deviating_pct": 0.06107839965170392,
+          "value_relerr_t0_mu0_weighted_pct": 0.052490748930722475,
+          "value_relerr_all_periods_pop_weighted_pct": 0.03996114828623831,
+          "value_relerr_visited_max_pct": 1.0785281658172607,
+          "policy_relerr_pop_weighted_pct": 1.5673566609621048,
+          "policy_relerr_visited_max_pct": 14.499562978744507
+        },
+        "clairvoyant_grid": {
+          "gain_from_deviating_pct": -0.733780740506873,
+          "value_relerr_t0_mu0_weighted_pct": 1.2372728437185287,
+          "value_relerr_all_periods_pop_weighted_pct": 1.287907361984253,
+          "value_relerr_visited_max_pct": 8.727037906646729,
+          "policy_relerr_pop_weighted_pct": 10.307206958532333,
+          "policy_relerr_visited_max_pct": 46.40742540359497
+        },
+        "honest_continuous": {
+          "gain_from_deviating_pct": 0.0012695950522223498,
+          "value_relerr_t0_mu0_weighted_pct": 0.002280804983456619,
+          "value_relerr_all_periods_pop_weighted_pct": 0.0033087970223277807,
+          "value_relerr_visited_max_pct": 1.0645031929016113,
+          "policy_relerr_pop_weighted_pct": 0.23997642565518618,
+          "policy_relerr_visited_max_pct": 8.017420768737793
+        },
+        "honest_grid": {
+          "gain_from_deviating_pct": -0.7941568824091472,
+          "value_relerr_t0_mu0_weighted_pct": 1.2888358905911446,
+          "value_relerr_all_periods_pop_weighted_pct": 1.3266855850815773,
+          "value_relerr_visited_max_pct": 8.731460571289062,
+          "policy_relerr_pop_weighted_pct": 10.177157074213028,
+          "policy_relerr_visited_max_pct": 37.669920921325684
+        }
+      }
+    },
+    "gpdp/const15_a05_s2": {
+      "mixed_policy_vs_mfax_evaluate_max_rel_diff": null,
+      "by_best_response": {
+        "clairvoyant_continuous": {
+          "gain_from_deviating_pct": 0.06112614165698638,
+          "value_relerr_t0_mu0_weighted_pct": 0.05244223866611719,
+          "value_relerr_all_periods_pop_weighted_pct": 0.03974960127379745,
+          "value_relerr_visited_max_pct": 0.8395850658416748,
+          "policy_relerr_pop_weighted_pct": 1.5649836510419846,
+          "policy_relerr_visited_max_pct": 14.440447092056274
+        },
+        "clairvoyant_grid": {
+          "gain_from_deviating_pct": -0.7336632741293037,
+          "value_relerr_t0_mu0_weighted_pct": 1.2372259981930256,
+          "value_relerr_all_periods_pop_weighted_pct": 1.2881017290055752,
+          "value_relerr_visited_max_pct": 8.725714683532715,
+          "policy_relerr_pop_weighted_pct": 10.305526107549667,
+          "policy_relerr_visited_max_pct": 46.25115394592285
+        },
+        "honest_continuous": {
+          "gain_from_deviating_pct": 0.001388807510860346,
+          "value_relerr_t0_mu0_weighted_pct": 0.0017931188267539255,
+          "value_relerr_all_periods_pop_weighted_pct": 0.003137034218525514,
+          "value_relerr_visited_max_pct": 0.8239269256591797,
+          "policy_relerr_pop_weighted_pct": 0.23185855243355036,
+          "policy_relerr_visited_max_pct": 14.298814535140991
+        },
+        "honest_grid": {
+          "gain_from_deviating_pct": -0.7939456998569683,
+          "value_relerr_t0_mu0_weighted_pct": 1.2887096032500267,
+          "value_relerr_all_periods_pop_weighted_pct": 1.3268963433802128,
+          "value_relerr_visited_max_pct": 8.7302565574646,
+          "policy_relerr_pop_weighted_pct": 10.175172984600067,
+          "policy_relerr_visited_max_pct": 37.533700466156006
+        }
+      }
+    },
+    "gpdp/const15_a05_s3": {
+      "mixed_policy_vs_mfax_evaluate_max_rel_diff": null,
+      "by_best_response": {
+        "clairvoyant_continuous": {
+          "gain_from_deviating_pct": 0.06131114235778945,
+          "value_relerr_t0_mu0_weighted_pct": 0.05281533231027424,
+          "value_relerr_all_periods_pop_weighted_pct": 0.03922551404684782,
+          "value_relerr_visited_max_pct": 1.157158613204956,
+          "policy_relerr_pop_weighted_pct": 1.5583934262394905,
+          "policy_relerr_visited_max_pct": 14.597797393798828
+        },
+        "clairvoyant_grid": {
+          "gain_from_deviating_pct": -0.7334635806493961,
+          "value_relerr_t0_mu0_weighted_pct": 1.236831210553646,
+          "value_relerr_all_periods_pop_weighted_pct": 1.288644876331091,
+          "value_relerr_visited_max_pct": 8.724641799926758,
+          "policy_relerr_pop_weighted_pct": 10.306091606616974,
+          "policy_relerr_visited_max_pct": 46.341562271118164
+        },
+        "honest_continuous": {
+          "gain_from_deviating_pct": 0.0015735873834632486,
+          "value_relerr_t0_mu0_weighted_pct": 0.0021521005692193285,
+          "value_relerr_all_periods_pop_weighted_pct": 0.0026596000680001453,
+          "value_relerr_visited_max_pct": 1.1436223983764648,
+          "policy_relerr_pop_weighted_pct": 0.22143360693007708,
+          "policy_relerr_visited_max_pct": 10.060209035873413
+        },
+        "honest_grid": {
+          "gain_from_deviating_pct": -0.7937462488432412,
+          "value_relerr_t0_mu0_weighted_pct": 1.2883272022008896,
+          "value_relerr_all_periods_pop_weighted_pct": 1.3274261727929115,
+          "value_relerr_visited_max_pct": 8.729135990142822,
+          "policy_relerr_pop_weighted_pct": 10.175751149654388,
+          "policy_relerr_visited_max_pct": 37.77741193771362
+        }
+      }
+    },
+    "gpdp/const15_a05_s4": {
+      "mixed_policy_vs_mfax_evaluate_max_rel_diff": null,
+      "by_best_response": {
+        "clairvoyant_continuous": {
+          "gain_from_deviating_pct": 0.06166324235574727,
+          "value_relerr_t0_mu0_weighted_pct": 0.05276851588860154,
+          "value_relerr_all_periods_pop_weighted_pct": 0.04113330505788326,
+          "value_relerr_visited_max_pct": 0.551152229309082,
+          "policy_relerr_pop_weighted_pct": 1.579240895807743,
+          "policy_relerr_visited_max_pct": 14.580309391021729
+        },
+        "clairvoyant_grid": {
+          "gain_from_deviating_pct": -0.7332051526003913,
+          "value_relerr_t0_mu0_weighted_pct": 1.2370361015200615,
+          "value_relerr_all_periods_pop_weighted_pct": 1.2868719175457954,
+          "value_relerr_visited_max_pct": 8.710074424743652,
+          "policy_relerr_pop_weighted_pct": 10.313059389591217,
+          "policy_relerr_visited_max_pct": 46.370601654052734
+        },
+        "honest_continuous": {
+          "gain_from_deviating_pct": 0.001788171318262144,
+          "value_relerr_t0_mu0_weighted_pct": 0.003147441748296842,
+          "value_relerr_all_periods_pop_weighted_pct": 0.004633376011042856,
+          "value_relerr_visited_max_pct": 0.4659414291381836,
+          "policy_relerr_pop_weighted_pct": 0.25407662615180016,
+          "policy_relerr_visited_max_pct": 5.67173957824707
+        },
+        "honest_grid": {
+          "gain_from_deviating_pct": -0.7936758541763234,
+          "value_relerr_t0_mu0_weighted_pct": 1.2886663898825645,
+          "value_relerr_all_periods_pop_weighted_pct": 1.3256756588816643,
+          "value_relerr_visited_max_pct": 8.714461326599121,
+          "policy_relerr_pop_weighted_pct": 10.182210057973862,
+          "policy_relerr_visited_max_pct": 38.447701930999756
+        }
+      }
+    },
+    "gpdp/const15_a1_s0": {
+      "mixed_policy_vs_mfax_evaluate_max_rel_diff": null,
+      "by_best_response": {
+        "clairvoyant_continuous": {
+          "gain_from_deviating_pct": 0.06151404713881092,
+          "value_relerr_t0_mu0_weighted_pct": 0.05386700504459441,
+          "value_relerr_all_periods_pop_weighted_pct": 0.040027330396696925,
+          "value_relerr_visited_max_pct": 2.0879030227661133,
+          "policy_relerr_pop_weighted_pct": 1.567777805030346,
+          "policy_relerr_visited_max_pct": 14.292407035827637
+        },
+        "clairvoyant_grid": {
+          "gain_from_deviating_pct": -0.7332756331108414,
+          "value_relerr_t0_mu0_weighted_pct": 1.2357396073639393,
+          "value_relerr_all_periods_pop_weighted_pct": 1.2877985835075378,
+          "value_relerr_visited_max_pct": 8.724749088287354,
+          "policy_relerr_pop_weighted_pct": 10.301592946052551,
+          "policy_relerr_visited_max_pct": 46.35300636291504
+        },
+        "honest_continuous": {
+          "gain_from_deviating_pct": 0.0017047219008414771,
+          "value_relerr_t0_mu0_weighted_pct": 0.0031212908652378246,
+          "value_relerr_all_periods_pop_weighted_pct": 0.0034440981835359707,
+          "value_relerr_visited_max_pct": 2.0649492740631104,
+          "policy_relerr_pop_weighted_pct": 0.2530249301344156,
+          "policy_relerr_visited_max_pct": 10.716837644577026
+        },
+        "honest_grid": {
+          "gain_from_deviating_pct": -0.7936054594095188,
+          "value_relerr_t0_mu0_weighted_pct": 1.2872835621237755,
+          "value_relerr_all_periods_pop_weighted_pct": 1.326583605259657,
+          "value_relerr_visited_max_pct": 8.729255199432373,
+          "policy_relerr_pop_weighted_pct": 10.171671211719513,
+          "policy_relerr_visited_max_pct": 37.80045509338379
+        }
+      }
+    },
+    "hsm_rspg_gp/base_s0": {
+      "mixed_policy_vs_mfax_evaluate_max_rel_diff": 3.5762786865234375e-07,
+      "by_best_response": {
+        "clairvoyant_continuous": {
+          "gain_from_deviating_pct": 1.0296740511661184,
+          "value_relerr_t0_mu0_weighted_pct": 1.5055906027555466,
+          "value_relerr_all_periods_pop_weighted_pct": 7.4391208589077,
+          "value_relerr_visited_max_pct": 74.47981238365173,
+          "policy_relerr_pop_weighted_pct": 13.091383874416351,
+          "policy_relerr_visited_max_pct": 85.94997525215149
+        },
+        "clairvoyant_grid": {
+          "gain_from_deviating_pct": 0.19995537435610888,
+          "value_relerr_t0_mu0_weighted_pct": 0.21048602648079395,
+          "value_relerr_all_periods_pop_weighted_pct": 6.241241097450256,
+          "value_relerr_visited_max_pct": 74.46614503860474,
+          "policy_relerr_pop_weighted_pct": 8.441896736621857,
+          "policy_relerr_visited_max_pct": 85.71428656578064
+        },
+        "honest_continuous": {
+          "gain_from_deviating_pct": 0.9589745487609491,
+          "value_relerr_t0_mu0_weighted_pct": 1.4456870034337044,
+          "value_relerr_all_periods_pop_weighted_pct": 7.397171854972839,
+          "value_relerr_visited_max_pct": 74.47980642318726,
+          "policy_relerr_pop_weighted_pct": 12.91048526763916,
+          "policy_relerr_visited_max_pct": 85.94275116920471
+        },
+        "honest_grid": {
+          "gain_from_deviating_pct": 0.12914506017907001,
+          "value_relerr_t0_mu0_weighted_pct": 0.15218716580420732,
+          "value_relerr_all_periods_pop_weighted_pct": 6.197061389684677,
+          "value_relerr_visited_max_pct": 74.46614503860474,
+          "policy_relerr_pop_weighted_pct": 8.13940241932869,
+          "policy_relerr_visited_max_pct": 85.71428656578064
+        }
+      }
+    },
+    "hsm_rspg_gp/base_s1": {
+      "mixed_policy_vs_mfax_evaluate_max_rel_diff": 2.384185791015625e-07,
+      "by_best_response": {
+        "clairvoyant_continuous": {
+          "gain_from_deviating_pct": 1.0646682661388684,
+          "value_relerr_t0_mu0_weighted_pct": 1.52862798422575,
+          "value_relerr_all_periods_pop_weighted_pct": 9.361159801483154,
+          "value_relerr_visited_max_pct": 75.04980564117432,
+          "policy_relerr_pop_weighted_pct": 14.749683439731598,
+          "policy_relerr_visited_max_pct": 86.39642000198364
+        },
+        "clairvoyant_grid": {
+          "gain_from_deviating_pct": 0.23928183306052286,
+          "value_relerr_t0_mu0_weighted_pct": 0.24024001322686672,
+          "value_relerr_all_periods_pop_weighted_pct": 8.169195055961609,
+          "value_relerr_visited_max_pct": 75.00275373458862,
+          "policy_relerr_pop_weighted_pct": 10.181104391813278,
+          "policy_relerr_visited_max_pct": 86.9480848312378
+        },
+        "honest_continuous": {
+          "gain_from_deviating_pct": 0.9869166533690521,
+          "value_relerr_t0_mu0_weighted_pct": 1.4625390991568565,
+          "value_relerr_all_periods_pop_weighted_pct": 9.316016733646393,
+          "value_relerr_visited_max_pct": 75.04863739013672,
+          "policy_relerr_pop_weighted_pct": 14.527946710586548,
+          "policy_relerr_visited_max_pct": 86.26953959465027
+        },
+        "honest_grid": {
+          "gain_from_deviating_pct": 0.1608511097102694,
+          "value_relerr_t0_mu0_weighted_pct": 0.17415519105270505,
+          "value_relerr_all_periods_pop_weighted_pct": 8.120442926883698,
+          "value_relerr_visited_max_pct": 74.98941421508789,
+          "policy_relerr_pop_weighted_pct": 9.76075753569603,
+          "policy_relerr_visited_max_pct": 86.83861494064331
+        }
+      }
+    },
+    "hsm_rspg_gp/base_s2": {
+      "mixed_policy_vs_mfax_evaluate_max_rel_diff": 3.5762786865234375e-07,
+      "by_best_response": {
+        "clairvoyant_continuous": {
+          "gain_from_deviating_pct": 1.0267478073768599,
+          "value_relerr_t0_mu0_weighted_pct": 1.502420473843813,
+          "value_relerr_all_periods_pop_weighted_pct": 9.112168103456497,
+          "value_relerr_visited_max_pct": 74.82694387435913,
+          "policy_relerr_pop_weighted_pct": 14.45765495300293,
+          "policy_relerr_visited_max_pct": 86.24423146247864
+        },
+        "clairvoyant_grid": {
+          "gain_from_deviating_pct": 0.20596998183868287,
+          "value_relerr_t0_mu0_weighted_pct": 0.2177800051867962,
+          "value_relerr_all_periods_pop_weighted_pct": 7.91572704911232,
+          "value_relerr_visited_max_pct": 74.78994131088257,
+          "policy_relerr_pop_weighted_pct": 9.74627137184143,
+          "policy_relerr_visited_max_pct": 85.71428656578064
+        },
+        "honest_continuous": {
+          "gain_from_deviating_pct": 0.9545215273403462,
+          "value_relerr_t0_mu0_weighted_pct": 1.4409616589546204,
+          "value_relerr_all_periods_pop_weighted_pct": 9.069890528917313,
+          "value_relerr_visited_max_pct": 74.82597827911377,
+          "policy_relerr_pop_weighted_pct": 14.266006648540497,
+          "policy_relerr_visited_max_pct": 86.13332509994507
+        },
+        "honest_grid": {
+          "gain_from_deviating_pct": 0.13350165874379538,
+          "value_relerr_t0_mu0_weighted_pct": 0.15815581427887082,
+          "value_relerr_all_periods_pop_weighted_pct": 7.870715111494064,
+          "value_relerr_visited_max_pct": 74.78994131088257,
+          "policy_relerr_pop_weighted_pct": 9.39353033900261,
+          "policy_relerr_visited_max_pct": 85.71428656578064
+        }
+      }
+    },
+    "hsm_rspg_gp/base_s3": {
+      "mixed_policy_vs_mfax_evaluate_max_rel_diff": 3.5762786865234375e-07,
+      "by_best_response": {
+        "clairvoyant_continuous": {
+          "gain_from_deviating_pct": 1.1416860608994384,
+          "value_relerr_t0_mu0_weighted_pct": 1.6188787296414375,
+          "value_relerr_all_periods_pop_weighted_pct": 8.843322843313217,
+          "value_relerr_visited_max_pct": 74.68024492263794,
+          "policy_relerr_pop_weighted_pct": 14.3800750374794,
+          "policy_relerr_visited_max_pct": 86.14650964736938
+        },
+        "clairvoyant_grid": {
+          "gain_from_deviating_pct": 0.30795107101289076,
+          "value_relerr_t0_mu0_weighted_pct": 0.3228584537282586,
+          "value_relerr_all_periods_pop_weighted_pct": 7.643607258796692,
+          "value_relerr_visited_max_pct": 74.65629577636719,
+          "policy_relerr_pop_weighted_pct": 10.184697061777115,
+          "policy_relerr_visited_max_pct": 85.71428656578064
+        },
+        "honest_continuous": {
+          "gain_from_deviating_pct": 1.0687778726985897,
+          "value_relerr_t0_mu0_weighted_pct": 1.5574305318295956,
+          "value_relerr_all_periods_pop_weighted_pct": 8.800669759511948,
+          "value_relerr_visited_max_pct": 74.67989325523376,
+          "policy_relerr_pop_weighted_pct": 14.201636612415314,
+          "policy_relerr_visited_max_pct": 86.05344891548157
+        },
+        "honest_grid": {
+          "gain_from_deviating_pct": 0.23481422086493176,
+          "value_relerr_t0_mu0_weighted_pct": 0.262185325846076,
+          "value_relerr_all_periods_pop_weighted_pct": 7.598347216844559,
+          "value_relerr_visited_max_pct": 74.65629577636719,
+          "policy_relerr_pop_weighted_pct": 9.906347095966339,
+          "policy_relerr_visited_max_pct": 85.71428656578064
+        }
+      }
+    },
+    "hsm_rspg_gp/base_s4": {
+      "mixed_policy_vs_mfax_evaluate_max_rel_diff": 3.5762786865234375e-07,
+      "by_best_response": {
+        "clairvoyant_continuous": {
+          "gain_from_deviating_pct": 1.0441435021568468,
+          "value_relerr_t0_mu0_weighted_pct": 1.5187319368124008,
+          "value_relerr_all_periods_pop_weighted_pct": 8.895594626665115,
+          "value_relerr_visited_max_pct": 74.7950553894043,
+          "policy_relerr_pop_weighted_pct": 14.245882630348206,
+          "policy_relerr_visited_max_pct": 86.2328827381134
+        },
+        "clairvoyant_grid": {
+          "gain_from_deviating_pct": 0.2255029849216328,
+          "value_relerr_t0_mu0_weighted_pct": 0.2370540052652359,
+          "value_relerr_all_periods_pop_weighted_pct": 7.70123228430748,
+          "value_relerr_visited_max_pct": 74.76109266281128,
+          "policy_relerr_pop_weighted_pct": 9.491275995969772,
+          "policy_relerr_visited_max_pct": 85.71428656578064
+        },
+        "honest_continuous": {
+          "gain_from_deviating_pct": 0.9707742210735004,
+          "value_relerr_t0_mu0_weighted_pct": 1.456202194094658,
+          "value_relerr_all_periods_pop_weighted_pct": 8.852815628051758,
+          "value_relerr_visited_max_pct": 74.79414939880371,
+          "policy_relerr_pop_weighted_pct": 14.050287008285522,
+          "policy_relerr_visited_max_pct": 86.12649440765381
+        },
+        "honest_grid": {
+          "gain_from_deviating_pct": 0.15173894478306416,
+          "value_relerr_t0_mu0_weighted_pct": 0.17632140079513192,
+          "value_relerr_all_periods_pop_weighted_pct": 7.655685395002365,
+          "value_relerr_visited_max_pct": 74.76109266281128,
+          "policy_relerr_pop_weighted_pct": 9.136535227298737,
+          "policy_relerr_visited_max_pct": 85.71428656578064
+        }
+      }
+    },
+    "hsm_rspg_gp/gpfix_s0": {
+      "mixed_policy_vs_mfax_evaluate_max_rel_diff": 3.5762786865234375e-07,
+      "by_best_response": {
+        "clairvoyant_continuous": {
+          "gain_from_deviating_pct": 1.0993151041950755,
+          "value_relerr_t0_mu0_weighted_pct": 1.5683026984333992,
+          "value_relerr_all_periods_pop_weighted_pct": 9.267372637987137,
+          "value_relerr_visited_max_pct": 74.79772567749023,
+          "policy_relerr_pop_weighted_pct": 14.646661281585693,
+          "policy_relerr_visited_max_pct": 86.23981475830078
+        },
+        "clairvoyant_grid": {
+          "gain_from_deviating_pct": 0.2799937741970071,
+          "value_relerr_t0_mu0_weighted_pct": 0.2870377618819475,
+          "value_relerr_all_periods_pop_weighted_pct": 8.061878383159637,
+          "value_relerr_visited_max_pct": 74.76372122764587,
+          "policy_relerr_pop_weighted_pct": 10.16736850142479,
+          "policy_relerr_visited_max_pct": 85.71428656578064
+        },
+        "honest_continuous": {
+          "gain_from_deviating_pct": 1.027489998696307,
+          "value_relerr_t0_mu0_weighted_pct": 1.507181953638792,
+          "value_relerr_all_periods_pop_weighted_pct": 9.225556254386902,
+          "value_relerr_visited_max_pct": 74.79686737060547,
+          "policy_relerr_pop_weighted_pct": 14.469616115093231,
+          "policy_relerr_visited_max_pct": 86.13677024841309
+        },
+        "honest_grid": {
+          "gain_from_deviating_pct": 0.20792712922230727,
+          "value_relerr_t0_mu0_weighted_pct": 0.2276815939694643,
+          "value_relerr_all_periods_pop_weighted_pct": 8.01696628332138,
+          "value_relerr_visited_max_pct": 74.76372122764587,
+          "policy_relerr_pop_weighted_pct": 9.868884086608887,
+          "policy_relerr_visited_max_pct": 85.71428656578064
+        }
+      }
+    },
+    "hsm_rspg_gp/gpfix_s1": {
+      "mixed_policy_vs_mfax_evaluate_max_rel_diff": 2.384185791015625e-07,
+      "by_best_response": {
+        "clairvoyant_continuous": {
+          "gain_from_deviating_pct": 1.0742944033322654,
+          "value_relerr_t0_mu0_weighted_pct": 1.546844094991684,
+          "value_relerr_all_periods_pop_weighted_pct": 9.37330648303032,
+          "value_relerr_visited_max_pct": 74.88466501235962,
+          "policy_relerr_pop_weighted_pct": 14.777545630931854,
+          "policy_relerr_visited_max_pct": 86.27992868423462
+        },
+        "clairvoyant_grid": {
+          "gain_from_deviating_pct": 0.24794270889194614,
+          "value_relerr_t0_mu0_weighted_pct": 0.2574026817455888,
+          "value_relerr_all_periods_pop_weighted_pct": 8.173500746488571,
+          "value_relerr_visited_max_pct": 74.84315633773804,
+          "policy_relerr_pop_weighted_pct": 10.309026390314102,
+          "policy_relerr_visited_max_pct": 86.14035248756409
+        },
+        "honest_continuous": {
+          "gain_from_deviating_pct": 1.0019819058455948,
+          "value_relerr_t0_mu0_weighted_pct": 1.485506258904934,
+          "value_relerr_all_periods_pop_weighted_pct": 9.331075847148895,
+          "value_relerr_visited_max_pct": 74.88367557525635,
+          "policy_relerr_pop_weighted_pct": 14.592544734477997,
+          "policy_relerr_visited_max_pct": 86.16288304328918
+        },
+        "honest_grid": {
+          "gain_from_deviating_pct": 0.17526415161146502,
+          "value_relerr_t0_mu0_weighted_pct": 0.19677430391311646,
+          "value_relerr_all_periods_pop_weighted_pct": 8.12821090221405,
+          "value_relerr_visited_max_pct": 74.84315633773804,
+          "policy_relerr_pop_weighted_pct": 9.986050426959991,
+          "policy_relerr_visited_max_pct": 85.71428656578064
+        }
+      }
+    },
+    "hsm_rspg_gp/gpfix_s2": {
+      "mixed_policy_vs_mfax_evaluate_max_rel_diff": 2.980232238769531e-07,
+      "by_best_response": {
+        "clairvoyant_continuous": {
+          "gain_from_deviating_pct": 1.0651979300003056,
+          "value_relerr_t0_mu0_weighted_pct": 1.5467569231987,
+          "value_relerr_all_periods_pop_weighted_pct": 9.09568965435028,
+          "value_relerr_visited_max_pct": 74.86908435821533,
+          "policy_relerr_pop_weighted_pct": 14.566974341869354,
+          "policy_relerr_visited_max_pct": 86.2597107887268
+        },
+        "clairvoyant_grid": {
+          "gain_from_deviating_pct": 0.23377822291030803,
+          "value_relerr_t0_mu0_weighted_pct": 0.25160463992506266,
+          "value_relerr_all_periods_pop_weighted_pct": 7.907836139202118,
+          "value_relerr_visited_max_pct": 74.82898235321045,
+          "policy_relerr_pop_weighted_pct": 10.137864202260971,
+          "policy_relerr_visited_max_pct": 85.71428656578064
+        },
+        "honest_continuous": {
+          "gain_from_deviating_pct": 0.9934820704113667,
+          "value_relerr_t0_mu0_weighted_pct": 1.4860786497592926,
+          "value_relerr_all_periods_pop_weighted_pct": 9.053335338830948,
+          "value_relerr_visited_max_pct": 74.8680830001831,
+          "policy_relerr_pop_weighted_pct": 14.382670819759369,
+          "policy_relerr_visited_max_pct": 86.14920973777771
+        },
+        "honest_grid": {
+          "gain_from_deviating_pct": 0.1618317827066118,
+          "value_relerr_t0_mu0_weighted_pct": 0.19213261548429728,
+          "value_relerr_all_periods_pop_weighted_pct": 7.862972468137741,
+          "value_relerr_visited_max_pct": 74.82898235321045,
+          "policy_relerr_pop_weighted_pct": 9.822399914264679,
+          "policy_relerr_visited_max_pct": 85.71428656578064
+        }
+      }
+    },
+    "hsm_rspg_gp/gpfix_s3": {
+      "mixed_policy_vs_mfax_evaluate_max_rel_diff": 3.5762786865234375e-07,
+      "by_best_response": {
+        "clairvoyant_continuous": {
+          "gain_from_deviating_pct": 1.0093276942553242,
+          "value_relerr_t0_mu0_weighted_pct": 1.4830436557531357,
+          "value_relerr_all_periods_pop_weighted_pct": 9.21434536576271,
+          "value_relerr_visited_max_pct": 74.8900294303894,
+          "policy_relerr_pop_weighted_pct": 14.509135484695435,
+          "policy_relerr_visited_max_pct": 86.29054427146912
+        },
+        "clairvoyant_grid": {
+          "gain_from_deviating_pct": 0.18991468350677554,
+          "value_relerr_t0_mu0_weighted_pct": 0.1996643142774701,
+          "value_relerr_all_periods_pop_weighted_pct": 8.027225732803345,
+          "value_relerr_visited_max_pct": 74.84790086746216,
+          "policy_relerr_pop_weighted_pct": 9.731416404247284,
+          "policy_relerr_visited_max_pct": 85.89810132980347
+        },
+        "honest_continuous": {
+          "gain_from_deviating_pct": 0.9360635995501632,
+          "value_relerr_t0_mu0_weighted_pct": 1.4206798747181892,
+          "value_relerr_all_periods_pop_weighted_pct": 9.171570837497711,
+          "value_relerr_visited_max_pct": 74.88901615142822,
+          "policy_relerr_pop_weighted_pct": 14.304722845554352,
+          "policy_relerr_visited_max_pct": 86.17676496505737
+        },
+        "honest_grid": {
+          "gain_from_deviating_pct": 0.11634638341888603,
+          "value_relerr_t0_mu0_weighted_pct": 0.13867467641830444,
+          "value_relerr_all_periods_pop_weighted_pct": 7.981754094362259,
+          "value_relerr_visited_max_pct": 74.84790086746216,
+          "policy_relerr_pop_weighted_pct": 9.329258650541306,
+          "policy_relerr_visited_max_pct": 85.71428656578064
+        }
+      }
+    },
+    "hsm_rspg_gp/gpfix_s4": {
+      "mixed_policy_vs_mfax_evaluate_max_rel_diff": 2.980232238769531e-07,
+      "by_best_response": {
+        "clairvoyant_continuous": {
+          "gain_from_deviating_pct": 1.0660746272118216,
+          "value_relerr_t0_mu0_weighted_pct": 1.5395669266581535,
+          "value_relerr_all_periods_pop_weighted_pct": 8.759424090385437,
+          "value_relerr_visited_max_pct": 74.7323989868164,
+          "policy_relerr_pop_weighted_pct": 14.220750331878662,
+          "policy_relerr_visited_max_pct": 86.18924617767334
+        },
+        "clairvoyant_grid": {
+          "gain_from_deviating_pct": 0.23932375624060587,
+          "value_relerr_t0_mu0_weighted_pct": 0.24929430801421404,
+          "value_relerr_all_periods_pop_weighted_pct": 7.561598718166351,
+          "value_relerr_visited_max_pct": 74.70237016677856,
+          "policy_relerr_pop_weighted_pct": 9.66719388961792,
+          "policy_relerr_visited_max_pct": 85.71428656578064
+        },
+        "honest_continuous": {
+          "gain_from_deviating_pct": 0.9918284775471742,
+          "value_relerr_t0_mu0_weighted_pct": 1.4766279608011246,
+          "value_relerr_all_periods_pop_weighted_pct": 8.71618464589119,
+          "value_relerr_visited_max_pct": 74.7315526008606,
+          "policy_relerr_pop_weighted_pct": 14.025737345218658,
+          "policy_relerr_visited_max_pct": 86.08331084251404
+        },
+        "honest_grid": {
+          "gain_from_deviating_pct": 0.1646722549280888,
+          "value_relerr_t0_mu0_weighted_pct": 0.18720082007348537,
+          "value_relerr_all_periods_pop_weighted_pct": 7.515472918748856,
+          "value_relerr_visited_max_pct": 74.70237016677856,
+          "policy_relerr_pop_weighted_pct": 9.342564642429352,
+          "policy_relerr_visited_max_pct": 85.71428656578064
+        }
+      }
+    }
+  }
+}

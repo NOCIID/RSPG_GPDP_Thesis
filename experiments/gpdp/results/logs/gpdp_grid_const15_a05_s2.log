@@ -1,0 +1,9 @@
+it   0  train    7.0s  gain honest 24.064%  clairvoyant 25.294%  clairvoyant grid 24.150%  MFAX expl nan  K100 12.77  change 0.0216
+Using recurrent policy: True
+it   5  train   19.6s  gain honest 0.578%  clairvoyant 1.464%  clairvoyant grid 0.650%  MFAX expl 0.1013  K100 26.52  change 0.0025
+it  10  train   31.6s  gain honest 0.182%  clairvoyant 1.060%  clairvoyant grid 0.253%  MFAX expl 0.0450  K100 27.50  change 0.0018
+it  15  train   43.6s  gain honest 0.176%  clairvoyant 1.056%  clairvoyant grid 0.248%  MFAX expl 0.0488  K100 27.47  change 0.0020
+it  20  train   55.6s  gain honest 0.151%  clairvoyant 1.029%  clairvoyant grid 0.222%  MFAX expl 0.0400  K100 27.37  change 0.0021
+it  25  train   67.6s  gain honest 0.141%  clairvoyant 1.018%  clairvoyant grid 0.212%  MFAX expl 0.0476  K100 27.40  change 0.0021
+it  29  train   77.5s  gain honest 0.160%  clairvoyant 1.037%  clairvoyant grid 0.231%  MFAX expl 0.0457  K100 27.51  change 0.0016
+Saved to runs/endogenous/gpdp/grid_const15_a05_s2

@@ -1,0 +1,31 @@
+Using recurrent policy: True
+Using recurrent policy: True
+gpdp         gpdp/lom_s0                      MFAX expl 0.3194 (1.938%)  nearest-grid 0.0404 (0.244%)  continuous clairvoyant 0.138%  honest 0.078%  grid honest -0.718%  K100 27.8
+Using recurrent policy: True
+Using recurrent policy: True
+gpdp         gpdp/lom_s1                      MFAX expl 0.3071 (1.864%)  nearest-grid 0.0264 (0.160%)  continuous clairvoyant 0.084%  honest 0.024%  grid honest -0.772%  K100 27.8
+Using recurrent policy: True
+Using recurrent policy: True
+gpdp         gpdp/lom_s2                      MFAX expl 0.3041 (1.846%)  nearest-grid 0.0226 (0.136%)  continuous clairvoyant 0.065%  honest 0.004%  grid honest -0.792%  K100 27.8
+Using recurrent policy: True
+Using recurrent policy: True
+gpdp         gpdp/lom_s3                      MFAX expl 0.3045 (1.848%)  nearest-grid 0.0203 (0.122%)  continuous clairvoyant 0.067%  honest 0.007%  grid honest -0.788%  K100 27.7
+Using recurrent policy: True
+Using recurrent policy: True
+gpdp         gpdp/lom_s4                      MFAX expl 0.3044 (1.847%)  nearest-grid 0.0235 (0.142%)  continuous clairvoyant 0.084%  honest 0.024%  grid honest -0.772%  K100 27.8
+Using recurrent policy: True
+Using recurrent policy: True
+gpdp         gpdp/lom_paths8_s0               MFAX expl 0.3041 (1.846%)  nearest-grid 0.0241 (0.145%)  continuous clairvoyant 0.072%  honest 0.012%  grid honest -0.784%  K100 27.7
+Using recurrent policy: True
+Using recurrent policy: True
+gpdp         gpdp/lom_paths8_s1               MFAX expl 0.3134 (1.902%)  nearest-grid 0.0300 (0.181%)  continuous clairvoyant 0.110%  honest 0.050%  grid honest -0.746%  K100 27.7
+Using recurrent policy: True
+Using recurrent policy: True
+gpdp         gpdp/lom_paths8_s2               MFAX expl 0.3065 (1.860%)  nearest-grid 0.0251 (0.152%)  continuous clairvoyant 0.083%  honest 0.023%  grid honest -0.773%  K100 27.8
+Using recurrent policy: True
+Using recurrent policy: True
+gpdp         gpdp/lom_paths8_s3               MFAX expl 0.3069 (1.863%)  nearest-grid 0.0298 (0.180%)  continuous clairvoyant 0.092%  honest 0.031%  grid honest -0.765%  K100 27.8
+Using recurrent policy: True
+Using recurrent policy: True
+gpdp         gpdp/lom_paths8_s4               MFAX expl 0.3069 (1.863%)  nearest-grid 0.0270 (0.163%)  continuous clairvoyant 0.081%  honest 0.021%  grid honest -0.774%  K100 27.7
+Saved /Users/guillen/Desktop/thesis/code/mfax/experiments/gpdp/results/lom_evaluate.json

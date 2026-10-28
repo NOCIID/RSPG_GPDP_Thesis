@@ -1,0 +1,9 @@
+it   0  train   19.0s  gain honest 21.500%  clairvoyant 21.566%  MFAX expl nan  K100 12.77  change 0.0204
+Using recurrent policy: True
+it   5  train   35.4s  gain honest 0.138%  clairvoyant 0.195%  MFAX expl 0.2930  K100 26.20  change 0.0015
+it  10  train   51.6s  gain honest -0.013%  clairvoyant 0.060%  MFAX expl 0.3013  K100 27.45  change 0.0003
+it  15  train   67.9s  gain honest 0.039%  clairvoyant 0.099%  MFAX expl 0.3087  K100 27.42  change 0.0003
+it  20  train   84.5s  gain honest 0.001%  clairvoyant 0.061%  MFAX expl 0.3029  K100 27.48  change 0.0003
+it  25  train  101.0s  gain honest -0.018%  clairvoyant 0.064%  MFAX expl 0.3030  K100 27.53  change 0.0004
+it  29  train  114.2s  gain honest 0.014%  clairvoyant 0.072%  MFAX expl 0.3042  K100 27.45  change 0.0003
+Saved to runs/endogenous/gpdp/singlevgp_const15_a05_s1

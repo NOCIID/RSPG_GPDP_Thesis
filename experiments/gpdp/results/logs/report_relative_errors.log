@@ -1,0 +1,6 @@
+gpdp/report_singlevgp_a1_s0        value rel. err (honest cont / grid, t=0 mu0): 0.076% / 1.215%   policy rel. err: 0.50% / 10.22%   check None
+gpdp/report_singlevgp_a1_s1        value rel. err (honest cont / grid, t=0 mu0): 0.026% / 1.265%   policy rel. err: 0.39% / 10.20%   check None
+gpdp/report_singlevgp_a1_s2        value rel. err (honest cont / grid, t=0 mu0): 0.005% / 1.286%   policy rel. err: 0.35% / 10.20%   check None
+gpdp/report_singlevgp_a1_s3        value rel. err (honest cont / grid, t=0 mu0): 0.027% / 1.264%   policy rel. err: 0.38% / 10.21%   check None
+gpdp/report_singlevgp_a1_s4        value rel. err (honest cont / grid, t=0 mu0): 0.025% / 1.266%   policy rel. err: 0.36% / 10.20%   check None
+Saved /Users/guillen/Desktop/thesis/code/mfax/experiments/gpdp/results/relative_errors_report.json

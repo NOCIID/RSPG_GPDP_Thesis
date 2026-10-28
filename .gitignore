@@ -2,3 +2,6 @@ wandb
 runs
 *.pyc
 __pycache__
+summary.md
+/runs
+*.pdf

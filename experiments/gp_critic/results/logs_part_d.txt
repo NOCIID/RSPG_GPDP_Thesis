@@ -1,0 +1,3 @@
+=== horizon: /private/tmp/claude-501/-Users-guillen-Desktop-thesis-code-mfax/ed8b2a9a-d50c-43ed-b348-3a4163bd27df/scratchpad/mfax-env/bin/python experiments/gp_critic/check_horizon.py --runs runs/endogenous/hsm_rspg_gp/base_s0 runs/endogenous/hsm_rspg_gp/base_s1 runs/endogenous/hsm_rspg_gp/gp_s0 runs/endogenous/hsm_rspg_gp/gp_s1 runs/endogenous/hsm_rspg_gp/gp_reset_s0 runs/endogenous/hsm_spg_gp/base_s0 runs/endogenous/hsm_spg_gp/gp_s0
+    done in 12s
+all done

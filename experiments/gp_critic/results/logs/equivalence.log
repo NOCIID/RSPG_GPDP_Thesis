@@ -1,0 +1,10 @@
+action_grid shape: (20, 1)
+SPG {'step': 1, 'max_abs_param_diff': 1.9371509552001953e-07, 'max_abs_param': 1.5906084775924683, 'max_abs_param_change_from_init': 0.009999934583902359, 'loss': 101.49790954589844, 'rng_equal': True}
+SPG {'step': 2, 'max_abs_param_diff': 1.9371509552001953e-07, 'max_abs_param': 1.587419867515564, 'max_abs_param_change_from_init': 0.019995369017124176, 'loss': 57.93256759643555, 'rng_equal': True}
+SPG {'step': 3, 'max_abs_param_diff': 3.0174851417541504e-07, 'max_abs_param': 1.5873501300811768, 'max_abs_param_change_from_init': 0.029993608593940735, 'loss': 32.367610931396484, 'rng_equal': True}
+SPG {'grad_norm': 81.1705628650756, 'rel_grad_diff': 6.519198839115683e-08, 'cosine': 0.9999999999999956}
+RSPG {'step': 1, 'max_abs_param_diff': 5.841255187988281e-06, 'max_abs_param': 1.595430612564087, 'max_abs_param_change_from_init': 0.009999934583902359, 'loss': 99.17198944091797, 'rng_equal': True}
+RSPG {'step': 2, 'max_abs_param_diff': 5.8710575103759766e-06, 'max_abs_param': 1.6025195121765137, 'max_abs_param_change_from_init': 0.019995365291833878, 'loss': 57.759220123291016, 'rng_equal': True}
+RSPG {'step': 3, 'max_abs_param_diff': 5.8710575103759766e-06, 'max_abs_param': 1.6080846786499023, 'max_abs_param_change_from_init': 0.029994994401931763, 'loss': 26.7767276763916, 'rng_equal': True}
+RSPG {'grad_norm': 60.281721373237644, 'rel_grad_diff': 1.3710975825077933e-07, 'cosine': 0.9999999999999832}
+Saved /Users/guillen/Desktop/thesis/code/mfax/experiments/gp_critic/results/equivalence.json

@@ -1,0 +1,11 @@
+=== equivalence: /private/tmp/claude-501/-Users-guillen-Desktop-thesis-code-mfax/ed8b2a9a-d50c-43ed-b348-3a4163bd27df/scratchpad/mfax-env/bin/python experiments/gp_critic/check_equivalence.py
+    done in 51s
+=== orig_rspg_timing: /private/tmp/claude-501/-Users-guillen-Desktop-thesis-code-mfax/ed8b2a9a-d50c-43ed-b348-3a4163bd27df/scratchpad/mfax-env/bin/python -m mfax.algos.hsm.algos.rspg --num-iterations 60 --eval-frequency 20 --no-save
+    done in 182s
+=== rspg_gp_s0: /private/tmp/claude-501/-Users-guillen-Desktop-thesis-code-mfax/ed8b2a9a-d50c-43ed-b348-3a4163bd27df/scratchpad/mfax-env/bin/python -m mfax.algos.hsm.algos.rspg_gp --seed 0 --run-name gp_s0
+    done in 3848s
+=== rspg_base_s0: /private/tmp/claude-501/-Users-guillen-Desktop-thesis-code-mfax/ed8b2a9a-d50c-43ed-b348-3a4163bd27df/scratchpad/mfax-env/bin/python -m mfax.algos.hsm.algos.rspg_gp --seed 0 --run-name base_s0 --no-use-gp --horizon 128 --phase-counts 8
+    done in 1486s
+=== rspg_gp_s1: /private/tmp/claude-501/-Users-guillen-Desktop-thesis-code-mfax/ed8b2a9a-d50c-43ed-b348-3a4163bd27df/scratchpad/mfax-env/bin/python -m mfax.algos.hsm.algos.rspg_gp --seed 1 --run-name gp_s1
+    done in 261s
+=== rspg_base_s1: /private/tmp/claude-501/-Users-guillen-Desktop-thesis-code-mfax/ed8b2a9a-d50c-43ed-b348-3a4163bd27df/scratchpad/mfax-env/bin/python -m mfax.algos.hsm.algos.rspg_gp --seed 1 --run-name base_s1 --no-use-gp --horizon 128 --phase-counts 8

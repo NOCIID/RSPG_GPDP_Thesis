@@ -1,0 +1,21 @@
+gpdp/memory_h8_s0                  value rel. err (honest cont / grid, t=0 mu0): 0.916% / 0.602%   policy rel. err: 12.49% / 17.00%   check None
+gpdp/memory_h8_s1                  value rel. err (honest cont / grid, t=0 mu0): 0.432% / 0.891%   policy rel. err: 10.97% / 16.72%   check None
+gpdp/memory_h8_s2                  value rel. err (honest cont / grid, t=0 mu0): 0.167% / 1.133%   policy rel. err: 9.01% / 15.62%   check None
+gpdp/memory_h8_s3                  value rel. err (honest cont / grid, t=0 mu0): nan% / nan%   policy rel. err: 6.67% / 14.43%   check None
+gpdp/memory_h8_s4                  value rel. err (honest cont / grid, t=0 mu0): 0.262% / 1.316%   policy rel. err: 6.32% / 13.91%   check None
+Using recurrent policy: True
+Using recurrent policy: True
+hsm_rspg_gp/gpfix_h8_s0            value rel. err (honest cont / grid, t=0 mu0): 1.487% / 0.197%   policy rel. err: 14.34% / 9.94%   check 2.384185791015625e-07
+Using recurrent policy: True
+Using recurrent policy: True
+hsm_rspg_gp/gpfix_h8_s1            value rel. err (honest cont / grid, t=0 mu0): 1.534% / 0.246%   policy rel. err: 14.76% / 10.51%   check 2.980232238769531e-07
+Using recurrent policy: True
+Using recurrent policy: True
+hsm_rspg_gp/gpfix_h8_s2            value rel. err (honest cont / grid, t=0 mu0): 1.445% / 0.157%   policy rel. err: 14.16% / 9.47%   check 3.5762786865234375e-07
+Using recurrent policy: True
+Using recurrent policy: True
+hsm_rspg_gp/gpfix_h8_s3            value rel. err (honest cont / grid, t=0 mu0): 1.574% / 0.283%   policy rel. err: 14.49% / 9.94%   check 3.5762786865234375e-07
+Using recurrent policy: True
+Using recurrent policy: True
+hsm_rspg_gp/gpfix_h8_s4            value rel. err (honest cont / grid, t=0 mu0): 1.491% / 0.214%   policy rel. err: 14.86% / 10.23%   check 4.172325134277344e-07
+Saved /Users/guillen/Desktop/thesis/code/mfax/experiments/gpdp/results/relative_errors_memory.json

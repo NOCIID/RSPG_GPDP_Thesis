@@ -1,0 +1,92 @@
+{
+  "report (K' exact, 5-point quadrature)": {
+    "n_runs": 5,
+    "mfax_exploitability_nearest": "0.027 \u00b1 0.008",
+    "gain_from_deviating_pct": "0.09 \u00b1 0.03",
+    "ce_relerr_t0_pct": "0.08 \u00b1 0.03",
+    "ce_relerr_all_periods_pct": "0.044 \u00b1 0.003",
+    "ce_relerr_by_block_pct": "0.059 \u00b7 0.052 \u00b7 0.043 \u00b7 0.026 \u00b7 0.020 \u00b7 0.011",
+    "policy_relerr_pct": "1.64 \u00b1 0.04",
+    "time_to_converge_s_median": 22.084192791953683,
+    "time_to_converge_s_each": [
+      22.1,
+      21.9,
+      22.1,
+      22.5,
+      23.2
+    ],
+    "iterations_to_converge_each": [
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "time_per_iteration_s": "3.31 \u00b1 0.01",
+    "capital_t100": "27.80 \u00b1 0.02",
+    "capital_t127": "2.95 \u00b1 0.01",
+    "non_finite_runs": 0
+  },
+  "law of motion, stations": {
+    "n_runs": 5,
+    "mfax_exploitability_nearest": "0.027 \u00b1 0.008",
+    "gain_from_deviating_pct": "0.09 \u00b1 0.03",
+    "ce_relerr_t0_pct": "0.08 \u00b1 0.03",
+    "ce_relerr_all_periods_pct": "0.044 \u00b1 0.004",
+    "ce_relerr_by_block_pct": "0.057 \u00b7 0.054 \u00b7 0.045 \u00b7 0.026 \u00b7 0.021 \u00b7 0.011",
+    "policy_relerr_pct": "1.63 \u00b1 0.04",
+    "time_to_converge_s_median": 31.8183132080012,
+    "time_to_converge_s_each": [
+      32.7,
+      32.1,
+      31.5,
+      31.8,
+      31.4
+    ],
+    "iterations_to_converge_each": [
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "time_per_iteration_s": "7.84 \u00b1 0.05",
+    "capital_t100": "27.79 \u00b1 0.03",
+    "capital_t127": "2.95 \u00b1 0.00",
+    "non_finite_runs": 0,
+    "law_of_motion_fresh_r2_min_from_it2": 0.9748448913844606,
+    "law_of_motion_fresh_max_err_pct_median_from_it2": 0.10956953093548602,
+    "law_of_motion_fresh_max_err_pct_worst_from_it2": 7.435030824017821
+  },
+  "law of motion, dreamt support paths": {
+    "n_runs": 5,
+    "mfax_exploitability_nearest": "0.027 \u00b1 0.003",
+    "gain_from_deviating_pct": "0.09 \u00b1 0.01",
+    "ce_relerr_t0_pct": "0.08 \u00b1 0.01",
+    "ce_relerr_all_periods_pct": "0.044 \u00b1 0.002",
+    "ce_relerr_by_block_pct": "0.057 \u00b7 0.052 \u00b7 0.044 \u00b7 0.027 \u00b7 0.021 \u00b7 0.012",
+    "policy_relerr_pct": "1.64 \u00b1 0.02",
+    "time_to_converge_s_median": 31.868231833039317,
+    "time_to_converge_s_each": [
+      32.2,
+      31.9,
+      31.9,
+      31.6,
+      31.5
+    ],
+    "iterations_to_converge_each": [
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "time_per_iteration_s": "7.90 \u00b1 0.04",
+    "capital_t100": "27.76 \u00b1 0.04",
+    "capital_t127": "2.94 \u00b1 0.00",
+    "non_finite_runs": 0,
+    "law_of_motion_fresh_r2_min_from_it2": 0.9990865097613535,
+    "law_of_motion_fresh_max_err_pct_median_from_it2": 0.10532880753745533,
+    "law_of_motion_fresh_max_err_pct_worst_from_it2": 1.4828840249127804
+  }
+}

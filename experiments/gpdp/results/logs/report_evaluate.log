@@ -1,0 +1,16 @@
+Using recurrent policy: True
+Using recurrent policy: True
+gpdp         gpdp/report_singlevgp_a1_s0      MFAX expl 0.3192 (1.937%)  nearest-grid 0.0406 (0.245%)  continuous clairvoyant 0.138%  honest 0.078%  grid honest -0.718%  K100 27.8
+Using recurrent policy: True
+Using recurrent policy: True
+gpdp         gpdp/report_singlevgp_a1_s1      MFAX expl 0.3073 (1.865%)  nearest-grid 0.0272 (0.164%)  continuous clairvoyant 0.085%  honest 0.025%  grid honest -0.771%  K100 27.8
+Using recurrent policy: True
+Using recurrent policy: True
+gpdp         gpdp/report_singlevgp_a1_s2      MFAX expl 0.3029 (1.838%)  nearest-grid 0.0204 (0.123%)  continuous clairvoyant 0.065%  honest 0.004%  grid honest -0.791%  K100 27.8
+Using recurrent policy: True
+Using recurrent policy: True
+gpdp         gpdp/report_singlevgp_a1_s3      MFAX expl 0.3090 (1.876%)  nearest-grid 0.0245 (0.148%)  continuous clairvoyant 0.087%  honest 0.027%  grid honest -0.768%  K100 27.8
+Using recurrent policy: True
+Using recurrent policy: True
+gpdp         gpdp/report_singlevgp_a1_s4      MFAX expl 0.3046 (1.849%)  nearest-grid 0.0239 (0.144%)  continuous clairvoyant 0.085%  honest 0.025%  grid honest -0.771%  K100 27.8
+Saved /Users/guillen/Desktop/thesis/code/mfax/experiments/gpdp/results/report_evaluate.json

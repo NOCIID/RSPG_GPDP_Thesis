@@ -1,0 +1,65 @@
+{
+  "run_dir": "runs/endogenous/hsm_rspg_gp/gpfix_s0",
+  "envs": 8,
+  "seed": 777,
+  "n_iter": 30,
+  "check_A_forward": {
+    "mu_max_abs_diff": 5.727633833885193e-08,
+    "mu_sum": 1.0000005960464478,
+    "z_abs_diff": 0.0,
+    "prices_max_abs_diff": 7.450580596923828e-09,
+    "reward_max_abs_diff": 8.0108642578125e-05
+  },
+  "check_B_best_response": {
+    "value_max_rel_diff": 4.76837158203125e-07,
+    "same_action_share": 0.9999727010726929
+  },
+  "continuous_br_time_s": 0.669063333014492,
+  "values_mu0_weighted": {
+    "policy": -17.01311492919922,
+    "grid_br": -16.969928741455078,
+    "continuous_br": -16.833250045776367
+  },
+  "exploitability": {
+    "vs_grid_br": 0.043186187744140625,
+    "vs_continuous_br": 0.17986488342285156,
+    "gain_from_deviating_pct_grid": 0.25448655914883656,
+    "gain_from_deviating_pct_continuous": 1.0685095447030557
+  },
+  "continuous_over_grid_ce_gain_pct": {
+    "mu0_weighted_mean": 1.3068079948425293,
+    "max": 8.285892009735107
+  },
+  "period_64": {
+    "mean_share_policy": 0.12923580408096313,
+    "mean_share_grid_br": 0.1300155520439148,
+    "mean_share_continuous_br": 0.12972110509872437,
+    "mass_with_continuous_share_off_grid_by_more_than_0_01": 0.5338992476463318
+  },
+  "examples_period_64_economy_0": {
+    "poor": {
+      "wealth": 0.5105578303337097,
+      "income": 0.10000002384185791,
+      "policy_mean_share": 0.4243945777416229,
+      "grid_best_share": 0.42500001192092896,
+      "continuous_best_share": 0.43729639053344727,
+      "ce_gain_pct_at_t0": 0.19989013671875
+    },
+    "middle": {
+      "wealth": 26.18161392211914,
+      "income": 0.6374119520187378,
+      "policy_mean_share": 0.07500018179416656,
+      "grid_best_share": 0.07500000298023224,
+      "continuous_best_share": 0.08803051710128784,
+      "ce_gain_pct_at_t0": 1.5322685241699219
+    },
+    "rich": {
+      "wealth": 90.4386215209961,
+      "income": 1.999999761581421,
+      "policy_mean_share": 0.07500000298023224,
+      "grid_best_share": 0.07500000298023224,
+      "continuous_best_share": 0.07452046871185303,
+      "ce_gain_pct_at_t0": 2.5466203689575195
+    }
+  }
+}

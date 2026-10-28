@@ -1,0 +1,22 @@
+it   0  train   18.6s  gain honest 21.503%  clairvoyant 21.566%  MFAX expl nan  K100 12.77  change 0.0411
+Using recurrent policy: True
+it   1  train   22.1s  gain honest 1.186%  clairvoyant 1.240%  MFAX expl 0.5421  K100 28.30  change 0.0101
+it   2  train   25.3s  gain honest -0.003%  clairvoyant 0.057%  MFAX expl 0.3000  K100 27.35  change 0.0007
+it   3  train   28.6s  gain honest 0.016%  clairvoyant 0.071%  MFAX expl 0.3037  K100 27.53  change 0.0005
+it   4  train   31.8s  gain honest -0.006%  clairvoyant 0.058%  MFAX expl 0.3025  K100 27.44  change 0.0006
+it   5  train   35.1s  gain honest 0.008%  clairvoyant 0.076%  MFAX expl 0.3033  K100 27.43  change 0.0007
+it   6  train   38.4s  gain honest -0.023%  clairvoyant 0.083%  MFAX expl 0.3100  K100 27.53  change 0.0008
+it   7  train   41.7s  gain honest 0.107%  clairvoyant 0.172%  MFAX expl 0.3319  K100 27.42  change 0.0008
+it   8  train   44.9s  gain honest 0.021%  clairvoyant 0.079%  MFAX expl 0.3056  K100 27.58  change 0.0006
+it   9  train   48.2s  gain honest 0.000%  clairvoyant 0.065%  MFAX expl 0.3035  K100 27.47  change 0.0006
+it  10  train   51.5s  gain honest 0.032%  clairvoyant 0.086%  MFAX expl 0.3104  K100 27.48  change 0.0007
+it  11  train   54.8s  gain honest -0.000%  clairvoyant 0.057%  MFAX expl 0.3024  K100 27.49  change 0.0005
+it  12  train   58.1s  gain honest 0.007%  clairvoyant 0.062%  MFAX expl 0.3022  K100 27.43  change 0.0005
+it  13  train   61.4s  gain honest -0.002%  clairvoyant 0.058%  MFAX expl 0.3019  K100 27.40  change 0.0005
+it  14  train   64.8s  gain honest -0.019%  clairvoyant 0.065%  MFAX expl 0.3039  K100 27.51  change 0.0007
+it  15  train   68.1s  gain honest 0.052%  clairvoyant 0.109%  MFAX expl 0.3146  K100 27.23  change 0.0008
+it  16  train   71.3s  gain honest -0.119%  clairvoyant 0.062%  MFAX expl 0.3023  K100 27.35  change 0.0011
+it  17  train   74.7s  gain honest 0.212%  clairvoyant 0.266%  MFAX expl 0.3431  K100 27.49  change 0.0014
+it  18  train   78.0s  gain honest -0.016%  clairvoyant 0.056%  MFAX expl 0.3028  K100 27.49  change 0.0006
+it  19  train   81.4s  gain honest 0.045%  clairvoyant 0.100%  MFAX expl 0.3099  K100 27.31  change 0.0012
+Saved to runs/endogenous/gpdp/report_singlevgp_a1_s2

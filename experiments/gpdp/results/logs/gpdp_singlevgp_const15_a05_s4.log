@@ -1,0 +1,7 @@
+it   0  train   18.3s  gain honest 21.503%  clairvoyant 21.566%  MFAX expl nan  K100 12.77  change 0.0205
+Using recurrent policy: True
+it   5  train   34.7s  gain honest 0.101%  clairvoyant 0.155%  MFAX expl 0.2837  K100 26.18  change 0.0015
+it  10  train   51.1s  gain honest -0.001%  clairvoyant 0.057%  MFAX expl 0.3014  K100 27.42  change 0.0003
+it  15  train   67.7s  gain honest 0.007%  clairvoyant 0.062%  MFAX expl 0.3029  K100 27.44  change 0.0003
+it  20  train   84.0s  gain honest 0.008%  clairvoyant 0.062%  MFAX expl 0.3012  K100 27.47  change 0.0003
+it  25  train  105.8s  gain honest nan%  clairvoyant nan%  MFAX expl nan  K100 nan  change nan

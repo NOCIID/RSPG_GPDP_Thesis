@@ -1,0 +1,9 @@
+it   0  train    6.6s  gain honest 21.505%  clairvoyant 21.566%  MFAX expl nan  K100 12.77  change 0.0204
+Using recurrent policy: True
+it   5  train   18.9s  gain honest 0.866%  clairvoyant 0.917%  MFAX expl 0.3073  K100 19.84  change 0.0116
+it  10  train   30.9s  gain honest 1.041%  clairvoyant 1.120%  MFAX expl 0.3410  K100 20.49  change 0.0127
+it  15  train   43.0s  gain honest 0.771%  clairvoyant 0.816%  MFAX expl 0.3053  K100 19.65  change 0.0122
+it  20  train   55.2s  gain honest 0.707%  clairvoyant 0.770%  MFAX expl 0.2990  K100 21.52  change 0.0115
+it  25  train   67.3s  gain honest 0.858%  clairvoyant 0.905%  MFAX expl 0.3058  K100 19.68  change 0.0120
+it  29  train   77.0s  gain honest 0.879%  clairvoyant 0.945%  MFAX expl 0.3319  K100 20.37  change 0.0118
+Saved to runs/endogenous/gpdp/notime_const15_a05_s1

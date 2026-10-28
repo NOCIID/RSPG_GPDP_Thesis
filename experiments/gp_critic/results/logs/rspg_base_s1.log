@@ -1,0 +1,14 @@
+Using recurrent policy: True
+Iteration: 0, Train Time: 0.0, Exploitability: 82.8540, Policy return: -93.3920
+Iteration: 50, Train Time: 143.2, Exploitability: 5.5245, Policy return: -22.0769
+Iteration: 100, Train Time: 286.0, Exploitability: 5.4900, Policy return: -22.0638
+Iteration: 150, Train Time: 428.5, Exploitability: 3.2008, Policy return: -20.0245
+Iteration: 200, Train Time: 572.2, Exploitability: 1.3159, Policy return: -17.6664
+Iteration: 250, Train Time: 714.6, Exploitability: 0.4046, Policy return: -16.8297
+Iteration: 300, Train Time: 857.6, Exploitability: 0.0795, Policy return: -16.7265
+Iteration: 350, Train Time: 1001.6, Exploitability: 0.0610, Policy return: -16.6895
+Iteration: 400, Train Time: 1146.3, Exploitability: 0.1001, Policy return: -16.6164
+Iteration: 450, Train Time: 1291.5, Exploitability: 0.0595, Policy return: -16.7252
+Iteration: 500, Train Time: 1436.1, Exploitability: 0.0405, Policy return: -16.6641
+Train time 1436.1s, steady step time 2.870s
+Saved to runs/endogenous/hsm_rspg_gp/base_s1

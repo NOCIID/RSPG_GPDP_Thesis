@@ -1,0 +1,85 @@
+initial_policy full done
+initial_policy gp done
+initial_policy zero_tail done
+initial_policy gp_reset done
+initial_policy {
+  "full": {
+    "n_batches": 16,
+    "rel_err_vs_full": 0.0,
+    "cos_with_full": 1.0000000000000002,
+    "norm_ratio_to_full": 1.0,
+    "split_half_rel_diff": 0.006294070515357387,
+    "split_half_cos": 0.9999850549504425,
+    "noise_floor_rel_err": 0.004450579942675516
+  },
+  "gp": {
+    "n_batches": 64,
+    "rel_err_vs_full": 0.009891328657427345,
+    "cos_with_full": 0.9999920068888377,
+    "norm_ratio_to_full": 0.9909447849849611,
+    "split_half_rel_diff": 0.0053412180607333975,
+    "split_half_cos": 0.9999918199681946,
+    "noise_floor_rel_err": 0.0041274669600311715
+  },
+  "zero_tail": {
+    "n_batches": 64,
+    "rel_err_vs_full": 0.1246840259675933,
+    "cos_with_full": 0.9922011528566161,
+    "norm_ratio_to_full": 0.9952399127182113,
+    "split_half_rel_diff": 0.008571203935429716,
+    "split_half_cos": 0.9999767714986234,
+    "noise_floor_rel_err": 0.005316974246576173
+  },
+  "gp_reset": {
+    "n_batches": 64,
+    "rel_err_vs_full": 0.3579491567104032,
+    "cos_with_full": 0.9832144231705899,
+    "norm_ratio_to_full": 0.6752563079660067,
+    "split_half_rel_diff": 0.005904265928348722,
+    "split_half_cos": 0.999980775836706,
+    "noise_floor_rel_err": 0.004314964652374072
+  }
+}
+trained_policy full done
+trained_policy gp done
+trained_policy zero_tail done
+trained_policy gp_reset done
+trained_policy {
+  "full": {
+    "n_batches": 16,
+    "rel_err_vs_full": 0.0,
+    "cos_with_full": 1.0000000000000002,
+    "norm_ratio_to_full": 1.0,
+    "split_half_rel_diff": 0.029358201059025636,
+    "split_half_cos": 0.9999986479625226,
+    "noise_floor_rel_err": 0.020759383052275107
+  },
+  "gp": {
+    "n_batches": 64,
+    "rel_err_vs_full": 0.022335827509688346,
+    "cos_with_full": 0.9998362226010521,
+    "norm_ratio_to_full": 1.0129267235721013,
+    "split_half_rel_diff": 0.0038631683681188836,
+    "split_half_cos": 0.9999983488787972,
+    "noise_floor_rel_err": 0.014805641148415427
+  },
+  "zero_tail": {
+    "n_batches": 64,
+    "rel_err_vs_full": 4.392391558492954,
+    "cos_with_full": 0.9980781822116427,
+    "norm_ratio_to_full": 5.390032606033378,
+    "split_half_rel_diff": 0.008175121029965628,
+    "split_half_cos": 0.9999995530936785,
+    "noise_floor_rel_err": 0.015237589813326452
+  },
+  "gp_reset": {
+    "n_batches": 64,
+    "rel_err_vs_full": 0.2522724860022826,
+    "cos_with_full": 0.9997960983112937,
+    "norm_ratio_to_full": 0.748333088323237,
+    "split_half_rel_diff": 0.030090190661955358,
+    "split_half_cos": 0.9999330656659228,
+    "noise_floor_rel_err": 0.021019773687500774
+  }
+}
+Saved /Users/guillen/Desktop/thesis/code/mfax/experiments/gp_critic/results/gradient_rspg.json

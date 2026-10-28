@@ -1,0 +1,9 @@
+it   0  train   19.0s  gain honest 21.503%  clairvoyant 21.566%  MFAX expl nan  K100 12.77  change 0.0205
+Using recurrent policy: True
+it   5  train   36.3s  gain honest 0.148%  clairvoyant 0.201%  MFAX expl 0.2856  K100 25.46  change 0.0077
+it  10  train   53.8s  gain honest 0.099%  clairvoyant 0.153%  MFAX expl 0.3190  K100 24.67  change 0.0070
+it  15  train   71.4s  gain honest 0.453%  clairvoyant 0.523%  MFAX expl 0.3745  K100 31.18  change 0.0078
+it  20  train   89.2s  gain honest 0.065%  clairvoyant 0.122%  MFAX expl 0.3256  K100 26.84  change 0.0089
+it  25  train  106.9s  gain honest 0.061%  clairvoyant 0.118%  MFAX expl 0.3154  K100 29.11  change 0.0065
+it  29  train  120.9s  gain honest 3.149%  clairvoyant 3.208%  MFAX expl 0.3121  K100 25.89  change 0.0101
+Saved to runs/endogenous/gpdp/memory_h8_only_s2

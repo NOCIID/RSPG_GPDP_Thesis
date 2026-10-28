@@ -1,0 +1,6 @@
+gpdp/memory_h8_only_s0             value rel. err (honest cont / grid, t=0 mu0): 2.023% / 1.025%   policy rel. err: 15.31% / 19.02%   check None
+gpdp/memory_h8_only_s1             value rel. err (honest cont / grid, t=0 mu0): 0.529% / 0.932%   policy rel. err: 10.32% / 15.97%   check None
+gpdp/memory_h8_only_s2             value rel. err (honest cont / grid, t=0 mu0): nan% / nan%   policy rel. err: 5.95% / 13.83%   check None
+gpdp/memory_h8_only_s3             value rel. err (honest cont / grid, t=0 mu0): nan% / nan%   policy rel. err: nan% / nan%   check None
+gpdp/memory_h8_only_s4             value rel. err (honest cont / grid, t=0 mu0): nan% / nan%   policy rel. err: nan% / nan%   check None
+Saved /Users/guillen/Desktop/thesis/code/mfax/experiments/gpdp/results/relative_errors_memory_h.json

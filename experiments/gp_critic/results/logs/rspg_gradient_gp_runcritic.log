@@ -1,0 +1,46 @@
+initial_policy full done
+initial_policy gp done
+initial_policy {
+  "full": {
+    "n_batches": 16,
+    "rel_err_vs_full": 0.0,
+    "cos_with_full": 1.0000000000000002,
+    "norm_ratio_to_full": 1.0,
+    "split_half_rel_diff": 0.006294070515357387,
+    "split_half_cos": 0.9999850549504425,
+    "noise_floor_rel_err": 0.004450579942675516
+  },
+  "gp": {
+    "n_batches": 64,
+    "rel_err_vs_full": 0.009891328657427345,
+    "cos_with_full": 0.9999920068888377,
+    "norm_ratio_to_full": 0.9909447849849611,
+    "split_half_rel_diff": 0.0053412180607333975,
+    "split_half_cos": 0.9999918199681946,
+    "noise_floor_rel_err": 0.0041274669600311715
+  }
+}
+using the run's trained critic for time_input=False
+trained_policy full done
+trained_policy gp done
+trained_policy {
+  "full": {
+    "n_batches": 16,
+    "rel_err_vs_full": 0.0,
+    "cos_with_full": 1.0,
+    "norm_ratio_to_full": 1.0,
+    "split_half_rel_diff": 0.013875761845333666,
+    "split_half_cos": 0.9999881055103246,
+    "noise_floor_rel_err": 0.009811645294964998
+  },
+  "gp": {
+    "n_batches": 64,
+    "rel_err_vs_full": 0.0789585963048847,
+    "cos_with_full": 0.9999976066925823,
+    "norm_ratio_to_full": 0.9210693270880318,
+    "split_half_rel_diff": 0.03264569052506264,
+    "split_half_cos": 0.9999883721080777,
+    "noise_floor_rel_err": 0.01773610636982214
+  }
+}
+Saved /Users/guillen/Desktop/thesis/code/mfax/experiments/gp_critic/results/gradient_rspg_gp_runcritic.json

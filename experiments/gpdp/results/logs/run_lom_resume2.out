@@ -1,0 +1,19 @@
+=== gpdp_lom_s0  skipped (done)
+=== gpdp_lom_s1  skipped (done)
+=== gpdp_lom_s2  skipped (done)
+=== gpdp_lom_s3  skipped (done)
+=== gpdp_lom_s4  skipped (done)
+=== gpdp_lom_paths8_s0  skipped (done)
+=== gpdp_lom_paths8_s1  (14:31:02)
+    done in 363s
+=== gpdp_lom_paths8_s2  (14:37:05)
+    done in 366s
+=== gpdp_lom_paths8_s3  (14:43:11)
+    done in 365s
+=== gpdp_lom_paths8_s4  (14:49:16)
+    done in 364s
+=== lom_evaluate  (14:55:20)
+    done in 213s
+=== lom_relative_errors  (14:58:53)
+    done in 105s
+all done

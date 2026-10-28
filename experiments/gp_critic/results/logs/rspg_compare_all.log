@@ -1,0 +1,1094 @@
+Using recurrent policy: True
+Using recurrent policy: True
+Using recurrent policy: True
+hsm_rspg_gp/base_s0 {
+  "exploitability": 0.03314781188964844,
+  "policy_return": -16.612911224365234,
+  "br_return": -16.579763412475586,
+  "final_training_eval_exploitability": 0.03485107421875,
+  "total_train_time_s": 1442.9874486690387,
+  "step_time_steady_s": 2.883780091671494,
+  "step_time_median_s": 2.881574004201684,
+  "refit_time_median_s": null,
+  "first_chunk_incl_compile_s": 29.693373832997167,
+  "refit_time_steady_s": null,
+  "warmstart_s": null,
+  "fill_s": 0.24182991700945422,
+  "mean_eval_time_s": 3.5000580567310946,
+  "policy_gap_vs_ref": {
+    "pop_weighted_mean_rel": 0.0,
+    "visited_max_rel": 0.0,
+    "visited_p99_rel": 0.0
+  },
+  "aggregate_gap_vs_ref": {
+    "K_max_rel": 0.0,
+    "K_mean_rel": 0.0,
+    "r_max_abs": 0.0,
+    "r_mean_abs": 0.0
+  },
+  "aggregate_path": {
+    "periods": [
+      0,
+      25,
+      50,
+      100,
+      127
+    ],
+    "K_mean": [
+      16.461563110351562,
+      22.529111862182617,
+      25.31969451904297,
+      25.537527084350586,
+      21.12903594970703
+    ],
+    "r_mean": [
+      0.05368003249168396,
+      0.04330799728631973,
+      0.040260590612888336,
+      0.04071067273616791,
+      0.043977003544569016
+    ]
+  },
+  "mean_consumption_share": 0.15755295753479004
+}
+Using recurrent policy: True
+Using recurrent policy: True
+hsm_rspg_gp/base_s1 {
+  "exploitability": 0.03962898254394531,
+  "policy_return": -16.60144805908203,
+  "br_return": -16.561819076538086,
+  "final_training_eval_exploitability": 0.04053497314453125,
+  "total_train_time_s": 1436.135641333094,
+  "step_time_steady_s": 2.870083823639006,
+  "step_time_median_s": 2.866161004101741,
+  "refit_time_median_s": null,
+  "first_chunk_incl_compile_s": 29.5722620000015,
+  "refit_time_steady_s": null,
+  "warmstart_s": null,
+  "fill_s": 0.22230574997956865,
+  "mean_eval_time_s": 3.4268889886390586,
+  "policy_gap_vs_ref": {
+    "pop_weighted_mean_rel": 0.029924780130386353,
+    "visited_max_rel": 0.5534684658050537,
+    "visited_p99_rel": 0.3844367098808288
+  },
+  "aggregate_gap_vs_ref": {
+    "K_max_rel": 0.4627878665924072,
+    "K_mean_rel": 0.07760511338710785,
+    "r_max_abs": 0.008660513907670975,
+    "r_mean_abs": 0.0017927171429619193
+  },
+  "aggregate_path": {
+    "periods": [
+      0,
+      25,
+      50,
+      100,
+      127
+    ],
+    "K_mean": [
+      16.461563110351562,
+      22.858745574951172,
+      25.63421630859375,
+      29.315540313720703,
+      28.399446487426758
+    ],
+    "r_mean": [
+      0.05368003249168396,
+      0.0429263710975647,
+      0.03998382389545441,
+      0.03737190365791321,
+      0.036512091755867004
+    ]
+  },
+  "mean_consumption_share": 0.15313471853733063
+}
+Using recurrent policy: True
+Using recurrent policy: True
+hsm_rspg_gp/base_s2 {
+  "exploitability": 0.03407859802246094,
+  "policy_return": -16.58054542541504,
+  "br_return": -16.546466827392578,
+  "final_training_eval_exploitability": 0.03343391418457031,
+  "total_train_time_s": 1447.21490953787,
+  "step_time_steady_s": 2.893159291916052,
+  "step_time_median_s": 2.8892727083002683,
+  "refit_time_median_s": null,
+  "first_chunk_incl_compile_s": 29.331645333004417,
+  "refit_time_steady_s": null,
+  "warmstart_s": null,
+  "fill_s": 0.2352111660002265,
+  "mean_eval_time_s": 3.4696679054547777,
+  "policy_gap_vs_ref": {
+    "pop_weighted_mean_rel": 0.029247647151350975,
+    "visited_max_rel": 0.399708092212677,
+    "visited_p99_rel": 0.37843770623207074
+  },
+  "aggregate_gap_vs_ref": {
+    "K_max_rel": 0.33023107051849365,
+    "K_mean_rel": 0.08384906500577927,
+    "r_max_abs": 0.007462222129106522,
+    "r_mean_abs": 0.002000214997678995
+  },
+  "aggregate_path": {
+    "periods": [
+      0,
+      25,
+      50,
+      100,
+      127
+    ],
+    "K_mean": [
+      16.461563110351562,
+      23.20552635192871,
+      26.386398315429688,
+      29.08211898803711,
+      27.611595153808594
+    ],
+    "r_mean": [
+      0.05368003249168396,
+      0.042497120797634125,
+      0.039215631783008575,
+      0.037469856441020966,
+      0.037055522203445435
+    ]
+  },
+  "mean_consumption_share": 0.15300975739955902
+}
+Using recurrent policy: True
+Using recurrent policy: True
+hsm_rspg_gp/base_s3 {
+  "exploitability": 0.05108070373535156,
+  "policy_return": -16.637113571166992,
+  "br_return": -16.58603286743164,
+  "final_training_eval_exploitability": 0.05331230163574219,
+  "total_train_time_s": 1454.5162097059947,
+  "step_time_steady_s": 2.9077675681918196,
+  "step_time_median_s": 2.9078003208007432,
+  "refit_time_median_s": null,
+  "first_chunk_incl_compile_s": 29.490787874994567,
+  "refit_time_steady_s": null,
+  "warmstart_s": null,
+  "fill_s": 0.21931341700837947,
+  "mean_eval_time_s": 3.462619670267238,
+  "policy_gap_vs_ref": {
+    "pop_weighted_mean_rel": 0.022088531404733658,
+    "visited_max_rel": 0.6026971340179443,
+    "visited_p99_rel": 0.35304925858974456
+  },
+  "aggregate_gap_vs_ref": {
+    "K_max_rel": 0.21341729164123535,
+    "K_mean_rel": 0.03783612698316574,
+    "r_max_abs": 0.005319703370332718,
+    "r_mean_abs": 0.0009592397254891694
+  },
+  "aggregate_path": {
+    "periods": [
+      0,
+      25,
+      50,
+      100,
+      127
+    ],
+    "K_mean": [
+      16.461563110351562,
+      22.273666381835938,
+      24.781261444091797,
+      26.752323150634766,
+      25.194561004638672
+    ],
+    "r_mean": [
+      0.05368003249168396,
+      0.043630484491586685,
+      0.040826138108968735,
+      0.0395173653960228,
+      0.03927960246801376
+    ]
+  },
+  "mean_consumption_share": 0.15488305687904358
+}
+Using recurrent policy: True
+Using recurrent policy: True
+hsm_rspg_gp/base_s4 {
+  "exploitability": 0.03729057312011719,
+  "policy_return": -16.572214126586914,
+  "br_return": -16.534923553466797,
+  "final_training_eval_exploitability": 0.03626441955566406,
+  "total_train_time_s": 1446.4213792490482,
+  "step_time_steady_s": 2.891491224487818,
+  "step_time_median_s": 2.89802484580141,
+  "refit_time_median_s": null,
+  "first_chunk_incl_compile_s": 29.37195200001588,
+  "refit_time_steady_s": null,
+  "warmstart_s": null,
+  "fill_s": 0.21872725000139326,
+  "mean_eval_time_s": 3.4362863938228903,
+  "policy_gap_vs_ref": {
+    "pop_weighted_mean_rel": 0.027075177058577538,
+    "visited_max_rel": 0.39924365282058716,
+    "visited_p99_rel": 0.3538345730304704
+  },
+  "aggregate_gap_vs_ref": {
+    "K_max_rel": 0.3179783821105957,
+    "K_mean_rel": 0.0898217111825943,
+    "r_max_abs": 0.00700831413269043,
+    "r_mean_abs": 0.002154683228582144
+  },
+  "aggregate_path": {
+    "periods": [
+      0,
+      25,
+      50,
+      100,
+      127
+    ],
+    "K_mean": [
+      16.461563110351562,
+      23.378665924072266,
+      26.75874137878418,
+      29.172000885009766,
+      27.022422790527344
+    ],
+    "r_mean": [
+      0.05368003249168396,
+      0.04229865223169327,
+      0.03887192904949188,
+      0.03741343691945076,
+      0.037588439881801605
+    ]
+  },
+  "mean_consumption_share": 0.15330326557159424
+}
+Using recurrent policy: True
+Using recurrent policy: True
+hsm_rspg_gp/gp_s0 {
+  "exploitability": 0.06116485595703125,
+  "policy_return": -16.550302505493164,
+  "br_return": -16.489137649536133,
+  "final_training_eval_exploitability": 0.05722808837890625,
+  "total_train_time_s": 277.2742634899332,
+  "step_time_steady_s": 0.47936332771407286,
+  "step_time_median_s": 0.38462801660061813,
+  "refit_time_median_s": 0.31447587549337186,
+  "first_chunk_incl_compile_s": 5.65479816700099,
+  "refit_time_steady_s": 0.45253634595963155,
+  "warmstart_s": 13.068812958023045,
+  "fill_s": 1.010837999987416,
+  "mean_eval_time_s": 3.507410352367019,
+  "policy_gap_vs_ref": {
+    "pop_weighted_mean_rel": 0.06632255762815475,
+    "visited_max_rel": 0.399997353553772,
+    "visited_p99_rel": 0.39942739486694334
+  },
+  "aggregate_gap_vs_ref": {
+    "K_max_rel": 0.6422832012176514,
+    "K_mean_rel": 0.21964935958385468,
+    "r_max_abs": 0.012640595436096191,
+    "r_mean_abs": 0.004633350297808647
+  },
+  "aggregate_path": {
+    "periods": [
+      0,
+      25,
+      50,
+      100,
+      127
+    ],
+    "K_mean": [
+      16.461563110351562,
+      24.155899047851562,
+      28.756498336791992,
+      34.779449462890625,
+      34.09782409667969
+    ],
+    "r_mean": [
+      0.05368003249168396,
+      0.04142628610134125,
+      0.0371382050216198,
+      0.033411655575037,
+      0.03236653655767441
+    ]
+  },
+  "mean_consumption_share": 0.14712610840797424
+}
+Using recurrent policy: True
+Using recurrent policy: True
+hsm_rspg_gp/gp_s1 {
+  "exploitability": 0.03453254699707031,
+  "policy_return": -16.584033966064453,
+  "br_return": -16.549501419067383,
+  "final_training_eval_exploitability": 0.03487968444824219,
+  "total_train_time_s": 219.5359915390727,
+  "step_time_steady_s": 0.3756911274655105,
+  "step_time_median_s": 0.3750025166984415,
+  "refit_time_median_s": 0.3143936039850814,
+  "first_chunk_incl_compile_s": 5.539209542010212,
+  "refit_time_steady_s": 0.3147802320807906,
+  "warmstart_s": 12.959017207991565,
+  "fill_s": 1.0524870000081137,
+  "mean_eval_time_s": 3.4361837501796386,
+  "policy_gap_vs_ref": {
+    "pop_weighted_mean_rel": 0.036997899413108826,
+    "visited_max_rel": 0.39995455741882324,
+    "visited_p99_rel": 0.39348914384841915
+  },
+  "aggregate_gap_vs_ref": {
+    "K_max_rel": 0.4892691373825073,
+    "K_mean_rel": 0.13009464740753174,
+    "r_max_abs": 0.010425537824630737,
+    "r_mean_abs": 0.0028863491024821997
+  },
+  "aggregate_path": {
+    "periods": [
+      0,
+      25,
+      50,
+      100,
+      127
+    ],
+    "K_mean": [
+      16.461563110351562,
+      23.05425453186035,
+      26.556835174560547,
+      31.589218139648438,
+      31.05866241455078
+    ],
+    "r_mean": [
+      0.05368003249168396,
+      0.04268014430999756,
+      0.03906913846731186,
+      0.03554699942469597,
+      0.034376733005046844
+    ]
+  },
+  "mean_consumption_share": 0.1520645022392273
+}
+Using recurrent policy: True
+Using recurrent policy: True
+hsm_rspg_gp/gp_s2 {
+  "exploitability": 0.042873382568359375,
+  "policy_return": -16.639162063598633,
+  "br_return": -16.596288681030273,
+  "final_training_eval_exploitability": 0.04588508605957031,
+  "total_train_time_s": 220.11061645997688,
+  "step_time_steady_s": 0.37753748461415243,
+  "step_time_median_s": 0.37721803750027905,
+  "refit_time_median_s": 0.31109370799094904,
+  "first_chunk_incl_compile_s": 5.748422958014999,
+  "refit_time_steady_s": 0.3113910314289625,
+  "warmstart_s": 12.63056304201018,
+  "fill_s": 1.0136380839976482,
+  "mean_eval_time_s": 3.4007968672720548,
+  "policy_gap_vs_ref": {
+    "pop_weighted_mean_rel": 0.02647196128964424,
+    "visited_max_rel": 0.47460925579071045,
+    "visited_p99_rel": 0.3787148863077162
+  },
+  "aggregate_gap_vs_ref": {
+    "K_max_rel": 0.34341418743133545,
+    "K_mean_rel": 0.06437897682189941,
+    "r_max_abs": 0.007957987487316132,
+    "r_mean_abs": 0.0015346715226769447
+  },
+  "aggregate_path": {
+    "periods": [
+      0,
+      25,
+      50,
+      100,
+      127
+    ],
+    "K_mean": [
+      16.461563110351562,
+      22.111370086669922,
+      24.807498931884766,
+      28.400188446044922,
+      27.89781379699707
+    ],
+    "r_mean": [
+      0.05368003249168396,
+      0.04383589327335358,
+      0.04080257564783096,
+      0.03805263340473175,
+      0.03682475537061691
+    ]
+  },
+  "mean_consumption_share": 0.15423783659934998
+}
+Using recurrent policy: True
+Using recurrent policy: True
+hsm_rspg_gp/gp_s3 {
+  "exploitability": 0.039470672607421875,
+  "policy_return": -16.60220718383789,
+  "br_return": -16.56273651123047,
+  "final_training_eval_exploitability": 0.03994560241699219,
+  "total_train_time_s": 219.87639167104498,
+  "step_time_steady_s": 0.37849670145304265,
+  "step_time_median_s": 0.37936766670027283,
+  "refit_time_median_s": 0.3079329790052725,
+  "first_chunk_incl_compile_s": 5.525238708010875,
+  "refit_time_steady_s": 0.3082577500210799,
+  "warmstart_s": 12.314149625017308,
+  "fill_s": 0.9789028749801219,
+  "mean_eval_time_s": 3.3923504809975964,
+  "policy_gap_vs_ref": {
+    "pop_weighted_mean_rel": 0.03401859104633331,
+    "visited_max_rel": 0.39993607997894287,
+    "visited_p99_rel": 0.39381504297256464
+  },
+  "aggregate_gap_vs_ref": {
+    "K_max_rel": 0.39758551120758057,
+    "K_mean_rel": 0.08778110146522522,
+    "r_max_abs": 0.00898565724492073,
+    "r_mean_abs": 0.0020188994240015745
+  },
+  "aggregate_path": {
+    "periods": [
+      0,
+      25,
+      50,
+      100,
+      127
+    ],
+    "K_mean": [
+      16.461563110351562,
+      22.745943069458008,
+      25.901775360107422,
+      29.727252960205078,
+      29.096904754638672
+    ],
+    "r_mean": [
+      0.05368003249168396,
+      0.04304914548993111,
+      0.03968771547079086,
+      0.036952465772628784,
+      0.035840168595314026
+    ]
+  },
+  "mean_consumption_share": 0.1524982899427414
+}
+Using recurrent policy: True
+Using recurrent policy: True
+hsm_rspg_gp/gp_s4 {
+  "exploitability": 4.08912467956543,
+  "policy_return": -20.902429580688477,
+  "br_return": -16.813304901123047,
+  "final_training_eval_exploitability": 4.083507537841797,
+  "total_train_time_s": 220.64397041298798,
+  "step_time_steady_s": 0.3793076308653215,
+  "step_time_median_s": 0.3790867082978366,
+  "refit_time_median_s": 0.3098701874987455,
+  "first_chunk_incl_compile_s": 5.636117417016067,
+  "refit_time_steady_s": 0.3106314166121147,
+  "warmstart_s": 12.43488708298537,
+  "fill_s": 1.009972125000786,
+  "mean_eval_time_s": 3.4644784395429515,
+  "policy_gap_vs_ref": {
+    "pop_weighted_mean_rel": 0.3668493628501892,
+    "visited_max_rel": 0.8717948794364929,
+    "visited_p99_rel": 0.8572039407491684
+  },
+  "aggregate_gap_vs_ref": {
+    "K_max_rel": 0.369747519493103,
+    "K_mean_rel": 0.25830596685409546,
+    "r_max_abs": 0.014797404408454895,
+    "r_mean_abs": 0.009007572196424007
+  },
+  "aggregate_path": {
+    "periods": [
+      0,
+      25,
+      50,
+      100,
+      127
+    ],
+    "K_mean": [
+      16.461563110351562,
+      17.371416091918945,
+      17.423240661621094,
+      18.251201629638672,
+      17.121429443359375
+    ],
+    "r_mean": [
+      0.05368003249168396,
+      0.05113900452852249,
+      0.05113643407821655,
+      0.05044785514473915,
+      0.05024028569459915
+    ]
+  },
+  "mean_consumption_share": 0.125
+}
+Using recurrent policy: True
+Using recurrent policy: True
+hsm_rspg_gp/gpfix_s0 {
+  "exploitability": 0.04628944396972656,
+  "policy_return": -16.57804298400879,
+  "br_return": -16.531753540039062,
+  "final_training_eval_exploitability": 0.0444793701171875,
+  "total_train_time_s": 305.8181861648336,
+  "step_time_steady_s": 0.5562661044200412,
+  "step_time_median_s": 0.5764574208005797,
+  "refit_time_median_s": 0.3195033749943832,
+  "first_chunk_incl_compile_s": 6.4352084579877555,
+  "refit_time_steady_s": 0.3187110433461886,
+  "warmstart_s": 9.514486042025965,
+  "fill_s": 1.1386366250226274,
+  "mean_eval_time_s": 3.4696669281772547,
+  "policy_gap_vs_ref": {
+    "pop_weighted_mean_rel": 0.03364304080605507,
+    "visited_max_rel": 0.39974552392959595,
+    "visited_p99_rel": 0.3833963513374328
+  },
+  "aggregate_gap_vs_ref": {
+    "K_max_rel": 0.33309614658355713,
+    "K_mean_rel": 0.09023551642894745,
+    "r_max_abs": 0.0074218399822711945,
+    "r_mean_abs": 0.0021605330985039473
+  },
+  "aggregate_path": {
+    "periods": [
+      0,
+      25,
+      50,
+      100,
+      127
+    ],
+    "K_mean": [
+      16.461563110351562,
+      23.44070816040039,
+      26.64157485961914,
+      29.147377014160156,
+      27.581710815429688
+    ],
+    "r_mean": [
+      0.05368003249168396,
+      0.042222920805215836,
+      0.0389740876853466,
+      0.03741417080163956,
+      0.03707583621144295
+    ]
+  },
+  "mean_consumption_share": 0.15192967653274536
+}
+Using recurrent policy: True
+Using recurrent policy: True
+hsm_rspg_gp/gpfix_s1 {
+  "exploitability": 0.04105949401855469,
+  "policy_return": -16.603267669677734,
+  "br_return": -16.56220817565918,
+  "final_training_eval_exploitability": 0.041606903076171875,
+  "total_train_time_s": 302.39767191690044,
+  "step_time_steady_s": 0.5502212337571628,
+  "step_time_median_s": 0.5700577749987132,
+  "refit_time_median_s": 0.3164836459909566,
+  "first_chunk_incl_compile_s": 6.325251917005517,
+  "refit_time_steady_s": 0.3157233333444384,
+  "warmstart_s": 9.364754708018154,
+  "fill_s": 1.1086936669889838,
+  "mean_eval_time_s": 3.437611746273681,
+  "policy_gap_vs_ref": {
+    "pop_weighted_mean_rel": 0.03117571771144867,
+    "visited_max_rel": 0.3999050259590149,
+    "visited_p99_rel": 0.3906029963493345
+  },
+  "aggregate_gap_vs_ref": {
+    "K_max_rel": 0.35077714920043945,
+    "K_mean_rel": 0.06958014518022537,
+    "r_max_abs": 0.008093740791082382,
+    "r_mean_abs": 0.0016339515568688512
+  },
+  "aggregate_path": {
+    "periods": [
+      0,
+      25,
+      50,
+      100,
+      127
+    ],
+    "K_mean": [
+      16.461563110351562,
+      22.77203369140625,
+      25.62313461303711,
+      28.855865478515625,
+      28.135478973388672
+    ],
+    "r_mean": [
+      0.05368003249168396,
+      0.04301539435982704,
+      0.0399610735476017,
+      0.037657417356967926,
+      0.036613211035728455
+    ]
+  },
+  "mean_consumption_share": 0.1527760922908783
+}
+Using recurrent policy: True
+Using recurrent policy: True
+hsm_rspg_gp/gpfix_s2 {
+  "exploitability": 0.0387725830078125,
+  "policy_return": -16.623872756958008,
+  "br_return": -16.585100173950195,
+  "final_training_eval_exploitability": 0.04044342041015625,
+  "total_train_time_s": 301.67071641713846,
+  "step_time_steady_s": 0.5485151182837565,
+  "step_time_median_s": 0.5724599709006725,
+  "refit_time_median_s": 0.3182247914810432,
+  "first_chunk_incl_compile_s": 6.31732433399884,
+  "refit_time_steady_s": 0.3163502584704512,
+  "warmstart_s": 9.411953250004444,
+  "fill_s": 1.1489146670210175,
+  "mean_eval_time_s": 3.4500539168154565,
+  "policy_gap_vs_ref": {
+    "pop_weighted_mean_rel": 0.025675902143120766,
+    "visited_max_rel": 0.399808406829834,
+    "visited_p99_rel": 0.38071239650249467
+  },
+  "aggregate_gap_vs_ref": {
+    "K_max_rel": 0.3057311773300171,
+    "K_mean_rel": 0.054244235157966614,
+    "r_max_abs": 0.007258005440235138,
+    "r_mean_abs": 0.001298986840993166
+  },
+  "aggregate_path": {
+    "periods": [
+      0,
+      25,
+      50,
+      100,
+      127
+    ],
+    "K_mean": [
+      16.461563110351562,
+      22.32040023803711,
+      24.979097366333008,
+      28.018190383911133,
+      27.269350051879883
+    ],
+    "r_mean": [
+      0.05368003249168396,
+      0.04357020929455757,
+      0.04061594605445862,
+      0.038368064910173416,
+      0.03734660893678665
+    ]
+  },
+  "mean_consumption_share": 0.15368184447288513
+}
+Using recurrent policy: True
+Using recurrent policy: True
+hsm_rspg_gp/gpfix_s3 {
+  "exploitability": 0.03141975402832031,
+  "policy_return": -16.57659149169922,
+  "br_return": -16.5451717376709,
+  "final_training_eval_exploitability": 0.030834197998046875,
+  "total_train_time_s": 303.3875699614291,
+  "step_time_steady_s": 0.5514379409962685,
+  "step_time_median_s": 0.5699323874985567,
+  "refit_time_median_s": 0.31699991651112214,
+  "first_chunk_incl_compile_s": 6.669975333003094,
+  "refit_time_steady_s": 0.3153750663106472,
+  "warmstart_s": 9.406968750001397,
+  "fill_s": 1.1067124160181265,
+  "mean_eval_time_s": 3.4605140494505493,
+  "policy_gap_vs_ref": {
+    "pop_weighted_mean_rel": 0.031650397926568985,
+    "visited_max_rel": 0.39986348152160645,
+    "visited_p99_rel": 0.38782243490219104
+  },
+  "aggregate_gap_vs_ref": {
+    "K_max_rel": 0.3792574405670166,
+    "K_mean_rel": 0.10211226344108582,
+    "r_max_abs": 0.008578110486268997,
+    "r_mean_abs": 0.0023766206577420235
+  },
+  "aggregate_path": {
+    "periods": [
+      0,
+      25,
+      50,
+      100,
+      127
+    ],
+    "K_mean": [
+      16.461563110351562,
+      23.23141860961914,
+      26.564876556396484,
+      29.96887969970703,
+      28.7548828125
+    ],
+    "r_mean": [
+      0.05368003249168396,
+      0.04247076064348221,
+      0.03905263915657997,
+      0.03675699234008789,
+      0.036101073026657104
+    ]
+  },
+  "mean_consumption_share": 0.15276867151260376
+}
+Using recurrent policy: True
+Using recurrent policy: True
+hsm_rspg_gp/gpfix_s4 {
+  "exploitability": 0.03964424133300781,
+  "policy_return": -16.60312843322754,
+  "br_return": -16.56348419189453,
+  "final_training_eval_exploitability": 0.04019927978515625,
+  "total_train_time_s": 304.7236805909197,
+  "step_time_steady_s": 0.5540240964387206,
+  "step_time_median_s": 0.5686160041979746,
+  "refit_time_median_s": 0.3155690834973939,
+  "first_chunk_incl_compile_s": 6.815768207976362,
+  "refit_time_steady_s": 0.31544304512232085,
+  "warmstart_s": 9.360716833994957,
+  "fill_s": 1.0912992499943357,
+  "mean_eval_time_s": 3.435797344813843,
+  "policy_gap_vs_ref": {
+    "pop_weighted_mean_rel": 0.0206829234957695,
+    "visited_max_rel": 0.4128539562225342,
+    "visited_p99_rel": 0.32160239279270153
+  },
+  "aggregate_gap_vs_ref": {
+    "K_max_rel": 0.24365174770355225,
+    "K_mean_rel": 0.04495573788881302,
+    "r_max_abs": 0.00563589483499527,
+    "r_mean_abs": 0.0011070530163124204
+  },
+  "aggregate_path": {
+    "periods": [
+      0,
+      25,
+      50,
+      100,
+      127
+    ],
+    "K_mean": [
+      16.461563110351562,
+      22.784379959106445,
+      25.683822631835938,
+      27.581485748291016,
+      25.627840042114258
+    ],
+    "r_mean": [
+      0.05368003249168396,
+      0.043007511645555496,
+      0.03991098701953888,
+      0.03877897560596466,
+      0.03888804838061333
+    ]
+  },
+  "mean_consumption_share": 0.15437206625938416
+}
+Using recurrent policy: True
+Using recurrent policy: True
+hsm_rspg_gp/gpfast_s0 {
+  "exploitability": 0.045131683349609375,
+  "policy_return": -16.584903717041016,
+  "br_return": -16.539772033691406,
+  "final_training_eval_exploitability": 0.04327201843261719,
+  "total_train_time_s": 350.11116461560596,
+  "step_time_steady_s": 0.5485748081595754,
+  "step_time_median_s": 0.5379554169776384,
+  "refit_time_median_s": 0.30726108301314525,
+  "first_chunk_incl_compile_s": 2.134307667001849,
+  "refit_time_steady_s": 0.3120970792486965,
+  "warmstart_s": 9.82021854200866,
+  "fill_s": 1.1109239579818677,
+  "mean_eval_time_s": 3.4509454393648245,
+  "policy_gap_vs_ref": {
+    "pop_weighted_mean_rel": 0.03288915753364563,
+    "visited_max_rel": 0.39981818199157715,
+    "visited_p99_rel": 0.38058839678764333
+  },
+  "aggregate_gap_vs_ref": {
+    "K_max_rel": 0.2869555950164795,
+    "K_mean_rel": 0.07100166380405426,
+    "r_max_abs": 0.006710361689329147,
+    "r_mean_abs": 0.0017336097080260515
+  },
+  "aggregate_path": {
+    "periods": [
+      0,
+      25,
+      50,
+      100,
+      127
+    ],
+    "K_mean": [
+      16.461563110351562,
+      23.32008934020996,
+      26.31679916381836,
+      28.350852966308594,
+      26.719982147216797
+    ],
+    "r_mean": [
+      0.05368003249168396,
+      0.04236401617527008,
+      0.03928110748529434,
+      0.038079336285591125,
+      0.037833161652088165
+    ]
+  },
+  "mean_consumption_share": 0.15201301872730255
+}
+Using recurrent policy: True
+Using recurrent policy: True
+hsm_rspg_gp/gpfast_s1 {
+  "exploitability": 0.037166595458984375,
+  "policy_return": -16.623022079467773,
+  "br_return": -16.58585548400879,
+  "final_training_eval_exploitability": 0.03908538818359375,
+  "total_train_time_s": 346.3520089631493,
+  "step_time_steady_s": 0.536686928143319,
+  "step_time_median_s": 0.5261004590138327,
+  "refit_time_median_s": 0.30417854100232944,
+  "first_chunk_incl_compile_s": 1.9835732089995872,
+  "refit_time_steady_s": 0.3090968895384045,
+  "warmstart_s": 9.356353417009814,
+  "fill_s": 1.0662333329964895,
+  "mean_eval_time_s": 3.4527411440900653,
+  "policy_gap_vs_ref": {
+    "pop_weighted_mean_rel": 0.021004078909754753,
+    "visited_max_rel": 0.542210578918457,
+    "visited_p99_rel": 0.3667444002628326
+  },
+  "aggregate_gap_vs_ref": {
+    "K_max_rel": 0.25286662578582764,
+    "K_mean_rel": 0.04104050621390343,
+    "r_max_abs": 0.0060302577912807465,
+    "r_mean_abs": 0.0010139794321730733
+  },
+  "aggregate_path": {
+    "periods": [
+      0,
+      25,
+      50,
+      100,
+      127
+    ],
+    "K_mean": [
+      16.461563110351562,
+      22.375194549560547,
+      24.98166275024414,
+      27.22028350830078,
+      25.91924476623535
+    ],
+    "r_mean": [
+      0.05368003249168396,
+      0.04350198060274124,
+      0.040611907839775085,
+      0.039072684943675995,
+      0.03856300562620163
+    ]
+  },
+  "mean_consumption_share": 0.15459619462490082
+}
+Using recurrent policy: True
+Using recurrent policy: True
+hsm_rspg_gp/gpfast_s2 {
+  "exploitability": 0.04880523681640625,
+  "policy_return": -16.648916244506836,
+  "br_return": -16.60011100769043,
+  "final_training_eval_exploitability": 0.05253791809082031,
+  "total_train_time_s": 348.5276392568776,
+  "step_time_steady_s": 0.5449562612993202,
+  "step_time_median_s": 0.5381187910097651,
+  "refit_time_median_s": 0.3089276670070831,
+  "first_chunk_incl_compile_s": 2.04235495798639,
+  "refit_time_steady_s": 0.31276972713559464,
+  "warmstart_s": 9.547265875007724,
+  "fill_s": 1.1380428330157883,
+  "mean_eval_time_s": 3.4888700229057577,
+  "policy_gap_vs_ref": {
+    "pop_weighted_mean_rel": 0.020587611943483353,
+    "visited_max_rel": 0.5535483360290527,
+    "visited_p99_rel": 0.35269950389861915
+  },
+  "aggregate_gap_vs_ref": {
+    "K_max_rel": 0.23688578605651855,
+    "K_mean_rel": 0.043757662177085876,
+    "r_max_abs": 0.005612790584564209,
+    "r_mean_abs": 0.0011043556733056903
+  },
+  "aggregate_path": {
+    "periods": [
+      0,
+      25,
+      50,
+      100,
+      127
+    ],
+    "K_mean": [
+      16.461563110351562,
+      22.130266189575195,
+      24.70026969909668,
+      26.98033332824707,
+      25.705596923828125
+    ],
+    "r_mean": [
+      0.05368003249168396,
+      0.04381062090396881,
+      0.04091126471757889,
+      0.0393097847700119,
+      0.03878935053944588
+    ]
+  },
+  "mean_consumption_share": 0.15595418214797974
+}
+Using recurrent policy: True
+Using recurrent policy: True
+hsm_rspg_gp/gpfast_s3 {
+  "exploitability": 0.05907440185546875,
+  "policy_return": -16.562667846679688,
+  "br_return": -16.50359344482422,
+  "final_training_eval_exploitability": 0.05552482604980469,
+  "total_train_time_s": 344.49840192022384,
+  "step_time_steady_s": 0.5298478150838392,
+  "step_time_median_s": 0.5227393329842016,
+  "refit_time_median_s": 0.3028969579900149,
+  "first_chunk_incl_compile_s": 1.9997852079977747,
+  "refit_time_steady_s": 0.3082569954573916,
+  "warmstart_s": 9.412621916999342,
+  "fill_s": 1.1490775409911294,
+  "mean_eval_time_s": 3.4673798823628617,
+  "policy_gap_vs_ref": {
+    "pop_weighted_mean_rel": 0.04389055818319321,
+    "visited_max_rel": 0.3999374508857727,
+    "visited_p99_rel": 0.3938418453931808
+  },
+  "aggregate_gap_vs_ref": {
+    "K_max_rel": 0.4271690845489502,
+    "K_mean_rel": 0.13473327457904816,
+    "r_max_abs": 0.009083077311515808,
+    "r_mean_abs": 0.0031072795391082764
+  },
+  "aggregate_path": {
+    "periods": [
+      0,
+      25,
+      50,
+      100,
+      127
+    ],
+    "K_mean": [
+      16.461563110351562,
+      23.981985092163086,
+      27.591796875,
+      30.819557189941406,
+      29.293102264404297
+    ],
+    "r_mean": [
+      0.05368003249168396,
+      0.04161485284566879,
+      0.03812161833047867,
+      0.036126162856817245,
+      0.035705119371414185
+    ]
+  },
+  "mean_consumption_share": 0.15047012269496918
+}
+Using recurrent policy: True
+Using recurrent policy: True
+hsm_rspg_gp/gpfast_s4 {
+  "exploitability": 0.044506072998046875,
+  "policy_return": -16.638944625854492,
+  "br_return": -16.594438552856445,
+  "final_training_eval_exploitability": 0.04642677307128906,
+  "total_train_time_s": 345.47307611905853,
+  "step_time_steady_s": 0.5288653808226362,
+  "step_time_median_s": 0.5193989579856861,
+  "refit_time_median_s": 0.30181495801662095,
+  "first_chunk_incl_compile_s": 1.9659255419974215,
+  "refit_time_steady_s": 0.3068446938202175,
+  "warmstart_s": 9.410133291006787,
+  "fill_s": 1.0995836669753771,
+  "mean_eval_time_s": 3.476231174366231,
+  "policy_gap_vs_ref": {
+    "pop_weighted_mean_rel": 0.028931517153978348,
+    "visited_max_rel": 0.6371680498123169,
+    "visited_p99_rel": 0.3867785781621932
+  },
+  "aggregate_gap_vs_ref": {
+    "K_max_rel": 0.27291834354400635,
+    "K_mean_rel": 0.05127805471420288,
+    "r_max_abs": 0.006537631154060364,
+    "r_mean_abs": 0.0012668269919231534
+  },
+  "aggregate_path": {
+    "periods": [
+      0,
+      25,
+      50,
+      100,
+      127
+    ],
+    "K_mean": [
+      16.461563110351562,
+      22.115550994873047,
+      24.681442260742188,
+      27.514928817749023,
+      26.538978576660156
+    ],
+    "r_mean": [
+      0.05368003249168396,
+      0.04383246600627899,
+      0.04093512147665024,
+      0.03881781920790672,
+      0.038003109395504
+    ]
+  },
+  "mean_consumption_share": 0.15321724116802216
+}
+Using recurrent policy: True
+Using recurrent policy: True
+hsm_rspg_gp/gp_s4_fast {
+  "exploitability": 10.04835319519043,
+  "policy_return": -25.974702835083008,
+  "br_return": -15.926349639892578,
+  "final_training_eval_exploitability": 10.019145011901855,
+  "total_train_time_s": 265.0839995307324,
+  "step_time_steady_s": 0.38834751709606086,
+  "step_time_median_s": 0.3890457920206245,
+  "refit_time_median_s": 0.3024101250048261,
+  "first_chunk_incl_compile_s": 2.2286308750044554,
+  "refit_time_steady_s": 0.305930193384879,
+  "warmstart_s": 12.613678124995204,
+  "fill_s": 1.02744729098049,
+  "mean_eval_time_s": 3.3806237422712995,
+  "policy_gap_vs_ref": {
+    "pop_weighted_mean_rel": 0.3464620113372803,
+    "visited_max_rel": 0.9230769276618958,
+    "visited_p99_rel": 0.9143223565816879
+  },
+  "aggregate_gap_vs_ref": {
+    "K_max_rel": 1.0992708206176758,
+    "K_mean_rel": 0.5840999484062195,
+    "r_max_abs": 0.017347833141684532,
+    "r_mean_abs": 0.01045368891209364
+  },
+  "aggregate_path": {
+    "periods": [
+      0,
+      25,
+      50,
+      100,
+      127
+    ],
+    "K_mean": [
+      16.461563110351562,
+      33.93291091918945,
+      39.60935974121094,
+      43.49449157714844,
+      41.85472106933594
+    ],
+    "r_mean": [
+      0.05368003249168396,
+      0.03331659734249115,
+      0.030227793380618095,
+      0.028928805142641068,
+      0.028356052935123444
+    ]
+  },
+  "mean_consumption_share": 0.07500000298023224
+}
+Saved /Users/guillen/Desktop/thesis/code/mfax/experiments/gp_critic/results/compare_rspg_all.json

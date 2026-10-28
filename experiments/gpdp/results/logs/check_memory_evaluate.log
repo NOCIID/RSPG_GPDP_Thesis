@@ -1,0 +1,36 @@
+Using recurrent policy: True
+Using recurrent policy: True
+gpdp         gpdp/memory_h8_s0                MFAX expl 0.2917 (1.752%)  nearest-grid 0.0772 (0.463%)  continuous clairvoyant 0.571%  honest 0.505%  grid honest -0.345%  K100 21.2
+Using recurrent policy: True
+Using recurrent policy: True
+gpdp         gpdp/memory_h8_s1                MFAX expl 0.2822 (1.703%)  nearest-grid 0.0531 (0.320%)  continuous clairvoyant 0.304%  honest 0.235%  grid honest -0.592%  K100 23.8
+Using recurrent policy: True
+Using recurrent policy: True
+gpdp         gpdp/memory_h8_s2                MFAX expl 0.3074 (1.863%)  nearest-grid 0.0482 (0.291%)  continuous clairvoyant 0.169%  honest 0.105%  grid honest -0.702%  K100 23.9
+Using recurrent policy: True
+Using recurrent policy: True
+gpdp         gpdp/memory_h8_s3                MFAX expl 0.5603 (3.402%)  nearest-grid 0.7411 (4.477%)  continuous clairvoyant nan%  honest nan%  grid honest nan%  K100 25.4
+Using recurrent policy: True
+Using recurrent policy: True
+gpdp         gpdp/memory_h8_s4                MFAX expl 0.3302 (2.002%)  nearest-grid 0.0765 (0.462%)  continuous clairvoyant 0.287%  honest 0.192%  grid honest -0.617%  K100 26.4
+Using recurrent policy: True
+Using recurrent policy: True
+Using recurrent policy: True
+hsm_rspg_gp  hsm_rspg_gp/gpfix_h8_s0          MFAX expl 0.0393 (0.237%)  continuous clairvoyant 1.065%  honest 0.994%  grid honest 0.167%  K100 27.6
+Using recurrent policy: True
+Using recurrent policy: True
+Using recurrent policy: True
+hsm_rspg_gp  hsm_rspg_gp/gpfix_h8_s1          MFAX expl 0.0460 (0.278%)  continuous clairvoyant 1.105%  honest 1.033%  grid honest 0.205%  K100 28.0
+Using recurrent policy: True
+Using recurrent policy: True
+Using recurrent policy: True
+hsm_rspg_gp  hsm_rspg_gp/gpfix_h8_s2          MFAX expl 0.0341 (0.206%)  continuous clairvoyant 1.031%  honest 0.958%  grid honest 0.133%  K100 28.1
+Using recurrent policy: True
+Using recurrent policy: True
+Using recurrent policy: True
+hsm_rspg_gp  hsm_rspg_gp/gpfix_h8_s3          MFAX expl 0.0536 (0.324%)  continuous clairvoyant 1.154%  honest 1.081%  grid honest 0.250%  K100 26.9
+Using recurrent policy: True
+Using recurrent policy: True
+Using recurrent policy: True
+hsm_rspg_gp  hsm_rspg_gp/gpfix_h8_s4          MFAX expl 0.0431 (0.261%)  continuous clairvoyant 1.079%  honest 1.006%  grid honest 0.188%  K100 29.7
+Saved /Users/guillen/Desktop/thesis/code/mfax/experiments/gpdp/results/check_memory_evaluate.json
